@@ -6,9 +6,15 @@
 <br/>
 
 ## Skilled at
-![React](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java)
-
+**주요기술**
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java)
 ![springboot](https://img.shields.io/badge/Sringboot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
+
+**사용가능**
+![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React)
+
+## Language
+
 
 ## Portfolio
 
