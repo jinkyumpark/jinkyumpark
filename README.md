@@ -16,6 +16,8 @@
 <br/>
 ![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery)
 
 <br/>
 
