@@ -5,19 +5,15 @@
 </p>
 
 ## Skilled at
-주요기술 <br/>
-> 제가 목표로 하는 품질의 코드를 요구사항에 맞춰 구현할 수 있습니다
+주요기술 - 제가 목표로 하는 품질의 코드를 요구사항에 맞춰 구현할 수 있습니다
 <br/>
-
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java)
 ![springboot](https://img.shields.io/badge/Sringboot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
 
 <br/>
 
-사용가능 <br/>
-> 해당 기술에 전문적이지는 않지만, 사용할 수 있습니다
+사용가능 - 해당 기술에 전문적이지는 않지만, 사용할 수 있습니다
 <br/>
-
 ![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript)
 
