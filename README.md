@@ -7,7 +7,7 @@
 ## Skilled at
 주요기술 - 제가 추구하는 품질의 코드를 요구사항에 맞춰 구현할 수 있습니다
 <br/>
-![Java](https://img.shields.io/badge/Java-8907676?style=for-the-badge&logo=Java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-eb9c3f?style=for-the-badge&logo=Java&logoColor=white)
 ![springboot](https://img.shields.io/badge/Sringboot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
 
 <br/>
