@@ -31,6 +31,12 @@
 
 <hr/>
 <div align="center">
+  
+<div align="left">
+  <ul>
+    <li>뉴욕주립대 수학과</li>
+  </ul>
+</div>
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
