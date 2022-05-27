@@ -32,10 +32,10 @@
 <hr/>
 <div align="center">
   
-<ul align="left">
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
+  
+<ul>
   <li>뉴욕주립대 수학과</li>
 </ul>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
-  
 </div>
