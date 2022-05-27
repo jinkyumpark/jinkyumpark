@@ -18,9 +18,6 @@
 ## Statistics
 <div align="center">
 
-<div align="left">
-</div>
-
 <div align="right">
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark)](https://github.com/jinkyumpark/github-readme-stats)  
 </div>
