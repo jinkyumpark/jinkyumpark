@@ -34,6 +34,7 @@
   
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
-<li>뉴욕주립대 수학과</li>
+- 뉴욕주립대 수학과
+- 국비지원 백엔드 과정 수료
 
 </div>
