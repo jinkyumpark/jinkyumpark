@@ -1,1 +1,12 @@
-<h1>Jinkyum Park </h1>
+<head>
+  <style>
+     #title {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<h1 id="title">Jinkyum Park </h1>
+
+
+
