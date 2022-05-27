@@ -12,9 +12,6 @@
 
 ## Portfolio
 
-## Contact Me
-- jinpark1025@gmail.com
-
 <hr/>
 
 <div align="center">
