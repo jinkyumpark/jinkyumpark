@@ -19,11 +19,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
 
-## Language
-
-
-## Portfolio
-
+<hr/>
 <div align="center">
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
