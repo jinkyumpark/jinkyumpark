@@ -1,5 +1,6 @@
 <br/>
 
+🙋‍♂️ 안녕하세요!
 웹 표준을 준수하면서 재사용성이 높은 아름다운 코드를 쓰기 위해 항상 공부하고 있는 백엔드 개발자, <b>박진겸</b>입니다
 
 <br/>
@@ -15,4 +16,13 @@
 - jinpark1025@gmail.com
 
 ## Statistics
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark)](https://github.com/jinkyumpark/github-readme-stats)
+<div align="center">
+
+<div align="left">
+</div>
+
+<div align="right">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark)](https://github.com/jinkyumpark/github-readme-stats)  
+</div>
+  
+</div>
