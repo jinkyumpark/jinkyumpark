@@ -19,7 +19,7 @@
 <div align="center">
 
 <div align="right">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark)](https://github.com/jinkyumpark/github-readme-stats)  
+https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark)](https://github.com/jinkyumpark/github-readme-stats
 </div>
   
 </div>
