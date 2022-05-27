@@ -4,8 +4,6 @@
   웹 표준을 준수하면서 재사용성이 높은 아름다운 코드를 쓰기 위해 항상 공부하고 있는 백엔드 개발자, <b>박진겸</b>입니다
 </p>
 
-<br/>
-
 ## Skilled at
 **주요기술** &nbsp;
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java)
