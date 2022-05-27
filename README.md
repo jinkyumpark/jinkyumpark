@@ -22,8 +22,8 @@
 <br/>
 
 도구 <br/>
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 
 <hr/>
 <div align="center">
