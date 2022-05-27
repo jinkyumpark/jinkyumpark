@@ -15,8 +15,8 @@
 사용가능 - 해당 기술에 전문적이지는 않지만, 사용할 수 있습니다
 <br/>
 ![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript)
-![Bootstrap](https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=Bootstrap)
+![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript)
+![Bootstrap](https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery)
 
 <br/>
