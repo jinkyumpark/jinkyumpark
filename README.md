@@ -14,11 +14,13 @@
 
 
 <hr/>
+
 <div align="center">
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
 </div>
 
+<hr/>
 ## Contact Me
 - jinpark1025@gmail.com
