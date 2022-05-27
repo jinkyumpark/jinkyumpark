@@ -12,6 +12,7 @@
 
 **사용가능** &nbsp;
 ![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript)
 
 ## Language
 
