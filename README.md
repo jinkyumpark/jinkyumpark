@@ -24,7 +24,6 @@
 <br/>
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=GraphQL&logoColor=white)
 
-
 <br/>
 
 도구 <br/>
@@ -33,8 +32,8 @@
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
 
 <hr/>
+
 <div align="center">
-  
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
 🎓 뉴욕주립대 수학과
@@ -50,3 +49,5 @@
 </div>
 
 <hr/>
+
+## Portfolio
