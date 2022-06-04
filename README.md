@@ -57,7 +57,7 @@
 <hr/>
 
 ## Portfolio
-| 이름  | 사용된 기술 | 개발인원 |
+| 이름  | 기술: 프론트 | 기술: 백엔드 | 개발인원 |
 | ------------------------- | ------------------------- | ------------------------- |
-| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap, Spring Boot, Oracle DB 등 | 3인 |
-
+| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap | Spring Boot, Oracle DB   | 3인 |
+| 부업 종합 커뮤니티 | | | 1인 |
