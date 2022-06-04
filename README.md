@@ -58,6 +58,19 @@
 
 ## Portfolio
 | 이름  | 프론트 | 백엔드 | 개발인원 | 링크 |
-| ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
-| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap | Spring Boot, Oracle DB | 3인 | [Springfeed](http://springfeed.jinkyumpark.com) |
-| 부업 종합 커뮤니티 | 없음 | 없음 | 1인 | [Income](http://income.jinkyumpark.com) |
+
+| ------------------------- 
+| ------------------------- 
+| ------------------------- 
+| ------------------------- 
+| ------------------------- |
+
+| Springfeed, 인스타그램 기반 SNS 
+| React.js, Bootstrap | Spring Boot, Oracle DB 
+| 3인 
+| [Springfeed](http://springfeed.jinkyumpark.com) |
+
+| 부업 종합 커뮤니티 
+| 없음 | 없음 
+| 1인 
+| [Income](http://income.jinkyumpark.com) |
