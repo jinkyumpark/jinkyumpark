@@ -58,6 +58,6 @@
 
 ## Portfolio
 | 이름  | 사용된 기술 |
-| ------------- | ------------- |
-| Springfeed, 인스타그램 기반 SNS  | Content Cell  |
+| ------------------------- | ------------------------- |
+| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap, Spring Boot 등 |
 
