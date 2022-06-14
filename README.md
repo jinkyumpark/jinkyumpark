@@ -25,10 +25,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white)
 <br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white)
-
-<br/>
 
 도구 <br/>
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
@@ -59,6 +55,7 @@
 ## Portfolio
 | 이름  | 프론트 | 백엔드 | 특이사항 | 개발인원 | 링크 |
 | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
+| 당근 마켓 Clone | 없음 | 없음  | TDD | 2인 | [Karrot](http://karrot.jinkyumpark.com) |
 | 부업 종합 커뮤니티 | 없음 | Spring Boot, JPA  | TDD | 1인 | [Income](http://income.jinkyumpark.com) |
 | Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap | Spring Boot, Oracle DB(PL/SQL), JSP | 없음 | 3인 | [Springfeed](http://springfeed.jinkyumpark.com) |
 | 자기소개 사이트  | React.js, Bootstrap | Spring Legacy | 없음 | 1인 | [introduction](http://jinkyumpark.com) |
