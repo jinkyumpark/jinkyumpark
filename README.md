@@ -53,7 +53,7 @@
 ## Portfolio
 | 이름  | 프론트 | 백엔드 | 특이사항 | 개발인원 | 링크 |
 | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
-| 당근 마켓 Clone | 없음 | 없음  | TDD | 2인 | [Karrot](http://karrot.jinkyumpark.com) |
-| 부업 종합 커뮤니티 | 없음 | Spring Boot, JPA  | TDD | 1인 | [Income](http://income.jinkyumpark.com) |
-| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap | Spring Boot, Oracle DB(PL/SQL), JSP | 없음 | 3인 | [Springfeed](http://springfeed.jinkyumpark.com) |
-| 자기소개 사이트  | React.js, Bootstrap | Spring Legacy | 없음 | 1인 | [introduction](http://jinkyumpark.com) |
+| 당근 마켓 Clone | 없음 | 없음  | TDD | 2인 | [karrot.jinkyumpark.com](http://karrot.jinkyumpark.com) |
+| 부업 종합 커뮤니티 | 없음 | Spring Boot, JPA  | TDD | 1인 | [income.jinkyumpark.com](http://income.jinkyumpark.com) |
+| Springfeed, 인스타그램 기반 SNS | React.js, Bootstrap | Spring Boot, Oracle DB(PL/SQL), JSP | 없음 | 3인 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
+| 자기소개 사이트  | React.js, Bootstrap | Spring Legacy | 없음 | 1인 | [jinkyumpark.com](http://jinkyumpark.com) |
