@@ -56,7 +56,6 @@
 ## Portfolios
 | 이름 | 사용기술 | 특이사항 | 개발인원 | 링크 |
 | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
-| 당근 마켓 Clone | 없음  | TDD | 2인 | [karrot.jinkyumpark.com](http://karrot.jinkyumpark.com) |
 | Income Cat, 고양이 테마의 부업 종합 커뮤니티 | 없음  | 없음 | 1인 | [income.jinkyumpark.com](http://income.jinkyumpark.com) |
 | Springfeed, 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP, React.js, Bootstrap | 없음 | 3인 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
 | 자기소개 사이트 | Spring Legacy, MyBatis, React.js, Bootstrap | 없음 | 1인 | [jinkyumpark.com](http://jinkyumpark.com) |
