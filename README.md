@@ -58,4 +58,3 @@
 | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
 | Income Cat, 고양이 테마의 부업 종합 커뮤니티 | 없음  | 없음 | 1인 | [income.jinkyumpark.com](http://income.jinkyumpark.com) |
 | Springfeed, 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP, React.js, Bootstrap | 없음 | 3인 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
-| 자기소개 사이트 | Spring Legacy, MyBatis, React.js, Bootstrap | 없음 | 1인 | [jinkyumpark.com](http://jinkyumpark.com) |
