@@ -40,10 +40,10 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
 🎓 뉴욕주립대 수학과
-  <br/><br/>
+  <br/>
 ✏️ 국비지원 백엔드 과정 수료 <br/>
 ✏️ 프로그래머스 코딩테스트 코뮤러닝 6기 이수
-  <br/><br/>
+  <br/>
 🇺🇸 영어 - TOEIC 970
   <br/>
 🇯🇵 일본어 - JLPT N1
