@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 // Profile
 import profile from '../images/main-profile.jpg';
 // Icon
-import githubIcon from '../images/github-icon.png';
-import linkedinIcon from '../images/linkedin-icon.png';
-import tstoryIcon from '../images/tstory-icon.png';
+import githubIcon from '../images/url-icon/github-icon.png';
+import linkedinIcon from '../images/url-icon/linkedin-icon.png';
+import tstoryIcon from '../images/url-icon/tstory-icon.png';
 // Portfolio
-import simplyJournal from '../images/simply-journal.png';
-import springfeed from '../images/springfeed.png';
+import simplyJournal from '../images/portfolio/simply-journal.png';
+import springfeed from '../images/portfolio/springfeed.png';
 // Technology
-import javaIcon from '../images/technologies/java-icon.png';
-import springIcon from '../images/technologies/spring-icon.png';
-import jpaIcon from '../images/technologies/jpa-icon.png';
-import springSecurityIcon from '../images/technologies/spring-security-icon.png';
+import javaIcon from '../images/technology/java-icon.png';
+import springIcon from '../images/technology/spring-icon.png';
+import jpaIcon from '../images/technology/jpa-icon.png';
+import springSecurityIcon from '../images/technology/spring-security-icon.png';
 
 const MainPage = () => {
     const introductionTitle = `확장성과 Clean Code를 중요시하는 개발자, 박진겸입니다`;
@@ -131,7 +131,7 @@ const MainPage = () => {
                         <div className='row'>
                             {techologies.map((technology) => {
                                 return (
-                                    <div className='col-3'>
+                                    <div className='col-xs-12 col-sm-6 col-xl-3'>
                                         <Techonology technology={technology} />
                                     </div>
                                 );
@@ -152,13 +152,13 @@ const MainPage = () => {
                     <div className='row justify-content-center'>
                         <div className='col-12 col-xl-6 mt-3'>
                             <div className='row text-center'>
-                                <div className='col-9'>
+                                <div className='col-xs-12 col-lg-9'>
                                     <h5 className='mt-2 '>
                                         제 이력서가 궁금하시다면 여기서 보실 수
                                         있습니다.
                                     </h5>
                                 </div>
-                                <div className='col-3'>
+                                <div className='col-xs-12 col-lg-3 mt-3 mt-lg-0'>
                                     <div className='btn btn-light'>
                                         <Link
                                             to='/resume'
@@ -198,11 +198,8 @@ const Portfolio = ({ portfolio }) => {
             <img
                 src={portfolio.image}
                 alt={`${portfolio.title} thumbnail`}
-                className='rounded'
-                style={{
-                    width: '400px',
-                    height: '300px',
-                }}
+                className='rounded img-fluid'
+                style={{}}
             />
             <h3 className='mt-3'>{portfolio.title}</h3>
             <h6>{portfolio.subtitle}</h6>
@@ -212,7 +209,7 @@ const Portfolio = ({ portfolio }) => {
 
 const Techonology = ({ technology }) => {
     return (
-        <div className='card'>
+        <div className='card mt-3 mb-3'>
             <div className='row justify-content-center'>
                 <div className='col-6'>
                     <img
