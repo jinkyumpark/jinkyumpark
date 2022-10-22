@@ -11,7 +11,7 @@ const Topnav = () => {
 				<Container>
 					<Navbar.Brand href="/">서버 개발자 박진겸</Navbar.Brand>
 					<Nav className="me-auto">
-						<Nav.Link href="/introduction">소개</Nav.Link>
+						<Nav.Link href="/resume">이력서</Nav.Link>
 						<Nav.Link href="/portfolio">포트폴리오</Nav.Link>
 					</Nav>
 				</Container>
