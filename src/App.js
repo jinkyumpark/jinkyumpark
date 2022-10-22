@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Components
 import Topnav from './common/Topnav';
-import MainPage from './root/MainPage';
+import Main from './main/Main';
 import Resume from './resume/Resume';
 import Portfolio from './portfolio/Portfolio';
 
@@ -12,7 +12,7 @@ function App() {
                 <Topnav />
 
                 <Routes>
-                    <Route path='/' element={<MainPage />} />
+                    <Route path='/' element={<Main />} />
                     <Route path='resume' element={<Resume />} />
                     <Route path='portfolio' element={<Portfolio />} />
                 </Routes>
