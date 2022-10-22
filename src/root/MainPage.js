@@ -38,13 +38,13 @@ const MainPage = () => {
     const portfolios = [
         {
             image: simplyJournal,
-            title: 'Simply Journal',
+            title: 'Simply Journal (1인)',
             subtitle: '매일 일기쓰기',
             url: '/portfolio/simply-journal',
         },
         {
             image: springfeed,
-            title: 'Springfeed',
+            title: 'Springfeed (3인)',
             subtitle: '인스타그램을 참고한 SNS',
             url: '/portfolio/springfeed',
         },
@@ -111,10 +111,10 @@ const MainPage = () => {
             >
                 <div className='container'>
                     <h1>포트폴리오</h1>
-                    <div className='row mt-5'>
+                    <div className='row'>
                         {portfolios.map((portfolio) => {
                             return (
-                                <div className='col-xs-12 col-sm-6 col-xl-4'>
+                                <div className='col-xs-12 col-sm-6 col-xl-4 mt-5'>
                                     <Portfolio portfolio={portfolio} />
                                 </div>
                             );
