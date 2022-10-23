@@ -4,7 +4,8 @@ import Topnav from './common/Topnav';
 import Main from './main/Main';
 import Resume from './resume/Resume';
 import Portfolio from './portfolio/Portfolio';
-import TechnologyDetail from './resume/TechnologyDetail';
+import TechnologyDetail from './technology/TechnologyDetail';
+import Technology from './technology/Technology';
 
 function App() {
     return (
@@ -12,11 +13,12 @@ function App() {
             <Router>
                 <Topnav />
 
-                <Routes>
+                <Routes refresh>
                     <Route path='/' element={<Main />} />
                     <Route path='resume' element={<Resume />} />
+                    <Route path='technology' element={<Technology />} />
                     <Route
-                        path='resume/technology/:technologyName'
+                        path='technology/:technologyName'
                         element={<TechnologyDetail />}
                     />
                     <Route path='portfolio' element={<Portfolio />} />

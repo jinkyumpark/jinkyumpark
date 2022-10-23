@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 // Components
 import SimplePortfolioCard from '../portfolio/SimplePortfolioCard';
 
-const ResumePortfolio = ({ portfolios }) => {
+const PortfolioSection = ({ portfolios }) => {
     return (
         <Card className='mb-5'>
             <Card.Body>
@@ -27,4 +27,4 @@ const ResumePortfolio = ({ portfolios }) => {
     );
 };
 
-export default ResumePortfolio;
+export default PortfolioSection;

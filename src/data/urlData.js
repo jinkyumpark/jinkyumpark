@@ -1,4 +1,4 @@
-const technologiesDetailUrl = '/resume/technology';
+const technologiesDetailUrl = '/technology';
 const resumeUrl = '/resume';
 const portfolioUrl = '/portfolio';
 

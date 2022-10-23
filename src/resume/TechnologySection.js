@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 // Components
-import TechnologyCard from './TechnologyCard';
+import TechnologyCard from '../technology/TechnologyCard';
 
-const Technology = ({ technologies }) => {
+const TechnologySection = ({ technologies }) => {
     return (
         <Card className='mb-5'>
             <Card.Body>
@@ -24,4 +24,4 @@ const Technology = ({ technologies }) => {
     );
 };
 
-export default Technology;
+export default TechnologySection;

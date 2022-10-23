@@ -17,10 +17,6 @@ export const technologies = [
             'Stream을 활용한 함수형 프로그래밍',
             'Collection API와 그 내장함수를 적절하게 활용한 효율적이고 읽기 쉬운 알고리즘 설계',
             'GC 특정을 고려한 메모리 관리',
-            'GC 특정을 고려한 메모리 관리',
-            'GC 특정을 고려한 메모리 관리',
-            'GC 특정을 고려한 메모리 관리',
-            'GC 특정을 고려한 메모리 관리',
         ],
         featured: true,
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Java',
@@ -30,14 +26,15 @@ export const technologies = [
         name: 'Spring Boot',
         features: ['OOP SOLID 원칙을 잘 지킨 REST API 개발'],
         featured: true,
-        blogUrl: '',
+        blogUrl:
+            'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Boot',
     },
     {
         icon: jpaIcon,
         name: 'JPA',
         features: ['DB 특성을 고려한 JPA 활용'],
         featured: true,
-        blogUrl: '',
+        blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/JPA',
     },
     {
         icon: springSecurityIcon,
@@ -48,28 +45,30 @@ export const technologies = [
             'CSRF 등 일반적인 보안위협에 대응',
         ],
         featured: true,
-        blogUrl: '',
+        blogUrl:
+            'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Security',
     },
     {
         icon: springCloudIcon,
         name: 'Spring Cloud',
         features: [],
         featured: true,
-        blogUrl: '',
+        blogUrl:
+            'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Cloud',
     },
     {
         icon: dockerIcon,
         name: 'Docker',
         features: [],
         featured: true,
-        blogUrl: '',
+        blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Docker',
     },
     {
         icon: k8sIcon,
         name: 'Kubernetes',
         features: [],
         featured: true,
-        blogUrl: '',
+        blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/K8S',
     },
     {
         icon: junit5Icon,
@@ -80,6 +79,6 @@ export const technologies = [
             'Integration Test',
         ],
         featured: true,
-        blogUrl: '',
+        blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Testing',
     },
 ];

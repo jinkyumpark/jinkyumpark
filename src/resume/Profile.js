@@ -6,8 +6,6 @@ import profileImage from '../images/main-profile.jpg';
 const Profile = () => {
     return (
         <Card className='mb-5'>
-            {/* <Card.Header>박진겸</Card.Header> */}
-
             <Card.Body>
                 <div className='row'>
                     <div className=' col-xs-12 col-lg-3'>
@@ -53,7 +51,7 @@ const TableView = () => {
 
                 <tr>
                     <td> 📞</td>
-                    <td>010-4539-8503</td>
+                    <td>-</td>
                 </tr>
 
                 <tr>

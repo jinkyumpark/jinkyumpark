@@ -17,7 +17,9 @@ const TechnologyDetail = () => {
 
     useEffect(() => {
         const technologyArray = technologies.filter(
-            (tech) => tech.name.toLowerCase() === technologyName.toLowerCase()
+            (tech) =>
+                tech.name.trim().toLowerCase().replaceAll(' ', '') ===
+                technologyName.trim().toLowerCase().replaceAll(' ', '')
         );
         setTechnology(technologyArray[0]);
     }, []);
@@ -47,7 +49,7 @@ const FullTechnologyCard = ({ technology }) => {
                     <img
                         src={technology.icon}
                         alt={`${technology.name}-icon`}
-                        className='img-fluid mt-3'
+                        className='img-fluid mt-3 ps-3'
                     />
                     <h3 className='m-3'>{technology.name}</h3>
                 </div>

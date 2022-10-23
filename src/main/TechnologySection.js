@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import TechnologyCard from '../resume/TechnologyCard';
+import TechnologyCard from '../technology/TechnologyCard';
 import { Button } from 'react-bootstrap';
 import { technologiesDetailUrl } from '../data/urlData';
 
