@@ -11,24 +11,22 @@ import TechnologyDetail from './technology/TechnologyDetail';
 function App() {
     return (
         <div className='App'>
-            <Router>
-                <Topnav />
+            <Topnav />
 
-                <Routes refresh>
-                    <Route path='/' element={<Main />} />
-                    <Route path='resume' element={<Resume />} />
-                    <Route path='technology' element={<Technology />} />
-                    <Route
-                        path='technology/:technologyName'
-                        element={<TechnologyDetail />}
-                    />
-                    <Route path='portfolio' element={<Portfolio />} />
-                    <Route
-                        path='portfolio/:portfolioName'
-                        element={<PortfolioDetail />}
-                    />
-                </Routes>
-            </Router>
+            <Routes refresh>
+                <Route path='/' element={<Main />} />
+                <Route path='resume' element={<Resume />} />
+                <Route path='technology' element={<Technology />} />
+                <Route
+                    path='technology/:technologyName'
+                    element={<TechnologyDetail />}
+                />
+                <Route path='portfolio' element={<Portfolio />} />
+                <Route
+                    path='portfolio/:portfolioName'
+                    element={<PortfolioDetail />}
+                />
+            </Routes>
         </div>
     );
 }
