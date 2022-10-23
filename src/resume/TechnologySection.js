@@ -18,6 +18,7 @@ const TechnologySection = ({ technologies }) => {
                 <div className='row'>
                     {technologies
                         .filter((technology) => technology.featured)
+                        .slice(0, 4)
                         .map((technology) => {
                             return (
                                 <div className='col-xs-12 col-sm-6 col-xl-3'>
