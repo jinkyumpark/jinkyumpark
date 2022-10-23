@@ -27,12 +27,12 @@ const ResumeSection = () => {
                             </div>
                             <div className='col-xs-12 col-lg-3 mt-3 mt-lg-0'>
                                 <div className='btn btn-light'>
-                                    <Link
-                                        to={resumeUrl}
+                                    <a
+                                        href={resumeUrl}
                                         className='text-decoration-none text-black'
                                     >
                                         {buttonText}
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

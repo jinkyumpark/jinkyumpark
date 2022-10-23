@@ -4,8 +4,9 @@ import Topnav from './common/Topnav';
 import Main from './main/Main';
 import Resume from './resume/Resume';
 import Portfolio from './portfolio/Portfolio';
-import TechnologyDetail from './technology/TechnologyDetail';
+import PortfolioDetail from './portfolio/PortfolioDetail';
 import Technology from './technology/Technology';
+import TechnologyDetail from './technology/TechnologyDetail';
 
 function App() {
     return (
@@ -22,6 +23,10 @@ function App() {
                         element={<TechnologyDetail />}
                     />
                     <Route path='portfolio' element={<Portfolio />} />
+                    <Route
+                        path='portfolio/:portfolioName'
+                        element={<PortfolioDetail />}
+                    />
                 </Routes>
             </Router>
         </div>
