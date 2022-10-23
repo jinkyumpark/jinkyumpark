@@ -12,11 +12,14 @@ const PortfolioSection = ({ portfolios }) => {
         >
             <div className='container'>
                 <h1>포트폴리오</h1>
-                <div className='row'>
+                <div className='row justify-content-center'>
                     {portfolios.map((portfolio) => {
                         return (
                             <div className='col-xs-12 col-sm-6 col-xl-4 mt-5'>
-                                <SimplePortfolioCard portfolio={portfolio} />
+                                <SimplePortfolioCard
+                                    portfolio={portfolio}
+                                    textStyle='text-white'
+                                />
                             </div>
                         );
                     })}

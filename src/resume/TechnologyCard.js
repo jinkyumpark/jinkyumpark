@@ -19,7 +19,7 @@ const TechnologyCard = ({ technology }) => {
             </div>
 
             <div className='list-group list-group-flush'>
-                {technology.features.map((feature) => {
+                {technology.features.slice(0, 3).map((feature) => {
                     return <li className='list-group-item'>{feature}</li>;
                 })}
             </div>
