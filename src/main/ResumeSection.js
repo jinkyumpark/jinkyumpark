@@ -26,14 +26,14 @@ const ResumeSection = () => {
                                 <h5 className='mt-2 '>{resumeSubtitle}</h5>
                             </div>
                             <div className='col-xs-12 col-lg-3 mt-3 mt-lg-0'>
-                                <div className='btn btn-light'>
-                                    <a
-                                        href={resumeUrl}
-                                        className='text-decoration-none text-black'
-                                    >
+                                <a
+                                    href={resumeUrl}
+                                    className='text-decoration-none text-black'
+                                >
+                                    <div className='btn btn-light'>
                                         {buttonText}
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
