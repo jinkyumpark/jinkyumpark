@@ -74,9 +74,9 @@ export const technologies = [
         icon: junit5Icon,
         name: 'Java Testing',
         features: [
-            'JUnit의 다양한 기능을 활용한 Unit Testing 작성',
-            'Mockito로 의존성 없는 Unit Test',
-            'Integration Test',
+            // 'JUnit의 다양한 기능을 활용한 Unit Testing 작성',
+            // 'Mockito로 의존성 없는 Unit Test',
+            // 'Integration Test',
         ],
         featured: true,
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Testing',

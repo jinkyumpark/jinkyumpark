@@ -1,7 +1,8 @@
 import React from 'react';
 // Components
 import TechnologyCard from '../technology/TechnologyCard';
-import { Button } from 'react-bootstrap';
+import MoreButton from '../common/MoreButton';
+// Data
 import { technologiesDetailUrl } from '../data/urlData';
 
 const TechnologySection = ({ technologies }) => {
@@ -22,18 +23,7 @@ const TechnologySection = ({ technologies }) => {
                 })}
             </div>
 
-            <div className='row justify-content-center mt-3'>
-                <div className='d-grid col-xs-12 col-lg-5'>
-                    <Button
-                        variant='light'
-                        style={buttonStyle}
-                        className='text-white'
-                        href={technologiesDetailUrl}
-                    >
-                        더 보기
-                    </Button>
-                </div>
-            </div>
+            <MoreButton style={buttonStyle} url={technologiesDetailUrl} />
         </section>
     );
 };
