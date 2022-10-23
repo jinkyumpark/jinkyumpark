@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.76031048.css",
-    "main.js": "/static/js/main.9a2a6387.js",
+    "main.js": "/static/js/main.02069ea0.js",
     "static/media/simply-journal.png": "/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
     "static/media/springfeed.png": "/static/media/springfeed.a52ed64982b101b3f36d.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/spring-icon.png": "/static/media/spring-icon.14da12d9d34e7c57cba4.png",
+    "static/media/k8s-icon.png": "/static/media/k8s-icon.88e38f11b997f80e8998.png",
+    "static/media/junit-icon.png": "/static/media/junit-icon.a064065d06e7833dd89f.png",
+    "static/media/docker-icon.png": "/static/media/docker-icon.c1f953a3ead577c05d04.png",
     "static/media/java-icon.png": "/static/media/java-icon.f5dd86c3ef6ef3f85acf.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "index.html": "/index.html",
     "main.76031048.css.map": "/static/css/main.76031048.css.map",
-    "main.9a2a6387.js.map": "/static/js/main.9a2a6387.js.map"
+    "main.02069ea0.js.map": "/static/js/main.02069ea0.js.map"
   },
   "entrypoints": [
     "static/css/main.76031048.css",
-    "static/js/main.9a2a6387.js"
+    "static/js/main.02069ea0.js"
   ]
 }
