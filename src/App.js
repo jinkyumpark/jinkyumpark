@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 // Components
 import Topnav from './common/Topnav';
 import Main from './main/Main';
