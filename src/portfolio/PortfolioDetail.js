@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { portfolios } from '../data/portfolioData';
+import { portfolios } from '../data/portfolio';
 import Error from '../common/Error';
 import WebLink from '../common/WebLink';
 import githubIcon from '../images/url-icon/github-icon.png';
 import { Card } from 'react-bootstrap';
 import websiteIcon from '../images/url-icon/website-1.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
-
-import { technologies } from '../data/technologyData';
+import { technologies } from '../data/technology';
 
 const PortfolioDetail = () => {
     const { portfolioName } = useParams();

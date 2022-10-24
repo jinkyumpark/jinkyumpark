@@ -6,4 +6,5 @@ export const profile = {
     
     항상 어떻게 하면 더 읽기 쉬운 코드를 쓸 수 있을까 고민하고 습관적으로 refactoring합니다.
     `,
+    experiences: [],
 };

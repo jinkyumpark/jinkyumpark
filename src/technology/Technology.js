@@ -1,5 +1,5 @@
 import React from 'react';
-import { technologies } from '../data/technologyData';
+import { technologies } from '../data/technology';
 import TechnologyCard from './TechnologyCard';
 
 const Technology = () => {

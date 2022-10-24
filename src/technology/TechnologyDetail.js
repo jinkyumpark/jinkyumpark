@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 // Components
 import Error from '../common/Error';
 // Data
-import { technologies } from '../data/technologyData';
+import { technologies } from '../data/technology';
 // Resources
 import tstoryIcon from '../images/url-icon/tstory-icon.png';
 

@@ -5,8 +5,9 @@ import PortfolioSection from './PortfolioSection';
 import TechnologySection from './TechnologySection';
 import Language from './Language';
 // Data
-import { portfolios } from '../data/portfolioData';
-import { technologies } from '../data/technologyData';
+import { portfolios } from '../data/portfolio';
+import { technologies } from '../data/technology';
+import ExperienceSection from './ExperienceSection';
 
 const Resume = () => {
     return (
@@ -15,6 +16,7 @@ const Resume = () => {
             <PortfolioSection portfolios={portfolios} />
             <TechnologySection technologies={technologies} />
             <Language />
+            <ExperienceSection />
         </div>
     );
 };
