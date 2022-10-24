@@ -1,4 +1,4 @@
-export const introduction = {
+export const profile = {
     title: `확장성과 Clean Code를 중요시하는 서버 개발자, 박진겸입니다`,
     summary: `
     기술을 단순히 피상적으로 사용하지 않고 원리를 이해하는걸 좋아합니다.
