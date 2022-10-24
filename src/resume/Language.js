@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Table } from 'react-bootstrap';
+import { profile } from '../data/profile';
 
 const Language = () => {
     return (
@@ -14,37 +15,22 @@ const Language = () => {
                             <th>공인 성적</th>
                             <th>읽기</th>
                             <th>쓰기</th>
-                            <th>말하기/듣기</th>
+                            <th>회화</th>
                         </tr>
                     </thead>
 
                     <tbody>
-                        <tr>
-                            <td>🇺🇸 영어</td>
-                            <td>TOEIC 970</td>
-                            <td>독서 많이 해(22년 기준 78권) 수준급</td>
-                            <td>
-                                미국 대학 3년 재학 중 리포트 작성 경험 많아 쓰기
-                                자유로움
-                            </td>
-                            <td>의사소통 자유로움</td>
-                        </tr>
-
-                        <tr>
-                            <td>🇯🇵 일본어</td>
-                            <td>JLPT N1</td>
-                            <td>독서 많이 해(22년 기준 44권) 수준급</td>
-                            <td>취미로 일기와 에세이 쓰고 있으나 부족함</td>
-                            <td>특정 전문분야가 아니라면 어느정도 자유로움</td>
-                        </tr>
-
-                        <tr>
-                            <td> 🇨🇳 중국어</td>
-                            <td>HSK 3급 (기간 만료)</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>일상회화 가능</td>
-                        </tr>
+                        {profile.language.map((lang) => {
+                            return (
+                                <tr>
+                                    <td>{lang.name}</td>
+                                    <td>{lang.score}</td>
+                                    <td>{lang.reading}</td>
+                                    <td>{lang.writing}</td>
+                                    <td>{lang.talking}</td>
+                                </tr>
+                            );
+                        })}
                     </tbody>
                 </Table>
             </Card.Body>
