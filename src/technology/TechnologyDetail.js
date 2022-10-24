@@ -79,22 +79,28 @@ const BlogCard = ({ technology }) => {
                     {technology.name}에 관한 블로그 포스트 보러가기
                 </h4>
             </Card.Header>
-            <Card.Body className='text-center'>
+            <Card.Body className='text-center row justify-content-center'>
                 <a
                     target='_blank'
                     rel='noreferrer'
                     href={technology.blogUrl}
-                    className='ms-3 me-3 text-decoration-none text-black align-items-center'
+                    className='ms-3 me-3 text-decoration-none text-black align-items-center col-xs-12 col-lg-6'
                 >
-                    <img
-                        src={tstoryIcon}
-                        alt={`${technology.blogUrl}-icon`}
-                        className='img-responsive rounded-circle'
-                        style={{
-                            width: '70px',
-                        }}
-                    />
-                    <h4 className='mt-2'>티스토리 블로그 바로가기</h4>
+                    <Card className=''>
+                        <Card.Body>
+                            <img
+                                src={tstoryIcon}
+                                alt={`${technology.blogUrl}-icon`}
+                                className='img-responsive rounded-circle'
+                                style={{
+                                    width: '70px',
+                                }}
+                            />
+                            <h4 className='mt-2'>
+                                {technology.name} 관련 블로그 포스트 모두보기
+                            </h4>
+                        </Card.Body>
+                    </Card>
                 </a>
             </Card.Body>
         </Card>

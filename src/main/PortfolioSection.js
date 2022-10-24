@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import SimplePortfolioCard from '../portfolio/SimplePortfolioCard';
+import PortfolioCard from '../portfolio/PortfolioCard';
 
 const PortfolioSection = ({ portfolios }) => {
     return (
@@ -16,7 +16,7 @@ const PortfolioSection = ({ portfolios }) => {
                     {portfolios.map((portfolio) => {
                         return (
                             <div className='col-xs-12 col-sm-6 col-xl-4 mt-5'>
-                                <SimplePortfolioCard
+                                <PortfolioCard
                                     portfolio={portfolio}
                                     textStyle='text-white'
                                 />

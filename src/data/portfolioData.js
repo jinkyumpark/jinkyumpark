@@ -1,5 +1,8 @@
+// Simply Journal
 import simplyJournal from '../images/portfolio/simply-journal.png';
+// Springfeed
 import springfeed from '../images/portfolio/springfeed.png';
+import springfeedErDiagram from '../images/portfolio/er-diagram/springfeed-er.png';
 
 import { portfolioUrl } from './urlData';
 
@@ -8,17 +11,30 @@ export const portfolios = [
         id: 2,
         name: 'simply-journal',
         title: 'Simply Journal',
-        subtitle: '매일 일기쓰기',
+        subtitle: '매일 간단하게 한 줄씩 일기를 쓰게 도와주는 사이트',
         introduction: `
-        TEST
+        우연히 옛날 일기를 발견해 읽었는데, 너무 즐거워 일기를 쓰기로 했습니다. 
+        하지만 의외로 마땅한 서비스가 없어 직접 만들었습니다.
         `,
         participants: 1,
         image: simplyJournal,
 
+        primaryFeatures: [
+            '일기 작성/수정/삭제',
+            '기간별로 일기 조회, 키워드로 일기 검색',
+            '카카오/네이버로 로그인',
+            '공유를 허용한 내 일기를 공유',
+            '다른 사람을 팔로우해서 서로 일기 공유',
+        ],
+        difficulties: [],
+
         url: `${portfolioUrl}/simply-journal`,
-        githubLink: '',
+        githubLink: 'https://github.com/jinkyumpark/simply-journal',
+        siteLink: 'http://journal.jinkyumpark.com',
 
         technologiesUsed: [1, 2, 3, 4, 5, 6, 7, 8],
+
+        erDiagram: springfeedErDiagram,
     },
     {
         id: 1,
@@ -34,9 +50,15 @@ export const portfolios = [
         participants: 3,
         image: springfeed,
 
+        primaryFeatures: [],
+        difficulties: [],
+
         url: `${portfolioUrl}/springfeed`,
         githubLink: 'https://github.com/kxmjxnjoo/springfeed',
+        siteLink: 'http://springfeed.jinkyumpark.com',
 
         technologiesUsed: [2, 3, 6, 8],
+
+        erDiagram: springfeedErDiagram,
     },
 ];

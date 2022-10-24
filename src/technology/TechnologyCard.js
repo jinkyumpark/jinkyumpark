@@ -13,7 +13,7 @@ const TechnologyCard = ({ technology }) => {
             href={technologyDetailUrl}
             className='text-decoration-none text-black'
         >
-            <Card className='mt-3 mb-3'>
+            <Card className='mt-3 mb-3 text-center'>
                 <div className='row justify-content-center'>
                     <div className='col-6'>
                         <img

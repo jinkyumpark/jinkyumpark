@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 // Components
-import SimplePortfolioCard from '../portfolio/SimplePortfolioCard';
+import PortfolioCard from '../portfolio/PortfolioCard';
 
 const PortfolioSection = ({ portfolios }) => {
     return (
@@ -13,7 +13,7 @@ const PortfolioSection = ({ portfolios }) => {
                         return (
                             <div className='col-xs-12 col-sm-6 col-xl-4'>
                                 <Card className='p-2 mb-3'>
-                                    <SimplePortfolioCard
+                                    <PortfolioCard
                                         portfolio={portfolio}
                                         textStyle='text-black'
                                     />
