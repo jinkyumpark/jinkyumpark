@@ -15,12 +15,15 @@ function App() {
 
             <Routes refresh>
                 <Route path='/' element={<Main />} />
+
                 <Route path='resume' element={<Resume />} />
+
                 <Route path='technology' element={<Technology />} />
                 <Route
                     path='technology/:technologyName'
                     element={<TechnologyDetail />}
                 />
+
                 <Route path='portfolio' element={<Portfolio />} />
                 <Route
                     path='portfolio/:portfolioName'
