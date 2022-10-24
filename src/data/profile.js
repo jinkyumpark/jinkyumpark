@@ -1,4 +1,16 @@
+import profileImage from '../images/main-profile.jpg';
+
 export const profile = {
+    koreanName: '박진겸',
+    englishName: 'Jinkyum Park',
+    image: profileImage,
+    birthDate: '1999년 10월 25일',
+    address: '서울특별시 영등포구',
+    phone: '-',
+    email: 'jinpark1025@gmail.com',
+    university: '뉴욕주립대 스토니브룩 수학과 휴학 (4학년)',
+    education: '국비지원학원 자바 웹개발자 과정수료 (7개월)',
+
     title: `확장성과 Clean Code를 중요시하는 서버 개발자, 박진겸입니다`,
     summary: `
     기술을 단순히 피상적으로 사용하지 않고 원리를 이해하는걸 좋아합니다.

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, Table } from 'react-bootstrap';
-
-import profileImage from '../images/main-profile.jpg';
+import { profile } from '../data/profile';
 
 const Profile = () => {
     return (
@@ -10,18 +9,20 @@ const Profile = () => {
                 <div className='row'>
                     <div className=' col-xs-12 col-lg-3'>
                         <img
-                            src={profileImage}
-                            alt='jinkyumpark profile image'
+                            src={profile.image}
+                            alt={`${profile.koreanName} profile`}
                             className='img-fluid rounded'
                         />
                     </div>
                     <div className='col-xs-12 col-lg-9 '>
                         <h2 className='text-start mt-3'>
-                            박진겸
-                            <small className='text-muted'>Jinkyum Park </small>
+                            {profile.koreanName}
+                            <small className='text-muted'>
+                                {profile.englishName}{' '}
+                            </small>
                         </h2>
 
-                        <TableView className='' />
+                        <TableView />
                     </div>
                 </div>
             </Card.Body>
@@ -35,28 +36,28 @@ const TableView = () => {
             <tbody>
                 <tr>
                     <td>🎉</td>
-                    <td>1999년 10월 25일</td>
+                    <td>{profile.birthDate}</td>
 
                     <td>🎓</td>
-                    <td>뉴욕주립대 스토니브룩 수학과 휴학 (4학년)</td>
+                    <td>{profile.university}</td>
                 </tr>
 
                 <tr>
                     <td>🏡</td>
-                    <td>서울특별시 영등포구</td>
+                    <td>{profile.address}</td>
 
                     <td>✏️</td>
-                    <td>국비지원학원 자바 웹개발자 과정수료 (7개월)</td>
+                    <td>{profile.education}</td>
                 </tr>
 
                 <tr>
                     <td> 📞</td>
-                    <td>-</td>
+                    <td>{profile.phone}</td>
                 </tr>
 
                 <tr>
                     <td>✉️</td>
-                    <td>jinpark1025@gmail.com</td>
+                    <td>{profile.email}</td>
                 </tr>
             </tbody>
         </Table>
