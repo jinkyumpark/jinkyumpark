@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 import TechnologyCard from '../technology/TechnologyCard';
 import MoreButton from '../common/MoreButton';
 // Data
-import { technologiesDetailUrl } from '../data/urlData';
+import { technologiesDetailUrl } from '../data/url';
 
 const TechnologySection = ({ technologies }) => {
     const buttonStyle = {

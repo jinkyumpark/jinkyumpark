@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { technologiesDetailUrl } from '../data/urlData';
+import { technologiesDetailUrl } from '../data/url';
 
 const TechnologyCard = ({ technology }) => {
     const technologyDetailUrl = `${technologiesDetailUrl}/${technology.name

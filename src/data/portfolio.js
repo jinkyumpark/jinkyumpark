@@ -4,7 +4,7 @@ import simplyJournal from '../images/portfolio/simply-journal.png';
 import springfeed from '../images/portfolio/springfeed.png';
 import springfeedErDiagram from '../images/portfolio/er-diagram/springfeed-er.png';
 
-import { portfolioUrl } from './urlData';
+import { portfolioUrl } from './url';
 
 export const portfolios = [
     {

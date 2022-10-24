@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { resumeUrl } from '../data/urlData';
+import { resumeUrl } from '../data/url';
 
 const ResumeSection = () => {
     const resumeTitle = `이력서로 보고 싶으세요?`;
