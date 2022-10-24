@@ -2,7 +2,7 @@ import githubIcon from '../images/url-icon/github-icon.png';
 import linkedinIcon from '../images/url-icon/linkedin-icon.png';
 import tstoryIcon from '../images/url-icon/tstory-icon.png';
 
-export const websites = [
+export const channels = [
     {
         url: 'https://github.com/jinkyumpark',
         icon: githubIcon,
