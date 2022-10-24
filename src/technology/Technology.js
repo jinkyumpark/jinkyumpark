@@ -10,7 +10,7 @@ const Technology = () => {
             <div className='row'>
                 {technologies.map((technology) => {
                     return (
-                        <div className='col-4'>
+                        <div className='col-xs-12 col-lg-4'>
                             <TechnologyCard technology={technology} />
                         </div>
                     );

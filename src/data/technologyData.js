@@ -1,4 +1,6 @@
 import javaIcon from '../images/technology/java-icon.png';
+// Front
+import reactIcon from '../images/technology/reactjs-icon.png';
 // Spring
 import springIcon from '../images/technology/spring-icon.png';
 import jpaIcon from '../images/technology/jpa-icon.png';
@@ -11,6 +13,7 @@ import junit5Icon from '../images/technology/junit-icon.png';
 
 export const technologies = [
     {
+        id: 1,
         icon: javaIcon,
         name: 'Java',
         features: [
@@ -22,14 +25,16 @@ export const technologies = [
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Java',
     },
     {
+        id: 2,
         icon: springIcon,
-        name: 'Spring Boot',
+        name: 'Spring',
         features: ['OOP SOLID 원칙을 잘 지킨 REST API 개발'],
         featured: true,
         blogUrl:
             'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Boot',
     },
     {
+        id: 3,
         icon: jpaIcon,
         name: 'JPA',
         features: ['DB 특성을 고려한 JPA 활용'],
@@ -37,6 +42,7 @@ export const technologies = [
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/JPA',
     },
     {
+        id: 4,
         icon: springSecurityIcon,
         name: 'Spring Security',
         features: [
@@ -49,6 +55,7 @@ export const technologies = [
             'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Security',
     },
     {
+        id: 5,
         icon: springCloudIcon,
         name: 'Spring Cloud',
         features: [],
@@ -57,6 +64,7 @@ export const technologies = [
             'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Cloud',
     },
     {
+        id: 6,
         icon: dockerIcon,
         name: 'Docker',
         features: [],
@@ -64,6 +72,7 @@ export const technologies = [
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Docker',
     },
     {
+        id: 7,
         icon: k8sIcon,
         name: 'Kubernetes',
         features: [],
@@ -71,6 +80,7 @@ export const technologies = [
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/K8S',
     },
     {
+        id: 8,
         icon: junit5Icon,
         name: 'Java Testing',
         features: [
@@ -80,5 +90,13 @@ export const technologies = [
         ],
         featured: true,
         blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Testing',
+    },
+    {
+        id: 9,
+        icon: reactIcon,
+        name: 'React',
+        features: [],
+        featured: false,
+        blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/React',
     },
 ];

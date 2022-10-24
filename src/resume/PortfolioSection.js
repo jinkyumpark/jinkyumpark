@@ -12,7 +12,7 @@ const PortfolioSection = ({ portfolios }) => {
                     {portfolios.map((portfolio) => {
                         return (
                             <div className='col-xs-12 col-sm-6 col-xl-4'>
-                                <Card className='p-2'>
+                                <Card className='p-2 mb-3'>
                                     <SimplePortfolioCard
                                         portfolio={portfolio}
                                         textStyle='text-black'
