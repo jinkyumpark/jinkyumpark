@@ -9,6 +9,7 @@ import ExperienceSection from '../resume/ExperienceSection';
 import { portfolios } from '../data/portfolio';
 import { technologies } from '../data/technology';
 import { profile } from '../data/profile';
+import SelfIntroductionSection from '../resume/SelfIntroductionSection';
 
 const Resume = () => {
     return (
@@ -16,6 +17,7 @@ const Resume = () => {
             <Profile profile={profile} />
             <PortfolioSection portfolios={portfolios} />
             <TechnologySection technologies={technologies.back} />
+            <SelfIntroductionSection introductions={profile.introductions} />
             <Language profile={profile} />
             <ExperienceSection profile={profile} />
         </div>

@@ -6,11 +6,11 @@ const ExperienceSection = ({ profile }) => {
         <Card className='mb-5'>
             <Card.Body>
                 <div className='row justify-content-center'>
-                    <h2 className='mb-4 mb-5'>경험</h2>
+                    <h2 className='mt-4 mb-5'>경험</h2>
 
                     <div
                         className={
-                            'row' +
+                            'row row-eq-height' +
                             (profile.experience.length % 3 === 0
                                 ? ''
                                 : ' justify-content-center')
@@ -18,8 +18,8 @@ const ExperienceSection = ({ profile }) => {
                     >
                         {profile.experience.map((exp) => {
                             return (
-                                <div className='col-xs-12 col-lg-4'>
-                                    <Card className='mb-3'>
+                                <div className='col-xs-12 col-lg-4 mb-3'>
+                                    <Card className=' h-100'>
                                         <Card.Body>
                                             <h4>{exp.name}</h4>
                                             <h6 className='text-muted'>

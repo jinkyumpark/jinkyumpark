@@ -5,9 +5,11 @@ import { Card } from 'react-bootstrap';
 import Error from '../common/Error';
 // Data
 import { technologies } from '../data/technology';
+import { portfolios } from '../data/portfolio';
 // Resources
 import tstoryIcon from '../images/url-icon/tstory-icon.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
+import PortfolioCard from '../portfolio/PortfolioCard';
 
 const TechnologyDetail = () => {
     const { technologyName } = useParams();
@@ -17,8 +19,6 @@ const TechnologyDetail = () => {
     const subErrorMessage = `다시 한 번 확인해 주세요`;
 
     useEffect(() => {
-        console.log([...Object.values(technologies)]);
-
         const technologyArray = []
             .concat(...Object.values(technologies))
 
@@ -39,15 +39,21 @@ const TechnologyDetail = () => {
                 />
             ) : (
                 <div className='container mt-5 mb-5'>
-                    <FullTechnologyCard technology={technology} />
+                    <TechnologyCardFullList technology={technology} />
                     <BlogCard technology={technology} />
+                    <PortfolioUsedCard
+                        technology={technology}
+                        portfolios={portfolios.filter((port) =>
+                            port.technologiesUsed.includes(technology.id)
+                        )}
+                    />
                 </div>
             )}
         </>
     );
 };
 
-const FullTechnologyCard = ({ technology }) => {
+const TechnologyCardFullList = ({ technology }) => {
     return (
         <Card className='mb-5'>
             <div className='row'>
@@ -84,7 +90,7 @@ const BlogCard = ({ technology }) => {
     };
 
     return (
-        <Card>
+        <Card className='mb-5'>
             <Card.Header>
                 <h4 className='text-center'>
                     {technology.name}에 관한 블로그 포스트 보러가기
@@ -131,6 +137,44 @@ const BlogCard = ({ technology }) => {
             </Card.Body>
         </Card>
     );
+};
+
+const PortfolioUsedCard = ({ technology, portfolios }) => {
+    return (
+        <Card>
+            <Card.Header>
+                <h4 className='text-center'>
+                    {technology.name} 사용된 포트폴리오
+                </h4>
+            </Card.Header>
+            <Card.Body>
+                <div className='row justify-content-center'>
+                    {portfolios.map((port) => {
+                        return (
+                            <div className='col-xs-12 col-6 col-xl-4'>
+                                <PortfolioCard
+                                    portfolio={port}
+                                    textStyle='text-center text-black'
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
+            </Card.Body>
+        </Card>
+    );
+    // return <>
+
+    //     {
+    //         portfolios.length == 0 ? (<Error subErrorMessage='이 기술이 사용된 포트폴리오가 없어요'>)
+    //         :
+
+    //             portfolios.map((port) => {
+    //                 <PortfolioCard portfolio={port}/>
+    //             })
+    //     }
+
+    // </>)
 };
 
 export default TechnologyDetail;
