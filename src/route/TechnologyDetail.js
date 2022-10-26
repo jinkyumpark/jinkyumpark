@@ -149,21 +149,28 @@ const PortfolioUsedCard = ({ technology, portfolios }) => {
             </Card.Header>
             <Card.Body>
                 <div className='row justify-content-center'>
-                    {portfolios.map((port) => {
-                        return (
-                            <div className='col-xs-12 col-6 col-xl-4'>
-                                <PortfolioCard
-                                    portfolio={port}
-                                    textStyle='text-center text-black'
-                                />
-                            </div>
-                        );
-                    })}
+                    {portfolios.length === 0 ? (
+                        <Error
+                            subErrorMessage={`기술이 사용된 포트폴리오가 없어요`}
+                            subStyle='text-black'
+                        />
+                    ) : (
+                        portfolios.map((port) => {
+                            return (
+                                <div className='col-xs-12 col-6 col-xl-4'>
+                                    <PortfolioCard
+                                        portfolio={port}
+                                        textStyle='text-center text-black'
+                                    />
+                                </div>
+                            );
+                        })
+                    )}
                 </div>
             </Card.Body>
         </Card>
     );
-    // return <>
+    // return (<>
 
     //     {
     //         portfolios.length == 0 ? (<Error subErrorMessage='이 기술이 사용된 포트폴리오가 없어요'>)
