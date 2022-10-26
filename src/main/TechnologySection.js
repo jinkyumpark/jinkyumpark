@@ -8,6 +8,7 @@ import { technologiesDetailUrl } from '../data/url';
 const TechnologySection = ({ technologies }) => {
     const buttonStyle = {
         backgroundColor: 'rgb(26, 188, 156)',
+        color: 'white',
     };
 
     return (

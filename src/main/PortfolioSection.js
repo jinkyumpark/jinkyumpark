@@ -1,6 +1,8 @@
 import React from 'react';
 // Components
 import PortfolioCard from '../portfolio/PortfolioCard';
+import MoreButton from '../common/MoreButton';
+import { portfolioUrl } from '../data/url';
 
 const PortfolioSection = ({ portfolios }) => {
     return (
@@ -25,6 +27,8 @@ const PortfolioSection = ({ portfolios }) => {
                     })}
                 </div>
             </div>
+
+            <MoreButton url={portfolioUrl} showing={portfolios.length > 3} />
         </section>
     );
 };

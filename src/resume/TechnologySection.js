@@ -5,12 +5,9 @@ import TechnologyCard from '../technology/TechnologyCard';
 import MoreButton from '../common/MoreButton';
 // Data
 import { technologiesDetailUrl } from '../data/url';
+import { coloredButtonStyle } from '../common/style';
 
 const TechnologySection = ({ technologies }) => {
-    const buttonStyle = {
-        backgroundColor: 'rgb(26, 188, 156)',
-    };
-
     return (
         <Card className='mb-5'>
             <Card.Body>
@@ -28,7 +25,10 @@ const TechnologySection = ({ technologies }) => {
                         })}
                 </div>
 
-                <MoreButton style={buttonStyle} url={technologiesDetailUrl} />
+                <MoreButton
+                    style={coloredButtonStyle}
+                    url={technologiesDetailUrl}
+                />
             </Card.Body>
         </Card>
     );

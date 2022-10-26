@@ -2,6 +2,9 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 // Components
 import PortfolioCard from '../portfolio/PortfolioCard';
+import MoreButton from '../common/MoreButton';
+import { portfolioUrl } from '../data/url';
+import { coloredButtonStyle } from '../common/style';
 
 const PortfolioSection = ({ portfolios }) => {
     return (
@@ -22,6 +25,11 @@ const PortfolioSection = ({ portfolios }) => {
                         );
                     })}
                 </div>
+                <MoreButton
+                    style={coloredButtonStyle}
+                    url={portfolioUrl}
+                    showing={true}
+                />
             </Card.Body>
         </Card>
     );

@@ -25,7 +25,15 @@ const ExperienceSection = ({ profile }) => {
                                             <h6 className='text-muted'>
                                                 {`${exp.startDate} - ${exp.endDate}`}
                                             </h6>
-                                            <p>{exp.description}</p>
+                                            <div className='list-group'>
+                                                {exp.descriptions.map((des) => {
+                                                    return (
+                                                        <div className='list-group-item'>
+                                                            {des}
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
                                         </Card.Body>
                                     </Card>
                                 </div>
