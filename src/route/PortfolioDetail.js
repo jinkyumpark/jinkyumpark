@@ -170,7 +170,7 @@ const TechnologyUsedCard = ({ portfolio }) => {
 
 const TechIcon = ({ technology }) => {
     return (
-        <Card>
+        <Card className='hover-effect'>
             <Card.Body>
                 <img
                     src={technology.icon}
