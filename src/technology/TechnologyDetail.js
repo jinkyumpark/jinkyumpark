@@ -16,11 +16,16 @@ const TechnologyDetail = () => {
     const subErrorMessage = `다시 한 번 확인해 주세요`;
 
     useEffect(() => {
-        const technologyArray = technologies.filter(
-            (tech) =>
-                tech.name.trim().toLowerCase().replaceAll(' ', '') ===
-                technologyName.trim().toLowerCase().replaceAll(' ', '')
-        );
+        console.log([...Object.values(technologies)]);
+
+        const technologyArray = []
+            .concat(...Object.values(technologies))
+
+            .filter(
+                (tech) =>
+                    tech.name.trim().toLowerCase().replaceAll(' ', '') ===
+                    technologyName.trim().toLowerCase().replaceAll(' ', '')
+            );
         setTechnology(technologyArray[0]);
     }, []);
 

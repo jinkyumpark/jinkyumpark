@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card, Table } from 'react-bootstrap';
-import { profile } from '../data/profile';
 
-const Profile = () => {
+const Profile = ({ profile }) => {
     return (
         <Card className='mb-5'>
             <Card.Body>
@@ -22,7 +21,7 @@ const Profile = () => {
                             </small>
                         </h2>
 
-                        <TableView />
+                        <TableView profile={profile} />
                     </div>
                 </div>
             </Card.Body>
@@ -30,7 +29,7 @@ const Profile = () => {
     );
 };
 
-const TableView = () => {
+const TableView = ({ profile }) => {
     return (
         <Table hover className='mt-4'>
             <tbody>

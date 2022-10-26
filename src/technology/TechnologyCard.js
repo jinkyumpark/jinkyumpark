@@ -2,6 +2,8 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { technologiesDetailUrl } from '../data/url';
 
+import '../css/hover-effect.css';
+
 const TechnologyCard = ({ technology }) => {
     const technologyDetailUrl = `${technologiesDetailUrl}/${technology.name
         .trim()
@@ -13,7 +15,7 @@ const TechnologyCard = ({ technology }) => {
             href={technologyDetailUrl}
             className='text-decoration-none text-black'
         >
-            <Card className='mt-3 mb-3 text-center'>
+            <Card className='mt-3 mb-3 text-center hover-effect'>
                 <div className='row justify-content-center'>
                     <div className='col-6'>
                         <img

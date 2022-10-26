@@ -1,0 +1,15 @@
+.hover-effect {
+    transition: .3s transform;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+}
+
+.link-hover-effect {
+    transition: .3s transform;
+}
+
+.link-hover-effect:hover {
+    transform: scale(1.2);
+}

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card, Table } from 'react-bootstrap';
-import { profile } from '../data/profile';
 
-const Language = () => {
+const Language = ({ profile }) => {
     return (
         <Card className='mb-5'>
             <Card.Body>

@@ -140,7 +140,9 @@ const TechnologyUsedCard = ({ portfolio }) => {
 
     useEffect(() => {
         const technologiesUsedArray = portfolio.technologiesUsed.map((id) =>
-            technologies.find((tech) => tech.id === id)
+            []
+                .concat(...Object.values(technologies))
+                .find((tech) => tech.id === id)
         );
 
         setTechnologiesUsed(technologiesUsedArray);

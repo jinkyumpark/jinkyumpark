@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/hover-effect.css';
 
 const WebLink = ({ website }) => {
     return (
@@ -11,7 +12,7 @@ const WebLink = ({ website }) => {
             <img
                 src={website.icon}
                 alt={`${website.url}-icon`}
-                className='img-responsive rounded-circle'
+                className='img-responsive rounded-circle link-hover-effect'
                 style={{
                     width: '40px',
                 }}

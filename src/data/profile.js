@@ -18,7 +18,29 @@ export const profile = {
     
     항상 어떻게 하면 더 읽기 쉬운 코드를 쓸 수 있을까 고민하고 습관적으로 refactoring합니다.
     `,
-    experience: [],
+    experience: [
+        {
+            id: 1,
+            startDate: '21년 2월',
+            endDate: '21년 12월',
+            name: '🧑‍🏫 영어 학원 교사',
+            description: `
+            운정 큐이엠 학원에 학원 설립 초부터 중학생 교사로 참여. 
+            문법, 독해 수업 진행. 
+            학부모 상담, 홍보 보조 등 여러가지 직무도 적극 참여함
+            `,
+        },
+        {
+            id: 2,
+            startDate: '19년 10월',
+            endDate: '19년 12월',
+            name: '🏫 대학교 수학 Tutor',
+            description: `
+            Calculus 1, 2 수강생 대상으로 Tutoring 진행.
+            학생들이 자유롭게 예약해 질문에 답해주거나, Assignments에 도움 제공.
+            `,
+        },
+    ],
     language: [
         {
             id: 1,

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const Topnav = () => {
-    const [currentUrl, setCurrentUrl] = useState(window.location.pathname);
+    const [currentUrl] = useState(window.location.pathname);
 
     return (
         <>
@@ -24,6 +24,12 @@ const Topnav = () => {
                             active={currentUrl.startsWith('/portfolio')}
                         >
                             포트폴리오
+                        </Nav.Link>
+                        <Nav.Link
+                            href='/technology'
+                            active={currentUrl.startsWith('/technology')}
+                        >
+                            기술
                         </Nav.Link>
                     </Nav>
                 </Container>

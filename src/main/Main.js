@@ -15,7 +15,7 @@ const Main = () => {
         <>
             <IntroductionSection introduction={profile} websites={channels} />
             <PortfolioSection portfolios={portfolios} />
-            <TechnologySection technologies={technologies} />
+            <TechnologySection technologies={technologies.back} />
             <ResumeSection />
         </>
     );
