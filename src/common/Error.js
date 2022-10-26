@@ -8,7 +8,7 @@ const Error = ({ mainErrorMessage, subErrorMessage }) => {
     };
 
     return (
-        <div className='text-center mt-5'>
+        <div className='text-center'>
             <ErrorIcon className='text-danger' style={errorIconStyle} />
             <h1 className='mt-3'>{mainErrorMessage} </h1>
             <h3 className='text-muted'>{subErrorMessage}</h3>

@@ -7,6 +7,7 @@ import Error from '../common/Error';
 import { technologies } from '../data/technology';
 // Resources
 import tstoryIcon from '../images/url-icon/tstory-icon.png';
+import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
 
 const TechnologyDetail = () => {
     const { technologyName } = useParams();
@@ -77,6 +78,11 @@ const FullTechnologyCard = ({ technology }) => {
 };
 
 const BlogCard = ({ technology }) => {
+    const errorIconStyle = {
+        width: '150px',
+        height: '100px',
+    };
+
     return (
         <Card>
             <Card.Header>
@@ -93,17 +99,32 @@ const BlogCard = ({ technology }) => {
                 >
                     <Card className=''>
                         <Card.Body>
-                            <img
-                                src={tstoryIcon}
-                                alt={`${technology.blogUrl}-icon`}
-                                className='img-responsive rounded-circle'
-                                style={{
-                                    width: '70px',
-                                }}
-                            />
-                            <h4 className='mt-2'>
-                                {technology.name} 관련 블로그 포스트 모두보기
-                            </h4>
+                            {technology.blogUrl.length === 0 ? (
+                                <div className='text-center'>
+                                    <ErrorIcon
+                                        className='text-danger'
+                                        style={errorIconStyle}
+                                    />
+                                    <h3 className=''>
+                                        아직 블로그 포스트가 없어요
+                                    </h3>
+                                </div>
+                            ) : (
+                                <>
+                                    <img
+                                        src={tstoryIcon}
+                                        alt={`${technology.blogUrl}-icon`}
+                                        className='img-responsive rounded-circle'
+                                        style={{
+                                            width: '70px',
+                                        }}
+                                    />
+                                    <h4 className='mt-2'>
+                                        {technology.name} 관련 블로그 포스트
+                                        모두보기
+                                    </h4>
+                                </>
+                            )}
                         </Card.Body>
                     </Card>
                 </a>
