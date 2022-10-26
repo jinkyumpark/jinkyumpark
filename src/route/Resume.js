@@ -1,10 +1,10 @@
 import React from 'react';
 // Components
-import Profile from './Profile';
-import PortfolioSection from './PortfolioSection';
-import TechnologySection from './TechnologySection';
-import Language from './Language';
-import ExperienceSection from './ExperienceSection';
+import Profile from '../resume/Profile';
+import PortfolioSection from '../resume/PortfolioSection';
+import TechnologySection from '../resume/TechnologySection';
+import Language from '../resume/Language';
+import ExperienceSection from '../resume/ExperienceSection';
 // Data
 import { portfolios } from '../data/portfolio';
 import { technologies } from '../data/technology';

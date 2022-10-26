@@ -1,6 +1,6 @@
 import React from 'react';
 import { technologies } from '../data/technology';
-import TechnologyCard from './TechnologyCard';
+import TechnologyCard from '../technology/TechnologyCard';
 import Error from '../common/Error';
 
 const Technology = () => {
