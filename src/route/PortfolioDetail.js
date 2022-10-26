@@ -9,6 +9,8 @@ import websiteIcon from '../images/url-icon/website-1.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
 import { technologies } from '../data/technology';
 
+import '../css/hover-effect.css';
+
 const PortfolioDetail = () => {
     const { portfolioName } = useParams();
     const [portfolio, setPortfolio] = useState(null);
@@ -193,7 +195,7 @@ const DatabaseCard = ({ portfolio }) => {
                 <img
                     src={portfolio.erDiagram}
                     alt='springfeed-er-diagram'
-                    className='img-fluid border mt-4'
+                    className='img-fluid border mt-4 hover-effect'
                 />
             </Card.Body>
         </Card>
