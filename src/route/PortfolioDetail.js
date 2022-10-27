@@ -209,7 +209,7 @@ const DatabaseCard = ({ portfolio }) => {
                         )
                         .map((db) => {
                             return (
-                                <div className='col-xs-12 col-2'>
+                                <div className='col-6 col-lg-3 mb-3'>
                                     <TechIcon technology={db} />
                                 </div>
                             );
