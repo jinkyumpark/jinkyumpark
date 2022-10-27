@@ -71,7 +71,7 @@ const TechnologyCardFullList = ({ technology }) => {
                         {technology.features.length === 0 ? (
                             <div className='mt-4 ms-2'>
                                 <Error
-                                    mainErrorMessage='아직 보유기술에 대한 설명이 없습니다'
+                                    mainErrorMessage='아직 보유기술에 대한 설명이 없어요'
                                     delay='0'
                                 />
                             </div>
