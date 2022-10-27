@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Error from '../common/Error';
+import parser from 'html-react-parser';
 
 const SelfIntroductionSection = ({ introductions }) => {
     return (
@@ -19,7 +20,7 @@ const SelfIntroductionSection = ({ introductions }) => {
                                 <div className='col-xs-12 col-6 mb-4'>
                                     <Card className='h-100 text-start'>
                                         <Card.Body className='lead'>
-                                            {intro}
+                                            {parser(intro)}
                                         </Card.Body>
                                     </Card>
                                 </div>

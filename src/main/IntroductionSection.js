@@ -4,6 +4,8 @@ import WebLink from '../common/WebLink';
 // Images
 import profile from '../images/main-profile.jpg';
 
+import parse from 'html-react-parser';
+
 const IntroductionSection = ({ introduction, websites }) => {
     const imageStyle = {
         width: '200px',
@@ -19,7 +21,9 @@ const IntroductionSection = ({ introduction, websites }) => {
                     style={imageStyle}
                 />
                 <h1>{introduction.title} </h1>
-                <p class='lead col-xs-12 col-lg-9'>{introduction.summary}</p>
+                <p class='lead col-xs-12 col-lg-9'>
+                    {parse(introduction.summary)}
+                </p>
             </div>
 
             {websites.map((website) => {

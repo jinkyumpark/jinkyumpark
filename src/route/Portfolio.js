@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-
 import { portfolios } from '../data/portfolio';
 import PortfolioCard from '../portfolio/PortfolioCard';
 

@@ -9,6 +9,7 @@ import websiteIcon from '../images/url-icon/website-1.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
 import { technologies } from '../data/technology';
 import Modal from 'react-modal';
+import parser from 'html-react-parser';
 
 import '../css/hover-effect.css';
 
@@ -103,7 +104,7 @@ const BasicInfoCard = ({ portfolio }) => {
                     <h4 className='text-muted'>{portfolio.subtitle}</h4>
                 </div>
 
-                <p className='mt-3'>{portfolio.introduction}</p>
+                <p className='mt-3'>{parser(portfolio.introduction)}</p>
 
                 <div className='div'>
                     <WebLink
