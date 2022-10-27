@@ -28,7 +28,7 @@ export const portfolios = [
         ],
         difficulties: [],
 
-        url: `${portfolioUrl}/simply-journal`,
+        url: `/${portfolioUrl}/simply-journal`,
         githubLink: 'https://github.com/jinkyumpark/simply-journal',
         siteLink: 'https://journal.jinkyumpark.com',
 
@@ -61,7 +61,7 @@ export const portfolios = [
             '소통 : 더 나은 방법이 있어도, 효과적으로 소통하는 방법을 몰라 말하지 못 한적이 있었다',
         ],
 
-        url: `${portfolioUrl}/springfeed`,
+        url: `/${portfolioUrl}/springfeed`,
         githubLink: 'https://github.com/kxmjxnjoo/springfeed',
         siteLink: 'https://springfeed.jinkyumpark.com',
 

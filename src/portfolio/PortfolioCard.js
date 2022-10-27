@@ -1,10 +1,13 @@
 import React from 'react';
+import { portfolioUrl } from '../data/url';
 import '../css/hover-effect.css';
 
 const PortfolioCard = ({ portfolio, textStyle }) => {
+    const portfolioDetailUrl = `${portfolioUrl}/${portfolio.name}`;
+
     return (
         <a
-            href={`${portfolio.url}`}
+            href={portfolioDetailUrl}
             className={`text-decoration-none ${textStyle}`}
         >
             <img

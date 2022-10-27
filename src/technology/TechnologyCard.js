@@ -25,6 +25,7 @@ const TechnologyCard = ({ technology }) => {
                         />
                     </div>
                 </div>
+
                 <Card.Body>
                     <div className='card-title'>
                         <h4>{technology.name}</h4>
