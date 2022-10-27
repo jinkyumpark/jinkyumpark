@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jinkyumpark.com/static/css/main.422aa1f0.css",
-    "main.js": "/jinkyumpark.com/static/js/main.98d8b445.js",
+    "main.js": "/jinkyumpark.com/static/js/main.efb3b545.js",
     "static/media/simply-journal.png": "/jinkyumpark.com/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
     "static/media/jquery.ico": "/jinkyumpark.com/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/springfeed.png": "/jinkyumpark.com/static/media/springfeed.a52ed64982b101b3f36d.png",
@@ -27,10 +27,10 @@
     "static/media/tstory-icon.png": "/jinkyumpark.com/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "index.html": "/jinkyumpark.com/index.html",
     "main.422aa1f0.css.map": "/jinkyumpark.com/static/css/main.422aa1f0.css.map",
-    "main.98d8b445.js.map": "/jinkyumpark.com/static/js/main.98d8b445.js.map"
+    "main.efb3b545.js.map": "/jinkyumpark.com/static/js/main.efb3b545.js.map"
   },
   "entrypoints": [
     "static/css/main.422aa1f0.css",
-    "static/js/main.98d8b445.js"
+    "static/js/main.efb3b545.js"
   ]
 }
