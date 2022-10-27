@@ -81,6 +81,10 @@ const PortfolioDetail = () => {
                             <DatabaseCard portfolio={portfolio} />
                         </div>
 
+                        <div className='col-12 mt-5'>
+                            <Challenge challenges={portfolio.challenges} />
+                        </div>
+
                         {/* <Modal
                             isOpen={isTechnologyModalOpen}
                             onRequestClose={closeTechnologyModal}
@@ -215,12 +219,52 @@ const DatabaseCard = ({ portfolio }) => {
     return (
         <Card className='h-100'>
             <Card.Body>
-                <h3>ER Diagram</h3>
+                <h3>Database</h3>
+
+                <div className='row justify-content-center mt-4'>
+                    {portfolio.db.used
+                        .map((db) =>
+                            technologies.db.find((tech) => tech.id === db)
+                        )
+                        .map((db) => {
+                            return (
+                                <div className='col-xs-12 col-2'>
+                                    <TechIcon technology={db} />
+                                </div>
+                            );
+                        })}
+                </div>
+
                 <img
-                    src={portfolio.erDiagram}
+                    src={portfolio.db.erDiagram}
                     alt='springfeed-er-diagram'
                     className='img-fluid border mt-4 hover-effect'
                 />
+            </Card.Body>
+        </Card>
+    );
+};
+
+const Challenge = ({ challenges }) => {
+    return (
+        <Card>
+            <Card.Body>
+                <h3 className='mb-4'>기술적 고민</h3>
+
+                {challenges.length === 0 ? (
+                    <Error mainErrorMessage='아직 기술적 고민이 없어요' />
+                ) : (
+                    challenges.map((challenge) => {
+                        return (
+                            <Card className='col-xs-12 col-6 hover-effect'>
+                                <Card.Body>
+                                    <h4>{challenge.name}</h4>
+                                    <p>{parser(challenge.description)}</p>
+                                </Card.Body>
+                            </Card>
+                        );
+                    })
+                )}
             </Card.Body>
         </Card>
     );

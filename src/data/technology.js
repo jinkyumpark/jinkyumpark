@@ -20,8 +20,14 @@ import swiftuiIcon from '../images/technology/swiftui.png';
 // Tools
 import vimIcon from '../images/technology/vim.png';
 import intellijIcon from '../images/technology/intellij.png';
+// Db
+import mysqlIcon from '../images/technology/db/mysql.png';
+import oracleIcon from '../images/technology/db/oracle.png';
+import postgresIcon from '../images/technology/db/postgres.png';
+import redisIcon from '../images/technology/db/redis.png';
 
 export const technologies = {
+    // 1-9
     language: [
         {
             id: 1,
@@ -37,6 +43,7 @@ export const technologies = {
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Java',
         },
     ],
+    // 10-19
     front: [
         {
             id: 9,
@@ -70,6 +77,7 @@ export const technologies = {
             blogUrl: '',
         },
     ],
+    // 20-29
     back: [
         {
             id: 2,
@@ -129,6 +137,7 @@ export const technologies = {
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Testing',
         },
     ],
+    //30-39
     devops: [
         {
             id: 6,
@@ -170,6 +179,7 @@ export const technologies = {
             blogUrl: '',
         },
     ],
+    //40-49
     tools: [
         {
             id: 15,
@@ -188,11 +198,47 @@ export const technologies = {
             blogUrl: '',
         },
     ],
+    // 50-59
     apps: [
         {
             id: 14,
             icon: swiftuiIcon,
             name: 'Swift UI',
+            features: [],
+            featured: false,
+            blogUrl: '',
+        },
+    ],
+    // 60-69
+    db: [
+        {
+            id: 60,
+            icon: oracleIcon,
+            name: 'Oracle DB',
+            features: [],
+            featured: false,
+            blogUrl: '',
+        },
+        {
+            id: 61,
+            icon: mysqlIcon,
+            name: 'MySQL',
+            features: [],
+            featured: false,
+            blogUrl: '',
+        },
+        {
+            id: 62,
+            icon: postgresIcon,
+            name: 'Postgres DB',
+            features: [],
+            featured: false,
+            blogUrl: '',
+        },
+        {
+            id: 63,
+            icon: redisIcon,
+            name: 'Redis',
             features: [],
             featured: false,
             blogUrl: '',

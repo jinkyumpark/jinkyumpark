@@ -34,7 +34,18 @@ export const portfolios = [
 
         technologiesUsed: [1, 2, 3, 4, 5, 6, 7, 8],
 
-        erDiagram: springfeedErDiagram,
+        db: {
+            erDiagram: springfeedErDiagram,
+            used: [61, 63],
+            query: '',
+        },
+
+        challenges: [
+            {
+                name: '보안이슈',
+                description: '',
+            },
+        ],
     },
     {
         id: 1,
@@ -51,7 +62,9 @@ export const portfolios = [
         image: springfeed,
 
         primaryFeatures: [],
-        difficulties: [],
+        difficulties: [
+            '소통 : 더 나은 방법이 있어도, 효과적으로 소통하는 방법을 몰라 말하지 못 한적이 있었다',
+        ],
 
         url: `${portfolioUrl}/springfeed`,
         githubLink: 'https://github.com/kxmjxnjoo/springfeed',
@@ -59,6 +72,12 @@ export const portfolios = [
 
         technologiesUsed: [2, 3, 6, 8],
 
-        erDiagram: springfeedErDiagram,
+        db: {
+            erDiagram: springfeedErDiagram,
+            used: [60],
+            query: '',
+        },
+
+        challenges: [],
     },
 ];
