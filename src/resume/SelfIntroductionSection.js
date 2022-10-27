@@ -17,7 +17,7 @@ const SelfIntroductionSection = ({ introductions }) => {
                     <div className='row row-eq-height'>
                         {introductions.map((intro) => {
                             return (
-                                <div className='col-xs-12 col-6 mb-4'>
+                                <div className='col-xs-12 col-lg-6 mb-4'>
                                     <Card className='h-100 text-start'>
                                         <Card.Body className='lead'>
                                             {parser(intro)}

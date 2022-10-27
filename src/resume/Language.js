@@ -4,10 +4,10 @@ import { Card, Table } from 'react-bootstrap';
 const Language = ({ profile }) => {
     return (
         <Card className='mb-5'>
-            <Card.Body>
+            <Card.Body className='overflow-x-auto'>
                 <h2 className='mt-4 mb-5'>외국어</h2>
 
-                <Table hover className='mt-4'>
+                <Table responsive hover>
                     <thead>
                         <tr>
                             <th>언어</th>

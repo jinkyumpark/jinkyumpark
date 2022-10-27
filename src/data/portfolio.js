@@ -40,12 +40,7 @@ export const portfolios = [
             query: '',
         },
 
-        challenges: [
-            {
-                name: '보안이슈',
-                description: '',
-            },
-        ],
+        challenges: [],
     },
     {
         id: 1,

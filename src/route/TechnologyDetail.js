@@ -67,15 +67,24 @@ const TechnologyCardFullList = ({ technology }) => {
                 </div>
                 <div className='col-xs-12 col-lg-8'>
                     <Card.Body>
-                        <div className='list-group list-group-flush'>
-                            {technology.features.map((feature) => {
-                                return (
-                                    <li className='list-group-item'>
-                                        {feature}
-                                    </li>
-                                );
-                            })}
-                        </div>
+                        {technology.features.length === 0 ? (
+                            <div className='mt-4 ms-2'>
+                                <Error
+                                    mainErrorMessage='아직 보유기술에 대한 설명이 없습니다'
+                                    delay='0'
+                                />
+                            </div>
+                        ) : (
+                            <div className='list-group list-group-flush'>
+                                {technology.features.map((feature) => {
+                                    return (
+                                        <li className='list-group-item'>
+                                            {feature}
+                                        </li>
+                                    );
+                                })}
+                            </div>
+                        )}
                     </Card.Body>
                 </div>
             </div>
