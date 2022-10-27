@@ -10,6 +10,7 @@ import { portfolios } from '../data/portfolio';
 import tstoryIcon from '../images/url-icon/tstory-icon.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
 import PortfolioCard from '../portfolio/PortfolioCard';
+import '../css/hover-effect.css';
 
 const TechnologyDetail = () => {
     const { technologyName } = useParams();
@@ -125,7 +126,7 @@ const BlogCard = ({ technology }) => {
                                     </h3>
                                 </div>
                             ) : (
-                                <>
+                                <div className='hover-effect'>
                                     <img
                                         src={tstoryIcon}
                                         alt={`${technology.blogUrl}-icon`}
@@ -138,7 +139,7 @@ const BlogCard = ({ technology }) => {
                                         {technology.name} 관련 블로그 포스트
                                         모두보기
                                     </h4>
-                                </>
+                                </div>
                             )}
                         </Card.Body>
                     </Card>
@@ -179,18 +180,6 @@ const PortfolioUsedCard = ({ technology, portfolios }) => {
             </Card.Body>
         </Card>
     );
-    // return (<>
-
-    //     {
-    //         portfolios.length == 0 ? (<Error subErrorMessage='이 기술이 사용된 포트폴리오가 없어요'>)
-    //         :
-
-    //             portfolios.map((port) => {
-    //                 <PortfolioCard portfolio={port}/>
-    //             })
-    //     }
-
-    // </>)
 };
 
 export default TechnologyDetail;
