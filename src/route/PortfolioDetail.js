@@ -8,6 +8,7 @@ import { Card } from 'react-bootstrap';
 import websiteIcon from '../images/url-icon/website-1.png';
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
 import { technologies } from '../data/technology';
+import Modal from 'react-modal';
 
 import '../css/hover-effect.css';
 
@@ -17,6 +18,11 @@ const PortfolioDetail = () => {
 
     const mainErrorMessage = `${portfolioName}이라는 포트폴리오를 찾을 수 없어요`;
     const subErrorMessage = `다시 한 번 확인해 주세요`;
+
+    const [isTechnologyModalOpen, setIsTechnologyModalOpen] = useState(false);
+    const closeTechnologyModal = () => {
+        setIsTechnologyModalOpen(false);
+    };
 
     useEffect(() => {
         const portfolioArray = portfolios.filter((portfolio) => {
@@ -62,12 +68,25 @@ const PortfolioDetail = () => {
                         </div>
 
                         <div className='col-12 mt-5'>
-                            <TechnologyUsedCard portfolio={portfolio} />
+                            <TechnologyUsedCard
+                                portfolio={portfolio}
+                                setIsTechnologyModalOpen={
+                                    setIsTechnologyModalOpen
+                                }
+                            />
                         </div>
 
                         <div className='col-12 mt-5'>
                             <DatabaseCard portfolio={portfolio} />
                         </div>
+
+                        {/* <Modal
+                            isOpen={isTechnologyModalOpen}
+                            onRequestClose={closeTechnologyModal}
+                            style={{}}
+                        >
+                            <h1>Hello World</h1>
+                        </Modal> */}
                     </div>
                 </div>
             )}
@@ -137,7 +156,7 @@ const ListCard = ({ title, list }) => {
     );
 };
 
-const TechnologyUsedCard = ({ portfolio }) => {
+const TechnologyUsedCard = ({ portfolio, setIsTechnologyModalOpen }) => {
     const [techologiesUsed, setTechnologiesUsed] = useState([]);
 
     useEffect(() => {
@@ -152,7 +171,11 @@ const TechnologyUsedCard = ({ portfolio }) => {
 
     return (
         <Card className='h-100'>
-            <Card.Body>
+            <Card.Body
+                onClick={() => {
+                    setIsTechnologyModalOpen(true);
+                }}
+            >
                 <h3>사용된 기술</h3>
                 <div className='row'>
                     {techologiesUsed.map((tech) => {

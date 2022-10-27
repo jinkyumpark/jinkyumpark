@@ -43,7 +43,11 @@ export const technologies = {
             icon: reactIcon,
             name: 'React',
             category: 'front',
-            features: [],
+            features: [
+                'useState, useEffect, useRef 등의 hook등의 특성을 이해하고 활용',
+                'UI를 컴포넌트로 분리하고 hook을 써서 관리',
+                'React Router 등의 외부 라이브러리를 활용',
+            ],
             featured: false,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/React',
         },
