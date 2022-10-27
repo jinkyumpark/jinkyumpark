@@ -3,7 +3,6 @@ import React from 'react';
 import WebLink from '../common/WebLink';
 // Images
 import profile from '../images/main-profile.jpg';
-
 import parse from 'html-react-parser';
 
 const IntroductionSection = ({ introduction, websites }) => {
@@ -20,7 +19,7 @@ const IntroductionSection = ({ introduction, websites }) => {
                     className='img-responsive rounded-circle mb-4'
                     style={imageStyle}
                 />
-                <h1>{introduction.title} </h1>
+                <h2>{introduction.title} </h2>
                 <p class='lead col-xs-12 col-lg-9'>
                     {parse(introduction.summary)}
                 </p>
