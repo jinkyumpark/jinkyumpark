@@ -163,6 +163,7 @@ const PortfolioUsedCard = ({ technology, portfolios }) => {
                         <Error
                             subErrorMessage={`기술이 사용된 포트폴리오가 없어요`}
                             subStyle='text-black'
+                            delay={0}
                         />
                     ) : (
                         portfolios.map((port) => {
