@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+// Data
 import { portfolios } from '../data/portfolio';
+// Components
 import PortfolioCard from '../portfolio/PortfolioCard';
 
 const Portfolio = () => {

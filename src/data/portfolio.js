@@ -3,7 +3,7 @@ import simplyJournal from '../images/portfolio/simply-journal.png';
 // Springfeed
 import springfeed from '../images/portfolio/springfeed.png';
 import springfeedErDiagram from '../images/portfolio/er-diagram/springfeed-er.png';
-
+// URL Data
 import { portfolioUrl } from './url';
 
 export const portfolios = [
@@ -30,7 +30,7 @@ export const portfolios = [
 
         url: `${portfolioUrl}/simply-journal`,
         githubLink: 'https://github.com/jinkyumpark/simply-journal',
-        siteLink: 'http://journal.jinkyumpark.com',
+        siteLink: 'https://journal.jinkyumpark.com',
 
         technologiesUsed: [1, 2, 3, 4, 5, 6, 7, 8],
 
@@ -63,7 +63,7 @@ export const portfolios = [
 
         url: `${portfolioUrl}/springfeed`,
         githubLink: 'https://github.com/kxmjxnjoo/springfeed',
-        siteLink: 'http://springfeed.jinkyumpark.com',
+        siteLink: 'https://springfeed.jinkyumpark.com',
 
         technologiesUsed: [2, 3, 6, 8],
 

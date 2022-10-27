@@ -15,16 +15,16 @@ function App() {
 
             <Routes refresh>
                 <Route path='/' element={<Main />} />
-                <Route path='resume' element={<Resume />} />
-                <Route path='technology' element={<Technology />} />
-                <Route path='portfolio' element={<Portfolio />} />
+                <Route path='/resume' element={<Resume />} />
+                <Route path='/technology' element={<Technology />} />
+                <Route path='/portfolio' element={<Portfolio />} />
 
                 <Route
-                    path='portfolio/:portfolioName'
+                    path='/portfolio/:portfolioName'
                     element={<PortfolioDetail />}
                 />
                 <Route
-                    path='technology/:technologyName'
+                    path='/technology/:technologyName'
                     element={<TechnologyDetail />}
                 />
             </Routes>

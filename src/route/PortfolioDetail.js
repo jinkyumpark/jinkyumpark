@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { portfolios } from '../data/portfolio';
+import { Card } from 'react-bootstrap';
+import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
+import parser from 'html-react-parser';
+// Components
 import Error from '../common/Error';
 import WebLink from '../common/WebLink';
-import githubIcon from '../images/url-icon/github-icon.png';
-import { Card } from 'react-bootstrap';
-import websiteIcon from '../images/url-icon/website-1.png';
-import { BiErrorCircle as ErrorIcon } from 'react-icons/bi';
+// Data
+import { portfolios } from '../data/portfolio';
 import { technologies } from '../data/technology';
-import Modal from 'react-modal';
-import parser from 'html-react-parser';
-
+// Images
+import websiteIcon from '../images/url-icon/website-1.png';
+import githubIcon from '../images/url-icon/github-icon.png';
+// Resources
 import '../css/hover-effect.css';
 
 const PortfolioDetail = () => {
@@ -20,15 +22,11 @@ const PortfolioDetail = () => {
     const mainErrorMessage = `${portfolioName}이라는 포트폴리오를 찾을 수 없어요`;
     const subErrorMessage = `다시 한 번 확인해 주세요`;
 
-    const [isTechnologyModalOpen, setIsTechnologyModalOpen] = useState(false);
-    const closeTechnologyModal = () => {
-        setIsTechnologyModalOpen(false);
-    };
-
     useEffect(() => {
         const portfolioArray = portfolios.filter((portfolio) => {
-            return portfolio.name === portfolioName;
+            return portfolio.name === portfolioName.toLowerCase();
         });
+
         setPortfolio(portfolioArray[0]);
     }, []);
 
@@ -69,12 +67,7 @@ const PortfolioDetail = () => {
                         </div>
 
                         <div className='col-12 mt-5'>
-                            <TechnologyUsedCard
-                                portfolio={portfolio}
-                                setIsTechnologyModalOpen={
-                                    setIsTechnologyModalOpen
-                                }
-                            />
+                            <TechnologyUsedCard portfolio={portfolio} />
                         </div>
 
                         <div className='col-12 mt-5'>
@@ -84,14 +77,6 @@ const PortfolioDetail = () => {
                         <div className='col-12 mt-5'>
                             <Challenge challenges={portfolio.challenges} />
                         </div>
-
-                        {/* <Modal
-                            isOpen={isTechnologyModalOpen}
-                            onRequestClose={closeTechnologyModal}
-                            style={{}}
-                        >
-                            <h1>Hello World</h1>
-                        </Modal> */}
                     </div>
                 </div>
             )}
@@ -161,7 +146,7 @@ const ListCard = ({ title, list }) => {
     );
 };
 
-const TechnologyUsedCard = ({ portfolio, setIsTechnologyModalOpen }) => {
+const TechnologyUsedCard = ({ portfolio }) => {
     const [techologiesUsed, setTechnologiesUsed] = useState([]);
 
     useEffect(() => {
@@ -176,11 +161,7 @@ const TechnologyUsedCard = ({ portfolio, setIsTechnologyModalOpen }) => {
 
     return (
         <Card className='h-100'>
-            <Card.Body
-                onClick={() => {
-                    setIsTechnologyModalOpen(true);
-                }}
-            >
+            <Card.Body>
                 <h3>사용된 기술</h3>
                 <div className='row'>
                     {techologiesUsed.map((tech) => {
