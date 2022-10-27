@@ -15,9 +15,9 @@ const Profile = ({ profile }) => {
                     </div>
                     <div className='col-xs-12 col-lg-9 '>
                         <h2 className='text-start mt-3'>
-                            {profile.koreanName}
+                            {profile.koreanName + ' '}
                             <small className='text-muted'>
-                                {profile.englishName}{' '}
+                                {profile.englishName}
                             </small>
                         </h2>
 
@@ -31,7 +31,7 @@ const Profile = ({ profile }) => {
 
 const TableView = ({ profile }) => {
     return (
-        <Table hover className='mt-4'>
+        <Table hover responsive className='mt-4'>
             <tbody>
                 <tr>
                     <td>🎉</td>
