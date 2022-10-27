@@ -5,7 +5,6 @@ import Main from './route/Main';
 import Resume from './route/Resume';
 import Portfolio from './route/Portfolio';
 import Technology from './route/Technology';
-
 import PortfolioDetail from './route/PortfolioDetail';
 import TechnologyDetail from './route/TechnologyDetail';
 
