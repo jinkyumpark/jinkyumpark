@@ -6,6 +6,11 @@ import springfeedErDiagram from '../images/portfolio/er-diagram/springfeed-er.pn
 // URL Data
 import { portfolioUrl } from './url';
 
+// secondary 시작전
+// danger 진행중
+// success 완료
+// warning 업데이트중
+
 export const portfolios = [
     {
         id: 2,
@@ -18,6 +23,10 @@ export const portfolios = [
         `,
         participants: 1,
         image: simplyJournal,
+        status: {
+            style: 'danger',
+            name: '진행중',
+        },
 
         primaryFeatures: [
             '일기 작성/수정/삭제',
@@ -55,6 +64,10 @@ export const portfolios = [
         `,
         participants: 3,
         image: springfeed,
+        status: {
+            style: 'warning',
+            name: '업데이트중',
+        },
 
         primaryFeatures: [
             '게시글, 스토리(시간이 지나면 사라지는 게시글), 댓글 CRUD',
