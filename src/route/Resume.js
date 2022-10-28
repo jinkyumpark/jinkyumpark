@@ -16,7 +16,10 @@ const Resume = () => {
         <div className='container mt-5 text-center'>
             <Profile profile={profile} />
             <PortfolioSection portfolios={portfolios} />
-            <TechnologySection technologies={technologies.back} />
+            <TechnologySection
+                technologies={[].concat(...Object.values(technologies))}
+                size={8}
+            />
             <SelfIntroductionSection introductions={profile.introductions} />
             <Language profile={profile} />
             <ExperienceSection profile={profile} />

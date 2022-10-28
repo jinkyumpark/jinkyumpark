@@ -42,6 +42,7 @@ export const technologies = {
             ],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Java',
+            resumeFeatured: true,
         },
         {
             id: 2,
@@ -49,8 +50,9 @@ export const technologies = {
             name: 'Kotlin',
             category: 'language',
             features: [],
-            featured: true,
+            featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
     // 10-19
@@ -65,17 +67,23 @@ export const technologies = {
                 'UI를 컴포넌트로 분리하고 hook을 써서 관리',
                 'React Router 등의 외부 라이브러리를 활용',
             ],
-            featured: false,
+            featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/React',
+            resumeFeatured: false,
         },
         {
             id: 12,
             icon: bootstrapIcon,
             name: 'Bootstrap',
             category: 'front',
-            features: [],
-            featured: false,
+            features: [
+                'bootstrap의 다양한 component들을 활용해 UI 구성',
+                '반응형 UI 디자인',
+                'react-bootstrap 활용해 component화',
+            ],
+            featured: true,
             blogUrl: '',
+            resumeFeatured: false,
         },
         {
             id: 13,
@@ -85,6 +93,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
     // 20-29
@@ -98,6 +107,7 @@ export const technologies = {
             featured: true,
             blogUrl:
                 'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Boot',
+            resumeFeatured: true,
         },
 
         {
@@ -108,6 +118,7 @@ export const technologies = {
             features: ['DB 특성을 고려한 JPA 활용'],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/JPA',
+            resumeFeatured: true,
         },
         {
             id: 4,
@@ -122,6 +133,7 @@ export const technologies = {
             featured: true,
             blogUrl:
                 'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Security',
+            resumeFeatured: true,
         },
         {
             id: 5,
@@ -132,6 +144,7 @@ export const technologies = {
             featured: true,
             blogUrl:
                 'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Cloud',
+            resumeFeatured: true,
         },
         {
             id: 8,
@@ -139,12 +152,13 @@ export const technologies = {
             name: 'Java Testing',
             category: 'back',
             features: [
-                // 'JUnit의 다양한 기능을 활용한 Unit Testing 작성',
-                // 'Mockito로 의존성 없는 Unit Test',
-                // 'Integration Test',
+                'JUnit의 다양한 기능을 활용한 Unit Testing 작성',
+                'Mockito로 의존성 없는 Unit Test',
+                'Integration Test',
             ],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Testing',
+            resumeFeatured: true,
         },
     ],
     //30-39
@@ -157,6 +171,7 @@ export const technologies = {
             features: [],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Docker',
+            resumeFeatured: false,
         },
         {
             id: 7,
@@ -166,6 +181,7 @@ export const technologies = {
             features: [],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/K8S',
+            resumeFeatured: true,
         },
         {
             id: 11,
@@ -175,6 +191,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
         {
             id: 10,
@@ -187,6 +204,7 @@ export const technologies = {
             ],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
     //40-49
@@ -198,6 +216,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
         {
             id: 16,
@@ -206,6 +225,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
     // 50-59
@@ -217,6 +237,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
     // 60-69
@@ -228,6 +249,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
         {
             id: 61,
@@ -236,6 +258,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: true,
         },
         {
             id: 62,
@@ -244,6 +267,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
         {
             id: 63,
@@ -252,6 +276,7 @@ export const technologies = {
             features: [],
             featured: false,
             blogUrl: '',
+            resumeFeatured: false,
         },
     ],
 };
