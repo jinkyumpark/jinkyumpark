@@ -138,7 +138,11 @@ const ListCard = ({ title, list }) => {
                 )}
                 <div className='list-group'>
                     {list.map((feature) => {
-                        return <div className='list-group-item'>{feature}</div>;
+                        return (
+                            <div className='list-group-item'>
+                                {parser(feature)}
+                            </div>
+                        );
                     })}
                 </div>
             </Card.Body>
