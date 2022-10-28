@@ -69,9 +69,10 @@ const TechnologyCardFullList = ({ technology }) => {
                 <div className='col-xs-12 col-lg-8'>
                     <Card.Body>
                         {technology.features.length === 0 ? (
-                            <div className='mt-4 ms-2'>
+                            <div className='mt-5 ms-2'>
                                 <Error
-                                    mainErrorMessage='아직 보유기술에 대한 설명이 없어요'
+                                    subErrorMessage='아직 보유기술에 대한 설명이 없어요'
+                                    subStyle=''
                                     delay='0'
                                 />
                             </div>
@@ -107,25 +108,23 @@ const BlogCard = ({ technology }) => {
                 </h4>
             </Card.Header>
             <Card.Body className='text-center row justify-content-center'>
-                <a
-                    target='_blank'
-                    rel='noreferrer'
-                    href={technology.blogUrl}
-                    className='ms-3 me-3 text-decoration-none text-black align-items-center col-xs-12 col-lg-6'
-                >
-                    <Card className=''>
-                        <Card.Body>
-                            {technology.blogUrl.length === 0 ? (
-                                <div className='text-center'>
-                                    <ErrorIcon
-                                        className='text-danger'
-                                        style={errorIconStyle}
-                                    />
-                                    <h3 className=''>
-                                        아직 블로그 포스트가 없어요
-                                    </h3>
-                                </div>
-                            ) : (
+                {technology.blogUrl.length === 0 ? (
+                    <div className='text-center'>
+                        <ErrorIcon
+                            className='text-danger'
+                            style={errorIconStyle}
+                        />
+                        <h3 className=''>아직 블로그 포스트가 없어요</h3>
+                    </div>
+                ) : (
+                    <a
+                        target='_blank'
+                        rel='noreferrer'
+                        href={technology.blogUrl}
+                        className='ms-3 me-3 text-decoration-none text-black align-items-center col-xs-12 col-lg-6'
+                    >
+                        <Card className=''>
+                            <Card.Body>
                                 <div className='hover-effect'>
                                     <img
                                         src={tstoryIcon}
@@ -140,10 +139,10 @@ const BlogCard = ({ technology }) => {
                                         모두보기
                                     </h4>
                                 </div>
-                            )}
-                        </Card.Body>
-                    </Card>
-                </a>
+                            </Card.Body>
+                        </Card>
+                    </a>
+                )}
             </Card.Body>
         </Card>
     );
