@@ -216,10 +216,12 @@ const DatabaseCard = ({ portfolio }) => {
                         })}
                 </div>
 
+                <h4 className='text-muted mt-4 mb-3'>ER Diagram</h4>
+
                 <img
                     src={portfolio.db.erDiagram}
                     alt='springfeed-er-diagram'
-                    className='img-fluid border mt-4 hover-effect'
+                    className='img-fluid border hover-effect'
                 />
             </Card.Body>
         </Card>
