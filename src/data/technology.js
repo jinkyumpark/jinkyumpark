@@ -1,25 +1,26 @@
 // Language
-import javaIcon from '../images/technology/java.png';
+import javaIcon from '../images/technology/language/java.png';
+import kotlinIcon from '../images/technology/language/kotlin.png';
 // Front
-import reactIcon from '../images/technology/reactjs.png';
-import bootstrapIcon from '../images/technology/bootstrap.png';
-import jqueryIcon from '../images/technology/jquery.ico';
-// Spring
-import springIcon from '../images/technology/spring.png';
-import jpaIcon from '../images/technology/jpa.png';
-import springSecurityIcon from '../images/technology/spring-security.png';
-import springCloudIcon from '../images/technology/spring-cloud.png';
+import reactIcon from '../images/technology/frontend/reactjs.png';
+import bootstrapIcon from '../images/technology/frontend/bootstrap.png';
+import jqueryIcon from '../images/technology/frontend/jquery.ico';
+// Backend
+import springIcon from '../images/technology/backend/spring.png';
+import jpaIcon from '../images/technology/backend/jpa.png';
+import springSecurityIcon from '../images/technology/backend/spring-security.png';
+import springCloudIcon from '../images/technology/backend/spring-cloud.png';
 // DevOps
-import dockerIcon from '../images/technology/docker.png';
-import k8sIcon from '../images/technology/k8s.png';
-import junit5Icon from '../images/technology/junit.png';
-import gitIcon from '../images/technology/git.png';
-import awsIcon from '../images/technology/aws.jpeg';
+import dockerIcon from '../images/technology/devops/docker.png';
+import k8sIcon from '../images/technology/devops/k8s.png';
+import junit5Icon from '../images/technology/devops/junit.png';
+import gitIcon from '../images/technology/devops/git.png';
+import awsIcon from '../images/technology/devops/aws.jpeg';
 // App
-import swiftuiIcon from '../images/technology/swiftui.png';
+import swiftuiIcon from '../images/technology/app/swiftui.png';
 // Tools
-import vimIcon from '../images/technology/vim.png';
-import intellijIcon from '../images/technology/intellij.png';
+import vimIcon from '../images/technology/tools/vim.png';
+import intellijIcon from '../images/technology/tools/intellij.png';
 // Db
 import mysqlIcon from '../images/technology/db/mysql.png';
 import oracleIcon from '../images/technology/db/oracle.png';
@@ -41,6 +42,15 @@ export const technologies = {
             ],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/Java',
+        },
+        {
+            id: 2,
+            icon: kotlinIcon,
+            name: 'Kotlin',
+            category: 'language',
+            features: [],
+            featured: true,
+            blogUrl: '',
         },
     ],
     // 10-19

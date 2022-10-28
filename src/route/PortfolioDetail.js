@@ -10,7 +10,7 @@ import WebLink from '../common/WebLink';
 import { portfolios } from '../data/portfolio';
 import { technologies } from '../data/technology';
 // Images
-import websiteIcon from '../images/url-icon/website-1.png';
+import websiteIcon from '../images/url-icon/website-2.png';
 import githubIcon from '../images/url-icon/github-icon.png';
 // Resources
 import '../css/hover-effect.css';
