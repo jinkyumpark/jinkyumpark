@@ -41,7 +41,7 @@
 <div align="center">
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
-🎓 뉴욕주립대 수학과
+🎓 뉴욕주립대 스토니브룩 본캠 수학과
   <br/>
 ✏️ 국비지원 백엔드 과정 수료 <br/>
 ✏️ 프로그래머스 코딩테스트 커뮤러닝 6기 수료
