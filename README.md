@@ -10,15 +10,13 @@
 </p>
 
 ## Skills
-주요기술
-<br/>
-![Java](https://img.shields.io/badge/Java-eb9c3f?style=for-the-badge&logo=Java&logoColor=white)
-![springboot](https://img.shields.io/badge/Sringboot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
+주요기술<br/>
+![Java](https://img.shields.io/badge/Java-eb9c3f?style=for-the-badge&logo=java&logoColor=white)
+![springboot](https://img.shields.io/badge/Springboot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
 
 <br/>
 
-사용가능
-<br/>
+사용가능<br/>
 ![React](https://img.shields.io/badge/React-007396?style=for-the-badge&logo=React&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery)
@@ -27,6 +25,7 @@
 ![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white)
+
 <br/>
 
 도구 <br/>
