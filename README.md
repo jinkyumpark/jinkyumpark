@@ -61,4 +61,4 @@
 | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
 | 책-it-all, 종합 책 커뮤니티 | Java, Spring Boot, Spring Security, JPA, MySQL, React.js, Bootstrap, Docker | 없음 | 1인 | [book.jinkyumpark.com](https://book.jinkyumpark.com) |
 | Simply Journal, 매일 한 번 일기쓰기 | Front(React, Bootstrap), Back(Spring Boot, JPA, MySQL), DevOps(AWS, Docker, CI/CD with Github Actions), SW Enginnering(REST API, Testing(JUnit, Mockito), Refactoring on each cycle) | 없음 | 1인 | [diary.jinkyumpark.com](http://diary.jinkyumpark.com) |
-| Springfeed, 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP, React.js, Bootstrap | 없음 | 3인 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
+| Springfeed, 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP | 없음 | 3인 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
