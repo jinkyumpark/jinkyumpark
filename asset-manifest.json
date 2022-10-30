@@ -1,36 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.422aa1f0.css",
-    "main.js": "/static/js/main.7aa51580.js",
+    "main.js": "/static/js/main.6e8713d8.js",
     "static/media/simply-journal.png": "/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/springfeed.png": "/static/media/springfeed.a52ed64982b101b3f36d.png",
-    "static/media/postgres.png": "/static/media/postgres.c8891cc79d21bc263a06.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
+    "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
     "static/media/vim.png": "/static/media/vim.dd3c71bebdeb6d6bddc6.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.f132cb791703420e69ca.png",
     "static/media/springfeed-er.png": "/static/media/springfeed-er.7e37f94a5bf882aada27.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
-    "static/media/redis.png": "/static/media/redis.1d5b7292f05865ff2ada.png",
+    "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
     "static/media/spring.png": "/static/media/spring.14da12d9d34e7c57cba4.png",
+    "static/media/redis.png": "/static/media/redis.535d968f683913ee201c.png",
     "static/media/oracle.png": "/static/media/oracle.f2ea1ab2f68d2c0e081e.png",
     "static/media/k8s.png": "/static/media/k8s.88e38f11b997f80e8998.png",
     "static/media/junit.png": "/static/media/junit.a064065d06e7833dd89f.png",
     "static/media/aws.jpeg": "/static/media/aws.1702b9adf156784d9efb.jpeg",
-    "static/media/website-1.png": "/static/media/website-1.655d54c71f9bde647248.png",
-    "static/media/reactjs.png": "/static/media/reactjs.44319306359c7112276d.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
+    "static/media/website-2.png": "/static/media/website-2.27b599f9345bcb5afde9.png",
     "index.html": "/index.html",
     "main.422aa1f0.css.map": "/static/css/main.422aa1f0.css.map",
-    "main.7aa51580.js.map": "/static/js/main.7aa51580.js.map"
+    "main.6e8713d8.js.map": "/static/js/main.6e8713d8.js.map"
   },
   "entrypoints": [
     "static/css/main.422aa1f0.css",
-    "static/js/main.7aa51580.js"
+    "static/js/main.6e8713d8.js"
   ]
 }
