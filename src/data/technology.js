@@ -103,7 +103,11 @@ export const technologies = {
             icon: springIcon,
             name: 'Spring',
             category: 'back',
-            features: ['OOP SOLID 원칙을 잘 지킨 REST API 개발'],
+            features: [
+                'OOP SOLID 원칙을 잘 지킨 N-tier Architecture 기반 REST API 개발',
+                'Jackson, Lombok, Gson 등 3rd Party Libarary 적극 활용',
+                'Spring의 역할과 특징(AOP, IoC, POJO 등)에 대한 이해 깊음',
+            ],
             featured: true,
             blogUrl:
                 'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Boot',
@@ -115,7 +119,11 @@ export const technologies = {
             icon: jpaIcon,
             name: 'JPA',
             category: 'back',
-            features: ['DB 특성을 고려한 JPA 활용'],
+            features: [
+                '1:1, 1:N, N:1을 Entity Class에서 요구사항에 적절하게 표현가능',
+                '@Transactional, @Modifying 등 DBMS에서 필요한 특성 JPA로 활용 가능',
+                'Paging, Sorting 처리 가능',
+            ],
             featured: true,
             blogUrl: 'https://jinkpark.tistory.com/category/프로그래밍/JPA',
             resumeFeatured: true,
@@ -126,9 +134,11 @@ export const technologies = {
             name: 'Spring Security',
             category: 'back',
             features: [
-                'PasswordEncoder 등을 사용한 Authentication',
-                'Authorization',
-                'CSRF 등 일반적인 보안위협에 대응',
+                'Spring Security Filter의 Life Cycle을 이해하고 활용',
+                'Basic Auth, Form-Login, JWT 등의 장단점을 알고있고, 구현 가능',
+                'CSRF, XSS, SQL Injection 등 일반적인 보안위협에 대응',
+                'REST API 기반 JWT 구현',
+                'Role, Permission을 활용해서 Authorization 구현',
             ],
             featured: true,
             blogUrl:
@@ -140,7 +150,9 @@ export const technologies = {
             icon: springCloudIcon,
             name: 'Spring Cloud',
             category: 'back',
-            features: [],
+            features: [
+                'BFF 등의 Architecture 패턴의 장단점, 특징을 잘 알고 있고 적재적소에 활용 가능',
+            ],
             featured: true,
             blogUrl:
                 'https://jinkpark.tistory.com/category/프로그래밍/Spring%20Cloud',
