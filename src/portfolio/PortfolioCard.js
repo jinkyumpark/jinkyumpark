@@ -1,7 +1,6 @@
 import React from 'react';
 import { portfolioUrl } from '../data/url';
 import '../css/hover-effect.css';
-import { Badge } from 'react-bootstrap';
 
 const PortfolioCard = ({ portfolio, textStyle }) => {
     const portfolioDetailUrl = `${portfolioUrl}/${portfolio.name}`;
@@ -11,19 +10,6 @@ const PortfolioCard = ({ portfolio, textStyle }) => {
             href={portfolioDetailUrl}
             className={`text-decoration-none ${textStyle}`}
         >
-            <h3>
-                <Badge
-                    bg={portfolio.status.style}
-                    style={{
-                        position: 'absolute',
-                        right: '-5%',
-                        top: '-3%',
-                    }}
-                >
-                    {portfolio.status.name}
-                </Badge>
-            </h3>
-
             <img
                 src={portfolio.image}
                 alt={`${portfolio.title} thumbnail`}
