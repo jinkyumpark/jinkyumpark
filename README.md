@@ -1,5 +1,6 @@
 <p align="center">
-  ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)  
+  ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+  <br/>
   ![TISTORY](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white)  
   
   🙋‍♂️ 안녕하세요!
