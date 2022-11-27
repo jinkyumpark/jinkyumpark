@@ -28,7 +28,7 @@
 | ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
 | ![TiStory](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://jinkpark.tistory.com |
 | ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://www.linkedin.com/in/jinkyum-park | 
-| 개인 사이트 | https://www.jinkyumpark.com | 
+| | https://www.jinkyumpark.com | 
   
 </div>
 
@@ -55,8 +55,8 @@
 <br/>
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![aws](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 <br/>
 
