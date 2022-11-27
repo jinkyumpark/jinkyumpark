@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.422aa1f0.css",
-    "main.js": "/static/js/main.31535aba.js",
+    "main.js": "/static/js/main.8e8ef8da.js",
     "static/media/simply-journal.png": "/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
+    "static/media/book-it-out.png": "/static/media/book-it-out.1b62adcff460809f72c7.png",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/springfeed.png": "/static/media/springfeed.a52ed64982b101b3f36d.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
@@ -23,13 +24,14 @@
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
+    "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
     "static/media/website-2.png": "/static/media/website-2.27b599f9345bcb5afde9.png",
     "index.html": "/index.html",
     "main.422aa1f0.css.map": "/static/css/main.422aa1f0.css.map",
-    "main.31535aba.js.map": "/static/js/main.31535aba.js.map"
+    "main.8e8ef8da.js.map": "/static/js/main.8e8ef8da.js.map"
   },
   "entrypoints": [
     "static/css/main.422aa1f0.css",
-    "static/js/main.31535aba.js"
+    "static/js/main.8e8ef8da.js"
   ]
 }
