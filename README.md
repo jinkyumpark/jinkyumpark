@@ -1,8 +1,4 @@
-<p align="center">
-  ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-  <br/>
-  ![TISTORY](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white)  
-  
+<p align="center">  
   🙋‍♂️ 안녕하세요!
   <br/><br/>
   웹 표준을 준수하면서 읽기 쉬운 Clean Code를 쓰기 위해 항상 공부하는 백엔드 개발자, <b>박진겸</b>입니다.
@@ -11,7 +7,19 @@
   확장성 높은 Architecture와 스프링의 다양한 Library들을 적극 활용해 변화에 적응하는 웹 서비스 설계하고 있습니다.
   <br/>
   Testing을 중요하게 생각하고, 수학 전공인 만큼 함수형 프로그래밍과 CS 기초 이론에 관심이 많습니다.
+  <br/>
 </p>
+
+<div align="center">
+  
+| | |
+| -- | -- |
+| ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
+| ![TiStory](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://jinkpark.tistory.com |
+| ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://www.linkedin.com/in/jinkyum-park | 
+| 개인 사이트 | https://www.jinkyumpark.com | 
+  
+</div>
 
 ## Skills
 주요기술<br/>
@@ -39,6 +47,9 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
+![Alfred](https://img.shields.io/badge/alfred-%235C1F87.svg?style=for-the-badge&logo=alfred)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 <hr/>
 
