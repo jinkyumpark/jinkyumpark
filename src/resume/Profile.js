@@ -1,66 +1,60 @@
-import React from 'react';
-import { Card, Table } from 'react-bootstrap';
+import React from 'react'
+import { Card, Table } from 'react-bootstrap'
 
 const Profile = ({ profile }) => {
-    return (
-        <Card className='mb-5'>
-            <Card.Body>
-                <div className='row'>
-                    <div className=' col-xs-12 col-lg-3'>
-                        <img
-                            src={profile.image}
-                            alt={`${profile.koreanName} profile`}
-                            className='img-fluid rounded'
-                        />
-                    </div>
-                    <div className='col-xs-12 col-lg-9 '>
-                        <h2 className='text-start mt-3'>
-                            {profile.koreanName + ' '}
-                            <small className='text-muted'>
-                                {profile.englishName}
-                            </small>
-                        </h2>
+	return (
+		<Card className='mb-5'>
+			<Card.Body>
+				<div className='row'>
+					<div className=' col-xs-12 col-lg-3'>
+						<img src={profile.image} alt={`${profile.koreanName} profile`} className='img-fluid rounded' />
+					</div>
+					<div className='col-xs-12 col-lg-9 '>
+						<h2 className='text-start mt-3'>
+							{profile.koreanName + ' '}
+							<small className='text-muted'>{profile.englishName}</small>
+						</h2>
 
-                        <TableView profile={profile} />
-                    </div>
-                </div>
-            </Card.Body>
-        </Card>
-    );
-};
+						<TableView profile={profile} />
+					</div>
+				</div>
+			</Card.Body>
+		</Card>
+	)
+}
 
 const TableView = ({ profile }) => {
-    return (
-        <Table hover responsive className='mt-4'>
-            <tbody>
-                <tr>
-                    <td>🎉</td>
-                    <td>{profile.birthDate}</td>
+	return (
+		<Table hover responsive className='mt-4'>
+			<tbody>
+				<tr>
+					<td>🎉</td>
+					<td>{profile.birthDate}</td>
 
-                    <td>🎓</td>
-                    <td>{profile.university}</td>
-                </tr>
+					<td>🎓</td>
+					<td>{profile.university}</td>
+				</tr>
 
-                <tr>
-                    <td>🏡</td>
-                    <td>{profile.address}</td>
+				<tr>
+					<td>🏡</td>
+					<td>{profile.address}</td>
 
-                    <td>✏️</td>
-                    <td>{profile.education}</td>
-                </tr>
+					<td>✏️</td>
+					<td>{profile.education}</td>
+				</tr>
 
-                <tr>
-                    <td> 📞</td>
-                    <td>{profile.phone}</td>
-                </tr>
+				<tr>
+					<td> 📞</td>
+					<td>{profile.phone}</td>
+				</tr>
 
-                <tr>
-                    <td>✉️</td>
-                    <td>{profile.email}</td>
-                </tr>
-            </tbody>
-        </Table>
-    );
-};
+				<tr>
+					<td>✉️</td>
+					<td>{profile.email}</td>
+				</tr>
+			</tbody>
+		</Table>
+	)
+}
 
-export default Profile;
+export default Profile

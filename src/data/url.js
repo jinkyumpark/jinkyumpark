@@ -1,5 +1,5 @@
-const technologiesDetailUrl = '/technology';
-const resumeUrl = '/resume';
-const portfolioUrl = '/portfolio';
+const technologiesDetailUrl = '/technology'
+const resumeUrl = '/resume'
+const portfolioUrl = '/portfolio'
 
-export { technologiesDetailUrl, resumeUrl, portfolioUrl };
+export { technologiesDetailUrl, resumeUrl, portfolioUrl }
