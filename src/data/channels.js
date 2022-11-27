@@ -1,6 +1,7 @@
 import githubIcon from '../images/url-icon/github-icon.png'
 import linkedinIcon from '../images/url-icon/linkedin-icon.png'
 import tstoryIcon from '../images/url-icon/tstory-icon.png'
+import notionIcon from '../images/url-icon/notion-icon.png'
 
 export const channels = [
 	{
@@ -14,5 +15,9 @@ export const channels = [
 	{
 		url: 'https://www.linkedin.com/in/jinkyum-park/',
 		icon: linkedinIcon,
+	},
+	{
+		url: 'https://jinkyumpark.notion.site',
+		icon: notionIcon,
 	},
 ]
