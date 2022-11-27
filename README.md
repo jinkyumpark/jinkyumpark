@@ -1,4 +1,7 @@
 <p align="center">
+  ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)  
+  ![TISTORY](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white)  
+  
   🙋‍♂️ 안녕하세요!
   <br/><br/>
   웹 표준을 준수하면서 읽기 쉬운 Clean Code를 쓰기 위해 항상 공부하는 백엔드 개발자, <b>박진겸</b>입니다.
