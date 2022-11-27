@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { BiErrorCircle as ErrorIcon } from 'react-icons/bi'
 
-const Error = ({ mainErrorMessage, subErrorMessage, subStyle = 'text-muted', delay = 500 }) => {
+const Error = ({ mainErrorMessage, subErrorMessage = '', subStyle = 'text-muted', delay = 500 }) => {
 	const errorIconStyle = {
 		width: '150px',
 		height: '100px',

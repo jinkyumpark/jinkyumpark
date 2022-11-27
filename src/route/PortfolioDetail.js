@@ -181,20 +181,27 @@ const DatabaseCard = ({ portfolio }) => {
 				<h3>Database</h3>
 
 				<div className='row justify-content-center mt-4'>
-					{portfolio.db.used
-						.map((db) => technologies.db.find((tech) => tech.id === db))
-						.map((db) => {
-							return (
-								<div className='col-6 col-lg-3 mb-3'>
-									<TechIcon technology={db} />
-								</div>
-							)
-						})}
+					{portfolio.db.used == null ? (
+						<Error mainErrorMessage='DB 관련 정보가 없어요' />
+					) : (
+						portfolio.db.used
+							.map((db) => technologies.db.find((tech) => tech.id === db))
+							.map((db) => {
+								return (
+									<div className='col-6 col-lg-3 mb-3'>
+										<TechIcon technology={db} />
+									</div>
+								)
+							})
+					)}
 				</div>
 
-				<h4 className='text-muted mt-4 mb-3'>ER Diagram</h4>
-
-				<img src={portfolio.db.erDiagram} alt='springfeed-er-diagram' className='img-fluid border hover-effect' />
+				{portfolio.db.erDiagram != null && (
+					<>
+						<h4 className='text-muted mt-4 mb-3'>ER Diagram</h4>
+						<img src={portfolio.db.erDiagram} alt='springfeed-er-diagram' className='img-fluid border hover-effect' />
+					</>
+				)}
 			</Card.Body>
 		</Card>
 	)

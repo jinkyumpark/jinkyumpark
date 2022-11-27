@@ -3,6 +3,8 @@ import simplyJournal from '../images/portfolio/simply-journal.png'
 // Springfeed
 import springfeed from '../images/portfolio/springfeed.png'
 import springfeedErDiagram from '../images/portfolio/er-diagram/springfeed-er.png'
+// book it out
+import bookItOut from '../images/portfolio/book-it-out.png'
 // URL Data
 import { portfolioUrl } from './url'
 
@@ -13,10 +15,43 @@ import { portfolioUrl } from './url'
 
 export const portfolios = [
 	{
+		id: 3,
+		name: 'book-it-out',
+		title: '책-it-out',
+		subtitle: '책벌래들의 독서생활을 더 편리하게',
+		introduction: `
+		내가 소설은 몇 권 읽었을까? 작년에 하루 평균 몇 분 정도 책을 읽었지?
+		독서를 좋아하는 책벌래라면 누구나 궁금한 질문
+        `,
+		participants: 1,
+		image: bookItOut,
+		status: {
+			style: 'danger',
+			name: '진행중',
+		},
+
+		primaryFeatures: [
+			'내 독서활동을 한 눈에 보여주는 통계',
+			'도서관, 서점, 중고서점 등 책을 파는 모든 곳에서 내가 읽고 싶은 책 한 번에 검색!',
+			'내 독서활동 측정하고, 인용/메모를 한 곳에서 관리',
+		],
+		difficulties: [],
+
+		url: `/${portfolioUrl}/book-it-out`,
+		githubLink: 'https://github.com/jinkyumpark/book-it-out',
+		siteLink: 'https://book.jinkyumpark.com',
+
+		technologiesUsed: [1, 2, 3, 4, 5, 6, 7, 8],
+
+		db: {},
+
+		challenges: [],
+	},
+	{
 		id: 2,
 		name: 'simply-journal',
 		title: 'Simply Journal',
-		subtitle: '매일 간단하게 한 줄씩 일기를 쓰게 도와주는 사이트',
+		subtitle: '매일 간단하게 한 줄씩이라도, 일기로 추억하게',
 		introduction: `
         우연히 옛날 일기를 발견해 읽었는데, 너무 즐거워 일기를 쓰기로 했습니다. 
         하지만 의외로 마땅한 서비스가 없어 직접 만들었습니다.
@@ -44,7 +79,7 @@ export const portfolios = [
 		technologiesUsed: [1, 2, 3, 4, 5, 6, 7, 8],
 
 		db: {
-			erDiagram: springfeedErDiagram,
+			erDiagram: null,
 			used: [61, 63],
 			query: '',
 		},
