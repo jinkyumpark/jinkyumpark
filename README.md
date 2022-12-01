@@ -14,6 +14,9 @@
   Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서를 틈틈히 읽습니다.
   <br/>
   
+  Testing 작성을 중요시 합니다. Mocking Library를 사용한 dependency 없는 Unit Test와, Integration Test를 Github Actions에 CI/CD로 점목해 본 경험이 있습니다.
+  <br/>
+  
   Apple 같은 회사의 제품을 경험하고 좋은 UI/UX가 단순 치장이 아니라 제품의 핵심 가치가 될 수 있고, 사용자를 팬으로 만들 수 있음에 충격을 받았습니다. 
   Apple, 비바리퍼블리카, 우아한형제들 같은 회사의 UI/UX를 사랑하고 알고싶어 다양한 회사들의 테크 컨퍼런스, 디자인 컨퍼런스, 블로그를 항상 챙겨 봅니다.
   <br/>
