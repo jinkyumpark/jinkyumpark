@@ -6,6 +6,7 @@
   <br/>
   
   Java EE에 대한 이해도가 높고 Spring의 다양한 Project들을 적극 활용해 요구사항에 맞는 Application을 개발할 수 있습니다.
+  (Spring Security, Spring Cloud, Spring Data JPA, Spring Batch 등)
   <br/>
   
   수학과 교양수업으로 개발자 직군에 처음 관심을 가져서 그런지 기초를 중요시 생각하고 컴퓨터 과학 이론에 관심이 많아 유튜브로 대학 강의를 듣거나 다양한 기술서적을 많이 읽습니다.
