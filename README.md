@@ -79,8 +79,8 @@
 <hr/>
 
 <div align="center">
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
-  
+<img align="right" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&layout=compact&langs_count=6"/>
+
 🎓 뉴욕주립대 스토니브룩 본캠 수학과
   <br/>
 ✏️ 국비지원 백엔드 과정 수료 <br/>
