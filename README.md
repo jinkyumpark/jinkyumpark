@@ -6,23 +6,29 @@
   <br/>
   
   Java EE에 대한 이해도가 높고 Spring의 다양한 Project들을 적극 활용해 요구사항에 맞는 Application을 개발할 수 있습니다.
-  (Spring Security, Spring Cloud, Spring Data JPA, Spring Batch 등)
+  (Spring Security, Spring Cloud, Spring Data JPA, Spring Batch, Spring Webflux)
   <br/>
   
-  수학과 교양수업으로 개발자 직군에 처음 관심을 가져서 그런지 기초를 중요시 생각하고 컴퓨터 과학 이론에 관심이 많아 유튜브로 대학 강의를 듣거나 다양한 기술서적을 많이 읽습니다.
+  항상 새로운 기술과 더 나은 해결책을 고민합니다. 
+  기존 Java 프로젝트에 Kotlin, Spring Webflux를 도입하거나, 사용하는 기술의 새로운 버전이 나오면 새로운 기능을 사용해 적극적으로 기존 코드를 refactoring 합니다.
+  <br/>
+  
+  수학을 전공해 컴퓨터 과학 기초 이론에 관심이 많아 직무와는 연관되지 않아도 유튜브로 대학 강의를 듣거나 다양한 기술서적을 많이 읽습니다.
   <br/>
   
   Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서, 바람직한 Project Organization 및 Coding Convention을 틈틈히 공부합니다.
   <br/>
   
-  Testing 작성을 중요시 합니다. JUnit, AssertJ, Mockito를 사용한 읽기 쉽고 빠른 Unit Test와,  Integration Test를 CI/CD에 점목해 본 경험이 있습니다.
+  Testing 작성을 중요시 합니다. JUnit, AssertJ, Mockito를 사용한 읽기 쉽고 빠른 Unit Test와, Integration Test를 CI/CD에 점목해 본 경험이 있습니다.
   <br/>
   
-  Apple 같은 회사의 제품을 경험하고 좋은 UI/UX가 단순 치장이 아니라 제품의 핵심 가치가 될 수 있고, 사용자를 팬으로 만들 수 있음에 충격을 받았습니다. 
-  Apple, 비바리퍼블리카, 우아한형제들 같은 회사의 UI/UX를 사랑하고 알고싶어 다양한 회사들의 테크 컨퍼런스, 디자인 컨퍼런스, 블로그를 항상 챙겨 봅니다.
+  Apple, 우아한형제들, 비바리퍼블리카 같은 회사의 제품을 경험하고 좋은 UI/UX가 단순히 치장이 아니라 제품의 핵심 가치가 될 수 있고, 
+  사용자를 팬으로 만들 수 있음에 충격을 받았습니다. 이런 혁신적인 IT 회사의 일하는 방식을 알고 싶어 테크 컨퍼런스, 블로그, 책을 항상 챙겨 봅니다.
   <br/>
   
-  뭐든지 더 빠르고 효율 좋게 하기 위한 생산성에 관심이 많습니다. IDEA를 써도 단축키나 내장된 기능을 계속 배우고, 자주쓰는 App이나 Web Site의 단축키는 모두 외웁니다. 반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM의 단축키 활용을 연습하고 있습니다.
+  뭐든지 더 빠르고 효율 좋게 하기 위한 생산성에 관심이 많습니다. 
+  IDEA를 써도 단축키나 내장된 기능을 계속 배우고, 자주쓰는 App이나 Web Site의 단축키는 모두 외웁니다. 
+  반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM의 단축키 활용을 연습하고 있습니다.
   <br/>
 </p>
 
