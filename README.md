@@ -85,7 +85,7 @@
 <hr/>
 
 <div align="center">
-<img align="right" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jinkyumpark&theme=dracula&layout=compact&langs_count=7"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinkyumpark&langs_count=8&layout=compact&theme=dracula"/>
 
 🎓 뉴욕주립대 스토니브룩 본캠 수학과
   <br/>
