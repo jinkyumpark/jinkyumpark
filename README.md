@@ -89,7 +89,7 @@
 <div align="center">
 <img align="right" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jinkyumpark&langs_count=8&layout=compact&theme=dracula"/>
 
-🎓 뉴욕주립대 스토니브룩 본캠 수학과
+🎓 수학과 3학년 마침
   <br/>
 ✏️ 국비지원 백엔드 과정 수료 <br/>
 ✏️ 프로그래머스 코딩테스트 커뮤러닝 6기 수료
