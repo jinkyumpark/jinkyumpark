@@ -1,44 +1,48 @@
 # Multi Language Introductions
-- [Korean(한국어)](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-kr.md)
+- [Korean (한국어)](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-kr.md)
+- [Japanese](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-jp.md)
 
 # About me
 <p align="center">  
   
-  🙋‍♂️ Hi! I'm a backend engineer who's commited to clean code
+  🙋‍♂️ Hi! I'm Jinkyum Park, a backend engineer who's committed to clean code.
   <br/><br/>
   
-  I am capable of developing MSA in Spring with decent understandings of underlying technologies like Java EE and Spring Framework Architecture.
-  I have used Spring, Spring Boot, Spring Security, Spring Batch, Spring Cloud Gateway, Spring Cloud Config, Eureka, Hystrix in projects to name a few.
+  I possess extensive experience in developing MSA applications using the Spring framework, 
+  backed by a solid understanding of underlying technologies such as Java EE and Spring Framework Architecture. 
+  Throughout my projects, I have successfully utilized various Spring technologies 
+  including Spring Boot, Spring Security, Spring Batch, Spring Cloud Gateway, Spring Cloud Config, Eureka, and Hystrix, among others.
   <br/>
   
-  I am serious about Clean Code. I refactor my code periodically and habitually checks official documents as well as good conventions for coding and project organizations.
+  Maintaining a strong commitment to Clean Code principles, 
+  I regularly refactor my code to ensure its maintainability and adhere to official documentation and established coding conventions. 
+  My dedication to well-structured project organization and clean code remains unwavering.
   <br/>
   
-  I am extremely interested in new technologies that can solve problems in a better way.
-  I use new technologies like kotlin, spring webflux to refactor my old code.
-  I am up-to-date with latest editions and refactor my code accordingly
+  I exhibit a keen interest in exploring new technologies that offer superior solutions to existing problems. 
+  I continuously refactor and modernize my code, remaining up-to-date with the latest advancements in the field.
   <br/>
   
-  I value foundations and very much interested in theoratical aspects of Computer Science (maybe because I'm a math major)
-  As such, I like to take CS college courses on YouTube and read books even when they are not directly related to my work.
+  As a firm believer in the importance of a strong foundation, I actively pursue theoretical aspects of Computer Science, driven by my background in mathematics. 
+  This passion leads me to engage in CS college courses available on YouTube and read books, even if they may not directly relate to my work.
   <br/>
   
-  I have learned that writing test are absolutely crutial when it comes to software longevity.
-  I try to write Unit Test and Integration Test zelously.
+  Through the development of relatively large applications, I have come to recognize the critical importance of writing comprehensive tests for ensuring software longevity. 
+  As a result, I try to write Unit Test and Integration Test rather zelously.
   <br/>
   
-  I have experienced that good UIs and UXs are not only a decoration, 
-  but also a core value to the product through good products like Apple, Viva Repulica(Toss, South Korean Fintech Startup), Woowa Bros(South Korean delivery service startup) to name a few.
-  To learn from them, I always keep track of innovative tech companies through their conferences, blogs, and books.
+  My firsthand experience with outstanding products, 
+  such as Apple, Viva Republica (Toss, a South Korean Fintech Startup), and Woowa Bros (a South Korean delivery service startup), 
+  has underscored the significance of well-designed UI/UX. 
+  To continually enhance my knowledge in this area, I actively follow and learn from innovative tech companies by watching their conferences, reading blogs, and books.
   <br/>
   
-  I am interested in productivity tips and tools.
+  I hold a strong interest in productivity tips and tools.
   I learn shortcuts of every apps and website that I use often.
   I always think about how to automate repetivie tasks.
   <br/>
   
-  I like to be immersed in what I am doing and achieve something that seems improbable.
-  
+  Immersing myself in my work and achieving seemingly improbable goals drive my motivation, allowing me to consistently push boundaries and deliver exceptional outcomes.
 </p>
 
 <br/>
@@ -85,11 +89,13 @@ CAN USE<br/>
 
 TOOLS I LOVE<br/>
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
 ![Alfred](https://img.shields.io/badge/alfred-%235C1F87.svg?style=for-the-badge&logo=alfred)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 ![iterm2](https://img.shields.io/badge/iterm2-%23000000?style=for-the-badge&logo=iterm2&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 <hr/>
 
