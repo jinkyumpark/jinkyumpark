@@ -52,7 +52,7 @@
 | | |
 | -- | -- |
 | ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
-| ![Blog](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | http://blog.jinkyumpark.com |
+| ![Blog](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://blog.jinkyumpark.com |
 | ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://linkedin.com/in/jinkyumpark |   
 </div>
 
