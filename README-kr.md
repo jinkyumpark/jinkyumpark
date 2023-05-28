@@ -2,8 +2,9 @@
   🙋‍♂️ 안녕하세요! Clean Code에 진심인 몰입하는 서버 개발자, <b>박진겸</b>입니다.
   <br/><br/>
   
-  Java EE와 Spring Architecture에 대한 이해를 바탕으로 N-tier Architecture, MSA 기반 Application을 개발할 수 있습니다.
-  (Spring Boot, Spring Webflux, Spring Security, Spring Cloud, Spring Data JPA, Spring Batch)
+  실제 출시를 목표로 하고 있는 포트폴리오 [책잇아웃](https://booksitout.com)을 만들면서, 복잡하고 다양한 요구사항을 확장성있게 설계하기 위한 풍부한 경험을 했습니다.
+  적절한 기술을 비교하고 선택하고, 데이터를 바탕으로 의사결정을 내리고, 과거의 잘못된 설계로부터 배우면서 기술의 장단점을 통찰하고 빠르게 학습하는 역량을 길렀습니다.
+  ([관련 블로그 글 보기](https://blog.jinkyumpark.com/category/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%B1%85%EC%9E%87%EC%95%84%EC%9B%83%28%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%29))
   <br/>
   
   Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서, 바람직한 Project Organization 및 Coding Convention을 틈틈히 공부합니다.
@@ -13,10 +14,11 @@
   기존 Java 프로젝트에 Kotlin, Spring Webflux를 도입하거나, 사용하는 기술의 새로운 버전이 나오면 새로운 기능을 사용해 적극적으로 기존 코드를 refactoring 합니다.
   <br/>
   
-  기초를 중요하게 생각하고, 수학 전공이라 컴퓨터의 이론적 측면에도 관심이 많습니다. 반드시 직무와 관련되지 않더라도 여러 컴퓨터 과학 대학 강의를 유튜브에서 보거나 기술서적을 읽는 것을 좋아합니다.
+  Spring Cloud 기반 MSA를 설계하고, AWS에 여러개의 EC2 instance로 Github Actions를 사용해서 CI/CD로 배포한 경험이 있습니다. 
+  Sleuth, Zipkin을 활용해서 Log를 수집했고, Spring Cloud Gateway, Eureka 등은 추후 K8S로 Reafactoring 하기도 했습니다.
   <br/>
   
-  Testing 작성을 중요시 합니다. JUnit, AssertJ, Mockito를 사용한 읽기 쉽고 빠른 Unit Test와, Integration Test를 CI/CD에 점목해 본 경험이 있습니다.
+  기초를 중요하게 생각하고, 수학 전공이라 컴퓨터의 이론적 측면에도 관심이 많습니다. 반드시 직무와 관련되지 않더라도 여러 컴퓨터 과학 대학 강의를 유튜브에서 보거나 기술서적을 읽는 것을 좋아합니다.
   <br/>
   
   Apple, 우아한형제들, 비바리퍼블리카 같은 회사의 제품을 경험하고 좋은 UI/UX가 단순히 치장이 아니라 제품의 핵심 가치가 될 수 있고, 사용자를 팬으로 만들 수 있음에 충격을 받았습니다. 이런 혁신적인 IT 회사의 일하는 방식을 알고 싶어 테크 컨퍼런스, 블로그, 책을 항상 챙겨 봅니다.
