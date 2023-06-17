@@ -121,7 +121,8 @@ TOOLS I LOVE<br/>
 
 ## Portfolios
 
-| Name                                | Tech Stack                                                                                                                                                                             | Notes | Participants Count | Link                                                             |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | ---------------------------------------------------------------- |
-| Booksitout         | Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | -     | 1      | [booksitout.com](https://booksitout.com)             |
-| Springfeed, Instagram based Social Networking Service     | Spring Boot, Oracle DB(PL/SQL), JSP                                                                                                                                                  | -     | 3      | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
+| Name | Tech Stack | Participants Count | Link |
+| - | - | - | - |
+| Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Emotion, Sass, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS), Naver Cloud (OCR) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
+| Everyone's Garden | Spring Boot, JPA, MySQL | 5 (2 Backend, 2 Frontend, 1 Desinger) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+| Springfeed, Instagram based Social Networking Service | Spring Boot, Oracle DB(PL/SQL), JSP | 3 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
