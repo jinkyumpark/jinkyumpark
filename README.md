@@ -123,6 +123,8 @@ TOOLS I LOVE<br/>
 
 | Name | Tech Stack | Participants Count | Link |
 | - | - | - | - |
-| Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Emotion, Sass, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS), Naver Cloud (OCR) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
+| Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Styled-Components, SaSS, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS, EKS), Naver Cloud (OCR, Map) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
 | Everyone's Garden | Spring Boot, JPA, MySQL | 5 (2 Backend, 2 Frontend, 1 Desinger) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| Springfeed, Instagram based Social Networking Service | Spring Boot, Oracle DB(PL/SQL), JSP | 3 | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
+| Beauty99 | - | 2 (1 Frontend + Backend, 1 Desinger) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
+| SubsTrack | SwiftUI | 1 | - |
+| Springfeed | Spring Boot, Oracle DB(PL/SQL), JSP | 3 | - |
