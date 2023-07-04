@@ -29,7 +29,7 @@
   반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM의 단축키 활용을 연습하고 있습니다.
   <br/>
   
-  어떤 것을 하더라도, 그것에 완전히 몰입해 불가능해 보이는 성취를 하는 경험을 좋아합니다.
+  어떤 것을 하더라도, 그것에 완전히 몰입해 불가능해 보이는 성취를 하는 것에서 동기부여를 얻습니다.
   
 </p>
 
@@ -107,7 +107,10 @@
 
 ## Portfolios
 
-| 이름                                | 사용기술                                                                                                                                                                             | 특이사항 | 개발인원 | 링크                                                             |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | ---------------------------------------------------------------- |
-| 책잇아웃, 종합 책 커뮤니티         | Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 없음     | 1인      | [booksitout.com](https://booksitout.com)             |
-| Springfeed, 인스타그램 기반 SNS     | Spring Boot, Oracle DB(PL/SQL), JSP                                                                                                                                                  | 없음     | 3인      | [springfeed.jinykyumpark.com](http://springfeed.jinkyumpark.com) |
+| 이름 | 설명 | 사용기술 | 인원 | 링크 |
+| - | - | - | - | - |
+| 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
+| Everyone's Garden | 농업경진대회 출품 | Spring Boot, JPA, MySQL | 5명 (백 2명 + 프 2명 + 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+| Beauty99 | 뷰티 업계 종사자들을 위한 채용 플렛폼 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
+| SubsTrack | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI | 1명 | - |
+| Springfeed | 국비지원학원에서 진행한 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP | 3명 | - |
