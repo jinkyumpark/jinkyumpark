@@ -26,7 +26,7 @@
   
   뭐든지 더 빠르고 효율 좋게 하기 위한 생산성에 관심이 많습니다. 
   IDEA를 써도 단축키나 내장된 기능을 계속 배우고, 자주쓰는 App이나 Web Site의 단축키는 모두 외웁니다. 
-  반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM의 단축키 활용을 연습하고 있습니다.
+  반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM을 IDE에서 활용하는 것에 관심을 가지고 있습니다.
   <br/>
   
   어떤 것을 하더라도, 그것에 완전히 몰입해 불가능해 보이는 성취를 하는 것에서 동기부여를 얻습니다.
@@ -39,8 +39,8 @@
   
 | | |
 | -- | -- |
-| ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
 | ![TiStory](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://blog.jinkyumpark.com |
+| ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
 | ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://linkedin.com/in/jinkyumpark |   
 </div>
 
@@ -111,6 +111,6 @@
 | - | - | - | - | - |
 | 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
 | Everyone's Garden | 농업경진대회 출품 | Spring Boot, JPA, MySQL | 5명 (백 2명 + 프 2명 + 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| Beauty99 | 뷰티 업계 종사자들을 위한 채용 플렛폼 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
+| 미용업계 | 뷰티 업계 종사자들을 위한 채용 플렛폼, 23년 7월 시작, 개발중 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
 | SubsTrack | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI | 1명 | - |
 | Springfeed | 국비지원학원에서 진행한 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP | 3명 | - |
