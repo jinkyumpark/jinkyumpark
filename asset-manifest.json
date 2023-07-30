@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.0f0a3b5a.js",
+    "main.js": "/static/js/main.090776cb.js",
     "static/media/substrack.png": "/static/media/substrack.04bb90ce8f910e627179.png",
     "static/media/simply-journal.png": "/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
     "static/media/booksitout.png": "/static/media/booksitout.d3e2ca5f719fa109faef.png",
@@ -23,6 +23,7 @@
     "static/media/aws.jpeg": "/static/media/aws.1702b9adf156784d9efb.jpeg",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/apple-appstore.png": "/static/media/apple-appstore.ac27f5d85dc15535d736.png",
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
@@ -31,10 +32,10 @@
     "static/media/website-2.png": "/static/media/website-2.27b599f9345bcb5afde9.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.0f0a3b5a.js.map": "/static/js/main.0f0a3b5a.js.map"
+    "main.090776cb.js.map": "/static/js/main.090776cb.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.0f0a3b5a.js"
+    "static/js/main.090776cb.js"
   ]
 }
