@@ -1,18 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.e863bd90.js",
-    "static/media/substrack.png": "/static/media/substrack.04bb90ce8f910e627179.png",
-    "static/media/simply-journal.png": "/static/media/simply-journal.e4c59b81fe7a1910d4d7.png",
-    "static/media/booksitout.png": "/static/media/booksitout.d3e2ca5f719fa109faef.png",
-    "static/media/beauty-industry.png": "/static/media/beauty-industry.4cf9fe02095b755eea37.png",
+    "main.js": "/static/js/main.b090c099.js",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
-    "static/media/everyone-garden.png": "/static/media/everyone-garden.82b88791b4d1ab1bf12d.png",
-    "static/media/springfeed.png": "/static/media/springfeed.a52ed64982b101b3f36d.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
     "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
     "static/media/vim.png": "/static/media/vim.dd3c71bebdeb6d6bddc6.png",
-    "static/media/springfeed-er.png": "/static/media/springfeed-er.7e37f94a5bf882aada27.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
     "static/media/spring.png": "/static/media/spring.14da12d9d34e7c57cba4.png",
@@ -29,13 +22,12 @@
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
-    "static/media/website-2.png": "/static/media/website-2.27b599f9345bcb5afde9.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.e863bd90.js.map": "/static/js/main.e863bd90.js.map"
+    "main.b090c099.js.map": "/static/js/main.b090c099.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.e863bd90.js"
+    "static/js/main.b090c099.js"
   ]
 }
