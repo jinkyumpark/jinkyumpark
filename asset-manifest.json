@@ -1,33 +1,43 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.7a89293c.js",
+    "main.js": "/static/js/main.06602a1e.js",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
+    "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
     "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
     "static/media/vim.png": "/static/media/vim.dd3c71bebdeb6d6bddc6.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
     "static/media/spring.png": "/static/media/spring.14da12d9d34e7c57cba4.png",
+    "static/media/node.png": "/static/media/node.007e99f68b718e476aba.png",
     "static/media/redis.png": "/static/media/redis.535d968f683913ee201c.png",
     "static/media/oracle.png": "/static/media/oracle.f2ea1ab2f68d2c0e081e.png",
+    "static/media/python.png": "/static/media/python.07a98139a3638f2a224b.png",
     "static/media/k8s.png": "/static/media/k8s.88e38f11b997f80e8998.png",
+    "static/media/oracle-db.png": "/static/media/oracle-db.a5f61773c5f554a5d864.png",
     "static/media/junit.png": "/static/media/junit.a064065d06e7833dd89f.png",
+    "static/media/html.png": "/static/media/html.a92a549a591f4acb527a.png",
     "static/media/aws.jpeg": "/static/media/aws.1702b9adf156784d9efb.jpeg",
+    "static/media/linux.png": "/static/media/linux.8f43b47d4911fa04d8f3.png",
+    "static/media/css.png": "/static/media/css.02d225c7df0b28341d8d.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/apple-appstore.png": "/static/media/apple-appstore.ac27f5d85dc15535d736.png",
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
+    "static/media/gradle.png": "/static/media/gradle.942882edbde4fd48f99c.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.7a89293c.js.map": "/static/js/main.7a89293c.js.map"
+    "main.06602a1e.js.map": "/static/js/main.06602a1e.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.7a89293c.js"
+    "static/js/main.06602a1e.js"
   ]
 }
