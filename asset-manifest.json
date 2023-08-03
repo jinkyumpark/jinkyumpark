@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.81a1981f.js",
+    "main.js": "/static/js/main.46b04166.js",
+    "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
+    "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
+    "static/media/booksitout.jpeg": "/static/media/booksitout.16dc4b6da9672dfaf3a7.jpeg",
+    "static/media/beauty99.png": "/static/media/beauty99.bc9b6a8b9514d93bcf17.png",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/coredata.png": "/static/media/coredata.832c268ce7876eebd976.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
     "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
     "static/media/vim.png": "/static/media/vim.dd3c71bebdeb6d6bddc6.png",
+    "static/media/xcodecloud.png": "/static/media/xcodecloud.538e64dd92ed852b99c7.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
+    "static/media/swift.png": "/static/media/swift.40dd73618fde696644f2.png",
     "static/media/spring.png": "/static/media/spring.14da12d9d34e7c57cba4.png",
     "static/media/node.png": "/static/media/node.007e99f68b718e476aba.png",
     "static/media/redis.png": "/static/media/redis.535d968f683913ee201c.png",
+    "static/media/cloudkit.png": "/static/media/cloudkit.8748d45a9a2e217c2a3a.png",
     "static/media/oracle.png": "/static/media/oracle.f2ea1ab2f68d2c0e081e.png",
     "static/media/python.png": "/static/media/python.07a98139a3638f2a224b.png",
     "static/media/k8s.png": "/static/media/k8s.88e38f11b997f80e8998.png",
@@ -34,10 +42,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.81a1981f.js.map": "/static/js/main.81a1981f.js.map"
+    "main.46b04166.js.map": "/static/js/main.46b04166.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.81a1981f.js"
+    "static/js/main.46b04166.js"
   ]
 }
