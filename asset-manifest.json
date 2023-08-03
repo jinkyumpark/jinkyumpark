@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.46b04166.js",
+    "main.js": "/static/js/main.476672cd.js",
+    "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
     "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
     "static/media/booksitout.jpeg": "/static/media/booksitout.16dc4b6da9672dfaf3a7.jpeg",
     "static/media/beauty99.png": "/static/media/beauty99.bc9b6a8b9514d93bcf17.png",
+    "static/media/simplyjournal.jpeg": "/static/media/simplyjournal.ff789912316d01423d47.jpeg",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/coredata.png": "/static/media/coredata.832c268ce7876eebd976.png",
@@ -42,10 +44,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.46b04166.js.map": "/static/js/main.46b04166.js.map"
+    "main.476672cd.js.map": "/static/js/main.476672cd.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.46b04166.js"
+    "static/js/main.476672cd.js"
   ]
 }
