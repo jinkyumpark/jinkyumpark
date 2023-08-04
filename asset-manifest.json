@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.2d7b8bff.js",
+    "main.js": "/static/js/main.887de210.js",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
     "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
@@ -44,10 +44,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.2d7b8bff.js.map": "/static/js/main.2d7b8bff.js.map"
+    "main.887de210.js.map": "/static/js/main.887de210.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.2d7b8bff.js"
+    "static/js/main.887de210.js"
   ]
 }
