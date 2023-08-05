@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.1694c701.js",
+    "main.js": "/static/js/main.9b9da5ab.js",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
     "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
@@ -9,6 +9,7 @@
     "static/media/beauty99.png": "/static/media/beauty99.bc9b6a8b9514d93bcf17.png",
     "static/media/simplyjournal.jpeg": "/static/media/simplyjournal.ff789912316d01423d47.jpeg",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
+    "static/media/springfeed.png": "/static/media/springfeed.a52ed64982b101b3f36d.png",
     "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/coredata.png": "/static/media/coredata.832c268ce7876eebd976.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
@@ -38,16 +39,17 @@
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
     "static/media/gradle.png": "/static/media/gradle.942882edbde4fd48f99c.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
+    "static/media/substrack.png": "/static/media/substrack.ef0ab845f0f4886f68d6.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.1694c701.js.map": "/static/js/main.1694c701.js.map"
+    "main.9b9da5ab.js.map": "/static/js/main.9b9da5ab.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.1694c701.js"
+    "static/js/main.9b9da5ab.js"
   ]
 }
