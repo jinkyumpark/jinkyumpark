@@ -7,56 +7,17 @@
   
   🙋‍♂️ Hi! I'm Jinkyum Park, a backend engineer who's committed to clean code.
   <br/><br/>
-  
-  I possess extensive experience in developing MSA applications using the Spring framework, 
-  backed by a solid understanding of underlying technologies such as Java EE and Spring Framework Architecture. 
-  Throughout my projects, I have successfully utilized various Spring technologies 
-  including Spring Boot, Spring Security, Spring Batch, Spring Cloud Gateway, Spring Cloud Config, Eureka, and Hystrix, among others.
-  <br/>
-  
-  Maintaining a strong commitment to Clean Code principles, 
-  I regularly refactor my code to ensure its maintainability and adhere to official documentation and established coding conventions. 
-  My dedication to well-structured project organization and clean code remains unwavering.
-  <br/>
-  
-  I exhibit a keen interest in exploring new technologies that offer superior solutions to existing problems. 
-  I continuously refactor and modernize my code, remaining up-to-date with the latest advancements in the field.
-  <br/>
-  
-  As a firm believer in the importance of a strong foundation, I actively pursue theoretical aspects of Computer Science, driven by my background in mathematics. 
+
+  - Working full-time as a backend engineer at [Viva Repulica (Toss)](https://toss.im/), a South Korean Fintech Startup valued at 10 billion USD.
+  - Maintaining a strong commitment to Clean Code principles, I regularly refactor my code to ensure its maintainability and adhere to official documentation and established coding conventions. My dedication to well-structured project organization and clean code remains unwavering.
+  - As a firm believer in the importance of a strong foundation, I actively pursue theoretical aspects of Computer Science, driven by my background in mathematics. 
   This passion leads me to engage in CS college courses available on YouTube and read books, even if they may not directly relate to my work.
-  <br/>
-  
-  Through the development of relatively large applications, I have come to recognize the critical importance of writing comprehensive tests for ensuring software longevity. 
-  As a result, I try to write Unit Test and Integration Test rather zelously.
-  <br/>
-  
-  My firsthand experience with outstanding products, 
-  such as Apple, Viva Republica (Toss, a South Korean Fintech Startup), and Woowa Bros (a South Korean delivery service startup), 
-  has underscored the significance of well-designed UI/UX. 
-  To continually enhance my knowledge in this area, I actively follow and learn from innovative tech companies by watching their conferences, reading blogs, and books.
-  <br/>
-  
-  I hold a strong interest in productivity tips and tools.
-  I learn shortcuts of every apps and website that I use often.
-  I always think about how to automate repetivie tasks.
-  <br/>
-  
-  Immersing myself in my work and achieving seemingly improbable goals drive my motivation, allowing me to consistently push boundaries and deliver exceptional outcomes.
+  - Immersing myself in my work and achieving seemingly improbable goals drive my motivation, allowing me to consistently push boundaries and deliver exceptional outcomes.
 </p>
 
 <br/>
 
-<div align="center">
-  
-| | |
-| -- | -- |
-| ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
-| ![Blog](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://blog.jinkyumpark.com |
-| ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://linkedin.com/in/jinkyumpark |   
-</div>
-
-## Skills
+# Skills
 
 MAIN<br/>
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -92,11 +53,11 @@ TOOLS I LOVE<br/>
 ![Alfred](https://img.shields.io/badge/alfred-%235C1F87.svg?style=for-the-badge&logo=alfred)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
 ![iterm2](https://img.shields.io/badge/iterm2-%23000000?style=for-the-badge&logo=iterm2&logoColor=white)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+<br/>
 <hr/>
 
 <div align="center">
@@ -118,13 +79,12 @@ TOOLS I LOVE<br/>
 </div>
 
 <hr/>
+<br/>
 
-## Portfolios
+# Portfolios
 
 | Name | Tech Stack | Participants Count | Link |
 | - | - | - | - |
 | Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Styled-Components, SaSS, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS, EKS), Naver Cloud (OCR, Map) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
-| Everyone's Garden | Spring Boot, JPA, MySQL | 5 (2 Backend, 2 Frontend, 1 Desinger) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| Beauty99 | - | 2 (1 Frontend + Backend, 1 Desinger) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
-| SubsTrack | SwiftUI | 1 | - |
-| Springfeed | Spring Boot, Oracle DB(PL/SQL), JSP | 3 | - |
+| Everyone's Garden | Spring Boot, JPA, MySQL | 5 | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+| SubsTrack | SwiftUI | 1 | [jinkyumpark.com/substrack](jinkyumpark.com/product/substrack) |
