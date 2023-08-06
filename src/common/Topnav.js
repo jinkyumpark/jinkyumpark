@@ -9,18 +9,16 @@ const Topnav = () => {
 
 	return (
 		<>
-			<Navbar bg='dark' variant='dark'>
+			<Navbar bg='dark' variant='dark' fixed='top' className='p-1 m-0'>
 				<Container>
 					<Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>서버 개발자 박진겸</Navbar.Brand>
 					<Nav className='me-auto'>
-						<Nav.Link href={`${process.env.PUBLIC_URL}/resume`} active={currentUrl.startsWith('/resume')}>
-							이력서
-						</Nav.Link>
 						<Nav.Link href={`${process.env.PUBLIC_URL}/portfolio`} active={currentUrl.startsWith('/portfolio')}>
 							포트폴리오
 						</Nav.Link>
-						<Nav.Link href={`${process.env.PUBLIC_URL}/technology`} active={currentUrl.startsWith('/technology')}>
-							기술
+
+						<Nav.Link href={`${process.env.PUBLIC_URL}/product`} active={currentUrl.startsWith('/product')}>
+							출시제품
 						</Nav.Link>
 					</Nav>
 				</Container>

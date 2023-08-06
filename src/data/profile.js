@@ -11,12 +11,13 @@ export const profile = {
 	university: '뉴욕주립대 스토니브룩 수학과 휴학 (4학년)',
 	education: '국비지원학원 자바 웹개발자 과정수료 (7개월)',
 
-	title: `확장성과 Clean Code를 중요시하는 서버 개발자, 박진겸입니다`,
-	summary: `
-    기술을 단순히 피상적으로 사용하지 않고 원리를 이해하는걸 좋아합니다.
-    기초를 중요하게 생각해 많은 기술 서적과 유튜브에서 제공하는 강의들을 틈틈히 공부합니다.
-    항상 어떻게 하면 더 읽기 쉬운 코드를 쓸 수 있을까 고민하고 습관적으로 refactoring합니다.
-    `,
+	title: `깊게 몰입해 의미있는 것을 이뤄<br/> 동기부여를 얻는 개발자, <br/>박진겸입니다.`,
+	summaries: [
+		`<a href="https://toss.im/" target="_blank" class="text-decoration-none">비바리퍼블리카 (토스)</a> 서버 개발자`,
+		`기술의 원리를 이해하는걸 즐깁니다`,
+		`Clean Code를 쓰기 위해 refactoring을 습관화합니다`,
+		`유저들이 필요하고 쓰기 편한 서비스를 만들고 싶습니다`,
+	],
 	experience: [
 		{
 			id: 1,

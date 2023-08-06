@@ -1,0 +1,36 @@
+.clamp-1-line {
+    font-size: clamp(16px, 3vw, 24px);
+    line-height: 1.4;
+    max-width: 100%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+li {
+    /* text-indent: -1em; */
+    /* padding-left: 1em; */
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+@supports(padding:max(0px)) {
+    body, header, footer {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right));
+    }
+}
+
+.content {
+    padding: 16px;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+html {
+    margin-top: 100px;
+}

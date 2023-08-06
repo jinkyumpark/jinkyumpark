@@ -7,17 +7,21 @@ export const channels = [
 	{
 		url: 'https://github.com/jinkyumpark',
 		icon: githubIcon,
+		border: false,
 	},
 	{
-		url: 'https://jinkpark.tistory.com',
+		url: 'https://blog.jinkyumpark.com',
 		icon: tstoryIcon,
+		border: true,
 	},
 	{
-		url: 'https://www.linkedin.com/in/jinkyum-park/',
+		url: 'https://www.linkedin.com/in/jinkyumpark',
 		icon: linkedinIcon,
+		border: false,
 	},
-	{
-		url: 'https://jinkyumpark.notion.site',
-		icon: notionIcon,
-	},
+	// {
+	// 	url: 'https://jinkyumpark.notion.site',
+	// 	icon: notionIcon,
+	// 	border: false,
+	// },
 ]

@@ -1,0 +1,7 @@
+.force-1-line {
+    white-space: nowrap;
+}
+
+.clamp-1-line {
+    text-overflow: ellipsis;
+}

@@ -7,11 +7,11 @@ const ResumeSection = () => {
 	const buttonText = `이력서 보러 가기`
 
 	const backgroundStyle = {
-		backgroundColor: `rgb(26, 188, 156)`,
+		backgroundColor: `rgb(255, 255, 255)`,
 	}
 
 	return (
-		<section class='text-center text-white pt-5 pb-5' style={backgroundStyle}>
+		<section class='text-center text-black pt-5 pb-5' style={backgroundStyle}>
 			<div className='container'>
 				<h1>{resumeTitle}</h1>
 
@@ -23,7 +23,7 @@ const ResumeSection = () => {
 							</div>
 							<div className='col-xs-12 col-lg-3 mt-3 mt-lg-0'>
 								<a href={resumeUrl} className='text-decoration-none text-black'>
-									<div className='btn btn-light'>{buttonText}</div>
+									<div className='btn btn-dark'>{buttonText}</div>
 								</a>
 							</div>
 						</div>
