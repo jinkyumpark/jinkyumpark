@@ -1,48 +1,14 @@
 <p align="center">  
   🙋‍♂️ 안녕하세요! Clean Code에 진심인 몰입하는 서버 개발자, <b>박진겸</b>입니다.
   <br/><br/>
-  
-  실제 출시를 목표로 하고 있는 포트폴리오 [책잇아웃](https://booksitout.com)을 만들면서, 복잡하고 다양한 요구사항을 확장성있게 설계하기 위한 풍부한 경험을 했습니다.
-  적절한 기술을 비교하고 선택하고, 데이터를 바탕으로 의사결정을 내리고, 과거의 잘못된 설계로부터 배우면서 기술의 장단점을 통찰하고 빠르게 학습하는 역량을 길렀습니다.
-  ([관련 블로그 글 보기](https://blog.jinkyumpark.com/category/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%B1%85%EC%9E%87%EC%95%84%EC%9B%83%28%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%29))
-  <br/>
-  
-  Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서, 바람직한 Project Organization 및 Coding Convention을 틈틈히 공부합니다.
-  <br/>
-  
-  항상 새로운 기술과 더 나은 해결책을 고민합니다. 
-  기존 Java 프로젝트에 Kotlin, Spring Webflux를 도입하거나, 사용하는 기술의 새로운 버전이 나오면 새로운 기능을 사용해 적극적으로 기존 코드를 refactoring 합니다.
-  <br/>
-  
-  Spring Cloud 기반 MSA를 설계하고, AWS에 여러개의 EC2 instance로 Github Actions를 사용해서 CI/CD로 배포한 경험이 있습니다. 
-  Sleuth, Zipkin을 활용해서 Log를 수집했고, Spring Cloud Gateway, Eureka 등은 추후 K8S로 Reafactoring 하기도 했습니다.
-  <br/>
-  
-  기초를 중요하게 생각하고, 수학 전공이라 컴퓨터의 이론적 측면에도 관심이 많습니다. 반드시 직무와 관련되지 않더라도 여러 컴퓨터 과학 대학 강의를 유튜브에서 보거나 기술서적을 읽는 것을 좋아합니다.
-  <br/>
-  
-  Apple, 우아한형제들, 비바리퍼블리카 같은 회사의 제품을 경험하고 좋은 UI/UX가 단순히 치장이 아니라 제품의 핵심 가치가 될 수 있고, 사용자를 팬으로 만들 수 있음에 충격을 받았습니다. 이런 혁신적인 IT 회사의 일하는 방식을 알고 싶어 테크 컨퍼런스, 블로그, 책을 항상 챙겨 봅니다.
-  <br/>
-  
-  뭐든지 더 빠르고 효율 좋게 하기 위한 생산성에 관심이 많습니다. 
-  IDEA를 써도 단축키나 내장된 기능을 계속 배우고, 자주쓰는 App이나 Web Site의 단축키는 모두 외웁니다. 
-  반복되는 작업이 있으면 어떻게 자동화할 수 있을까 항상 고민하고 시도합니다. 최근에는 VIM을 IDE에서 활용하는 것에 관심을 가지고 있습니다.
-  <br/>
-  
-  어떤 것을 하더라도, 그것에 완전히 몰입해 불가능해 보이는 성취를 하는 것에서 동기부여를 얻습니다.
-  
+
+  - [비바리퍼블리카(토스)](https://toss.im/) 에서 서버 개발자로 일하고 있습니다. (2023년 9월 ~)
+  - Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서, 바람직한 Project Organization 및 Coding Convention을 틈틈히 공부합니다.
+  - 기술의 원리를 이해하는걸 좋아하고, 컴퓨터의 이론적 측면에도 관심이 많아 직무와 관련되지 않더라도 여러 CS 강의를 유튜브에서 보거나 기술서적을 읽는 것을 좋아합니다.
+  - 어떤 것을 하더라도 완전히 몰입해 의미있는 것을 이루는 것에서 동기부여를 얻습니다.  
 </p>
 
 <br/>
-
-<div align="center">
-  
-| | |
-| -- | -- |
-| ![TiStory](https://img.shields.io/badge/Tistory-%23000000.svg?style=for-the-badge&logo=tistory&logoColor=white) | https://blog.jinkyumpark.com |
-| ![Notion](https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white&link=https://jinkyumpark.notion.site") | https://jinkyumpark.notion.site |
-| ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) | https://linkedin.com/in/jinkyumpark |   
-</div>
 
 ## Skills
 
@@ -72,7 +38,6 @@
 ![aws](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-
 <br/>
 
 도구 <br/>
@@ -110,7 +75,8 @@
 | 이름 | 설명 | 사용기술 | 인원 | 링크 |
 | - | - | - | - | - |
 | 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
-| Everyone's Garden | 농업경진대회 출품 | Spring Boot, JPA, MySQL | 5명 (백 2명 + 프 2명 + 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| 미용업계 | 뷰티 업계 종사자들을 위한 채용 플렛폼, 23년 7월 시작, 개발중 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
-| SubsTrack | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI | 1명 | - |
+| Everyone's Garden | 농업경진대회 우수상 | Spring Boot, JPA, MySQL | 5명 (백 2명 + 프 2명 + 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+| SubsTrack | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
+| Purrfit Tracker | 수입을 기록하는 iOS 앱 | SwiftUI | 1명 | - |
+| 미용업계 | 뷰티 업계 종사자들을 위한 채용 플렛폼 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
 | Springfeed | 국비지원학원에서 진행한 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP | 3명 | - |
