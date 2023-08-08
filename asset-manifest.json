@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.d6fda2e7.js",
+    "main.js": "/static/js/main.2279049c.js",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
+    "static/media/boldPeople.png": "/static/media/boldPeople.f2100100a7337ceddfd9.png",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
     "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
     "static/media/purrfittracker.jpeg": "/static/media/purrfittracker.3d610065590a78fabedc.jpeg",
@@ -12,6 +13,7 @@
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/springfeed.jpeg": "/static/media/springfeed.458de62c5f28cd6ce997.jpeg",
     "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/boldPoeple.jpeg": "/static/media/boldPoeple.cd24610d5cedf7ed3c9a.jpeg",
     "static/media/coredata.png": "/static/media/coredata.832c268ce7876eebd976.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
     "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
@@ -48,10 +50,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.d6fda2e7.js.map": "/static/js/main.d6fda2e7.js.map"
+    "main.2279049c.js.map": "/static/js/main.2279049c.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.d6fda2e7.js"
+    "static/js/main.2279049c.js"
   ]
 }
