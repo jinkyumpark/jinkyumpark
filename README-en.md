@@ -1,7 +1,3 @@
-# Multi Language Introductions
-- [Korean (한국어)](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-kr.md)
-- [Japanese](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-jp.md)
-
 # About me
 <p align="center">  
   
@@ -18,7 +14,6 @@
 <br/>
 
 # Skills
-
 MAIN<br/>
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
@@ -82,7 +77,6 @@ TOOLS I LOVE<br/>
 <br/>
 
 # Portfolios
-
 | Name | Tech Stack | Participants Count | Link |
 | - | - | - | - |
 | Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Styled-Components, SaSS, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS, EKS), Naver Cloud (OCR, Map) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
