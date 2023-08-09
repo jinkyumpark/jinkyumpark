@@ -74,8 +74,6 @@
 | 이름 | 설명 | 사용기술 | 인원 | 링크 |
 | - | - | - | - | - |
 | 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
-| Everyone's Garden | 농업경진대회 우수상 | Spring Boot, JPA, MySQL | 5명 (백 2명 + 프 2명 + 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| SubsTrack | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
-| Purrfit Tracker | 수입을 기록하는 iOS 앱 | SwiftUI | 1명 | - |
-| 미용업계 | 뷰티 업계 종사자들을 위한 채용 플렛폼 | - | 2명 (개발자 1명 + 디자이너 1명) | [beauty.jinkyumpark.com](beauty.jinkyumpark.com) |
-| Springfeed | 국비지원학원에서 진행한 인스타그램 기반 SNS | Spring Boot, Oracle DB(PL/SQL), JSP | 3명 | - |
+| 모두의 텃밭 | 농업경진대회 우수상 수상 | Spring Boot, JPA, MySQL | 5명 (백 2명, 프 2명, 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+| 구독 관리미 | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI, CoreData, Cloudkit | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
+| 수입 관리냥 | 수입을 기록하는 iOS 앱 | SwiftUI, Swift Chart, Swift Data | 1명 | - |
