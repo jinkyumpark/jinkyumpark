@@ -1,3 +1,8 @@
+# Multi Language Introductions
+- [English](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-en.md)
+- [Japanese](https://github.com/jinkyumpark/jinkyumpark/blob/main/README-jp.md)
+
+# 소개
 <p align="center">  
   🙋‍♂️ 안녕하세요! Clean Code에 진심인 몰입하는 서버 개발자, <b>박진겸</b>입니다.
   <br/><br/>
@@ -10,9 +15,8 @@
 
 <br/>
 
-## Skills
-
-주요기술<br/>
+# 기술
+주요<br/>
 ![kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![ReactiveX](https://img.shields.io/badge/ReactiveX(Webflux)-B7178C?style=for-the-badge&logo=ReactiveX&logoColor=white)
 ![junit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white)
@@ -53,7 +57,7 @@
 <div align="center">
 <img align="right" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jinkyumpark&langs_count=8&layout=compact&theme=dracula"/>
 
-🎓 수학과 3학년 마침
+🎓 대학교 수학과 3학년 마침
   <br/>
 ✏️ 국비지원 백엔드 과정 수료 <br/>
   
@@ -69,7 +73,10 @@
 
 <hr/>
 
-## Portfolios
+# 포트폴리오
+[jinkyumpark.com](https://jinkyumpark.com)에서 더 깔끔하게 보실 수 있습니다!
+<br/>
+<br/>
 
 | 이름 | 설명 | 사용기술 | 인원 | 링크 |
 | - | - | - | - | - |
