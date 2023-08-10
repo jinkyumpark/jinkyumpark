@@ -53,8 +53,30 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![iterm2](https://img.shields.io/badge/iterm2-%23000000?style=for-the-badge&logo=iterm2&logoColor=white)
 
-<hr/>
+<br/>
 
+# 포트폴리오 (업무 제외)
+- [jinkyumpark.com](https://jinkyumpark.com)에서 더 깔끔하게 보실 수 있습니다!
+- 회사에서 업무로 개발한건 제외해서 주로 취미로 개발했거나 취업 준비생 시절 개발한 것들입니다.
+
+### 서버 개발에 참여한 Website 
+| 이름 | 설명 | 사용기술 | 인원 | 링크 |
+| - | - | - | - | - |
+| 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
+| 모두의 텃밭 | 농업경진대회 우수상 수상 | Spring Boot, JPA, MySQL | 5명 (백 2명, 프 2명, 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
+
+### iOS 앱
+| 이름 | 이름(영어) | 설명 | 인원 | 링크 |
+| - | - | - | - | - |
+| 구독 관리미 | Substrack | 구독 서비스를 관리, 탐색 | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
+| 수입 관리냥 | Purrfit Tracker | 수입을 기록, 관리 | 1명 | [jinkyumpark.com/purrfit-cat](https://jinkyumpark.com/portfolio/purrfit-tracker) |
+| 인생의 날 | Featured Day | 인생에서 기억하고 싶은 날들 기록 | 1명 | [jinkyumpark.com/featured-day](https://jinkyumpark.com/portfolio/featured-day) |
+| 피아노맨 | Pianoman | 악기 연습을 보조 | 1명 | [jinkyumpark.com/piano-man](https://jinkyumpark.com/portfolio/piano-man) |
+
+<br/>
+<br/>
+
+# 기타
 <div align="center">
 <img align="right" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jinkyumpark&langs_count=8&layout=compact&theme=dracula"/>
 
@@ -71,23 +93,4 @@
 🇨🇳 중국어 - HSK 3급
   <br/><br/>
 </div>
-
 <hr/>
-
-# 서버 개발에 참여한 Website (업무 제외)
-[jinkyumpark.com](https://jinkyumpark.com)에서 더 깔끔하게 보실 수 있습니다!
-<br/>
-<br/>
-
-| 이름 | 설명 | 사용기술 | 인원 | 링크 |
-| - | - | - | - | - |
-| 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
-| 모두의 텃밭 | 농업경진대회 우수상 수상 | Spring Boot, JPA, MySQL | 5명 (백 2명, 프 2명, 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-
-# iOS 앱
-| 이름 | 이름(영어) | 설명 | 인원 | 링크 |
-| - | - | - | - | - |
-| 구독 관리미 | Substrack | 구독 서비스를 관리, 탐색 | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
-| 수입 관리냥 | Purrfit Tracker | 수입을 기록, 관리 | 1명 | [jinkyumpark.com/purrfit-cat](https://jinkyumpark.com/portfolio/purrfit-tracker) |
-| 인생의 날 | Featured Day | 인생에서 기억하고 싶은 날들 기록 | 1명 | [jinkyumpark.com/featured-day](https://jinkyumpark.com/portfolio/featured-day) |
-| 피아노맨 | Pianoman | 악기 연습을 보조 | 1명 | [jinkyumpark.com/piano-man](https://jinkyumpark.com/portfolio/piano-man) |
