@@ -10,7 +10,8 @@
   - [비바리퍼블리카(토스)](https://toss.im/) 에서 서버 개발자로 일하고 있습니다. (2023년 9월 ~)
   - Clean Code에 진심입니다. 읽기 쉽고 이해하기 쉬운 코드를 쓰기 위해 Refactoring을 습관적으로 하고 공식문서, 바람직한 Project Organization 및 Coding Convention을 틈틈히 공부합니다.
   - 기술의 원리를 이해하는걸 좋아하고, 컴퓨터의 이론적 측면에도 관심이 많아 직무와 관련되지 않더라도 여러 CS 강의를 유튜브에서 보거나 기술서적을 읽는 것을 좋아합니다.
-  - 어떤 것을 하더라도 완전히 몰입해 의미있는 것을 이루는 것에서 동기부여를 얻습니다.  
+  - 어떤 것을 하더라도 완전히 몰입해 의미있는 것을 이루는 것에서 동기부여를 얻습니다.
+  - 취미로 iOS앱을 개발하고 있습니다.  
 </p>
 
 <br/>
@@ -73,7 +74,7 @@
 
 <hr/>
 
-# 포트폴리오
+# 서버 개발에 참여한 Website (업무 제외)
 [jinkyumpark.com](https://jinkyumpark.com)에서 더 깔끔하게 보실 수 있습니다!
 <br/>
 <br/>
@@ -82,5 +83,11 @@
 | - | - | - | - | - |
 | 책잇아웃 | 종합 책 커뮤니티 |Java, Kotlin, Spring Boot, Spring Webflux, Spring Security, JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Docker, K8S, AWS, Github Actions | 1명 | [booksitout.com](https://booksitout.com) |
 | 모두의 텃밭 | 농업경진대회 우수상 수상 | Spring Boot, JPA, MySQL | 5명 (백 2명, 프 2명, 디자이너 1명) | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| 구독 관리미 | 구독 서비스를 관리 / 탐색하는 iOS 앱 | SwiftUI, CoreData, Cloudkit | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
-| 수입 관리냥 | 수입을 기록하는 iOS 앱 | SwiftUI, Swift Chart, Swift Data | 1명 | - |
+
+# iOS 앱
+| 이름 | 이름(영어) | 설명 | 인원 | 링크 |
+| - | - | - | - | - |
+| 구독 관리미 | Substrack | 구독 서비스를 관리, 탐색 | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
+| 수입 관리냥 | Purrfit Tracker | 수입을 기록, 관리 | 1명 | [jinkyumpark.com/purrfit-cat](https://jinkyumpark.com/portfolio/purrfit-tracker) |
+| 인생의 날 | Featured Day | 인생에서 기억하고 싶은 날들 기록 | 1명 | [jinkyumpark.com/featured-day](https://jinkyumpark.com/portfolio/featured-day) |
+| 피아노맨 | Pianoman | 악기 연습을 보조 | 1명 | [jinkyumpark.com/piano-man](https://jinkyumpark.com/portfolio/piano-man) |
