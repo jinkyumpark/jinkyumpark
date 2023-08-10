@@ -70,7 +70,7 @@
 | - | - | - | - | - |
 | 구독 관리미 | Substrack | 구독 서비스를 관리, 탐색 | 1명 | [jinkyumpark.com/substrack](https://jinkyumpark.com/product/substrack) |
 | 수입 관리냥 | Purrfit Tracker | 수입을 기록, 관리 | 1명 | [jinkyumpark.com/purrfit-cat](https://jinkyumpark.com/portfolio/purrfit-tracker) |
-| 인생의 날 | Featured Day | 인생에서 기억하고 싶은 날들 기록 | 1명 | [jinkyumpark.com/featured-day](https://jinkyumpark.com/portfolio/featured-day) |
+| 인생의 날 | Featured Days | 인생에서 기억하고 싶은 날들 기록 | 1명 | [jinkyumpark.com/featured-days](https://jinkyumpark.com/portfolio/featured-days) |
 | 피아노맨 | Pianoman | 악기 연습을 보조 | 1명 | [jinkyumpark.com/piano-man](https://jinkyumpark.com/portfolio/piano-man) |
 
 <br/>
