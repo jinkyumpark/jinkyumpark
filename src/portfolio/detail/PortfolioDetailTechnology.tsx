@@ -14,7 +14,7 @@ const PortfolioDetailTechnology: React.FC<Props> = ({ portfolio }) => {
     return (
         <CardContainer>
             <Card.Body>
-                <CardTitle>사용된 기술</CardTitle>
+                <CardTitle>🤖 사용된 기술</CardTitle>
 
                 <TechnologyContainer>
                     {

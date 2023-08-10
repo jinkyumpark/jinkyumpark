@@ -3,7 +3,7 @@ import IntroductionSection from '../main/IntroductionSection'
 import PortfolioSection from '../main/PortfolioSection'
 import { profile } from '../data/profile'
 import { channels } from '../data/channels'
-import PortfolioData from '../data/portfolioData'
+import PortfolioData from '../data/PortfolioData'
 
 
 const Main = () => {

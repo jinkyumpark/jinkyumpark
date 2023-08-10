@@ -71,6 +71,15 @@ const portfolioEveryonesGarden: Portfolio = {
 			position: `Frontend Developer`,
 		},
 	],
+
+	db: {
+		images: [],
+		explanations: []
+	},
+
+	explanations: [
+		
+	]
 }
 
 export default portfolioEveryonesGarden

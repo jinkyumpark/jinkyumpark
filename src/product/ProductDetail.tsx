@@ -9,7 +9,7 @@ import ProductDetailFeaturesCard from './detail/ProductDetailFeaturesCard';
 import ProductDetailDemoCard from './detail/ProductDetailDemoCard';
 import ProductDetailEtcCard from './detail/ProductDetailEtcCard';
 import Portfolio from '../model/Portfolio';
-import PortfolioData from '../data/portfolioData';
+import PortfolioData from '../data/PortfolioData';
 
 const ProductDetail = () => {
     const { productName } = useParams()

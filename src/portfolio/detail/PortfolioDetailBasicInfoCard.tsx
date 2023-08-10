@@ -22,11 +22,11 @@ const PortfolioDetailBasicInfoCard: React.FC<Props> = ({ portfolio }) => {
 
 				<h5 className='text-muted'>{portfolio.description.short}</h5>
 
-				<div className="d-flex justify-content-center">
-					<DescriptionContainer>
+				<DescriptionContainer>
+					<Description>
 						<p className='mt-3'>{parser(portfolio.description.long)}</p>
-					</DescriptionContainer>
-				</div>
+					</Description>
+				</DescriptionContainer>
 
 				<LinkContainer>
 					{portfolio.link.map((link) => [<WebsiteLink link={link.link} icon={link.icon} border={link.border} />])}
@@ -77,13 +77,19 @@ const LinkContainer = styled.div.attrs({
 })`
 	display: flex;
 	justify-content: center;
-
+	
 	position: absolute;
 	bottom: 20px;
 	width: 100%;
 `;
 
-const DescriptionContainer = styled.div.attrs({
+const DescriptionContainer = styled.div`
+	display: flex;
+	justify-content: center;
+	text-align: left;
+`;
+
+const Description = styled.div.attrs({
 	className: ''
 })`
 	@media screen and (min-width: ${breakpoints.md}){

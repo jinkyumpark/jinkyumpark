@@ -75,6 +75,15 @@ const portfolioSpringfeed: Portfolio = {
 			position: 'Backend Developer',
 		},
 	],
+
+	db: {
+		images: [],
+		explanations: [],
+	},
+
+	explanations: [
+		
+	]
 }
 
 export default portfolioSpringfeed

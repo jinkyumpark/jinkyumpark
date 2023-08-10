@@ -4,6 +4,7 @@ import tstoryIcon from '../images/url-icon/tstory-icon.png'
 import notionIcon from '../images/url-icon/notion-icon.png'
 import appleAppstoreIcon from '../images/url-icon/apple-appstore.png'
 import booksitoutIcon from '../images/icons/booksitout.png'
+import generalLink from '../images/icons/link.png'
 
 const WebsiteIcon = {
 	github: githubIcon,
@@ -11,8 +12,9 @@ const WebsiteIcon = {
 	linkedin: linkedinIcon,
 	notion: notionIcon,
 	appleAppstore: appleAppstoreIcon,
+	link: generalLink,
 
-	booksitout: booksitoutIcon
+	booksitout: booksitoutIcon,
 }
 
 export default WebsiteIcon

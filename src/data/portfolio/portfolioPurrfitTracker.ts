@@ -6,11 +6,11 @@ import demo from '../../images/demo/purrfittracker.jpeg'
 
 const portfolioPurrfitTracker: Portfolio = {
 	id: 12,
-	status: PortfolioStatus.PLANNED,
+	status: PortfolioStatus.STARTED,
 	name: {
 		korean: '수입 관리냥',
 		english: 'Purrfit Tracker',
-		url: 'purrfit-trakcer',
+		url: 'purrfit-trackerr',
 	},
 	icon: icon,
 	link: [],
@@ -31,6 +31,15 @@ const portfolioPurrfitTracker: Portfolio = {
 			position: 'Developer',
 		},
 	],
+
+	db: {
+		images: [],
+		explanations: []
+	},
+
+	explanations: [
+		
+	]
 }
 
 export default portfolioPurrfitTracker

@@ -42,6 +42,15 @@ portfolioPianoman: Portfolio = {
 			position: 'Developer',
 		},
 	],
+
+	db: {
+		images: [],
+		explanations: [],
+	},
+
+	explanations: [
+		
+	]
 }
 
 export default portfolioPianoman

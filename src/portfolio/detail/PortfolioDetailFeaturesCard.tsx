@@ -12,7 +12,7 @@ const PortfolioDetailFeaturesCard: React.FC<Props> = ({ portfolio }) => {
     return (
     <CardContainer>
         <Card.Body>
-            <CardTitle>주요기능</CardTitle>
+            <CardTitle>⚙️ 주요기능</CardTitle>
 
             <ul className='text-start'>
                 {

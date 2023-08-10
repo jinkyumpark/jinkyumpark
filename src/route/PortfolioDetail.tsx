@@ -1,13 +1,16 @@
 import React from 'react'
 import { useParams } from 'react-router'
-import Error from '../common/Error'
+import styled from 'styled-components';
 import '../css/hover-effect.css'
+import Error from '../common/Error'
 import Portfolio from '../model/Portfolio'
-import PortfolioData from '../data/portfolioData'
+import PortfolioData from '../data/PortfolioData'
 import PortfolioDetailBasicInfoCard from '../portfolio/detail/PortfolioDetailBasicInfoCard'
-import PortfolioDetailFeatureCard from '../portfolio/detail/PortfolioDetailFeatureCard'
 import PortfolioDetailFeaturesCard from '../portfolio/detail/PortfolioDetailFeaturesCard'
 import PortfolioDetailTechnology from '../portfolio/detail/PortfolioDetailTechnology'
+import PortfolioDbCard from '../portfolio/detail/PortfolioDbCard'
+import PortfolioDifficultyCard from '../portfolio/detail/PortfolioDifficulties'
+import PortfolioDetailExplanationCard from '../portfolio/detail/PortfolioDetailExplanationCard';
 
 const PortfolioDetail = () => {
 	const { portfolioName } = useParams()
@@ -35,30 +38,33 @@ const PortfolioDetail = () => {
 			) : (
 				<div className='container mb-5'>
 					<div className='row row-eq-height row-eq-height'>
-						<div className='col-12 mt-5'>
-							<img src={portfolio.thumbnailImage} alt={`${portfolio.name}`} className='img-fluid rounded border' />
+						<div className='col-12 mt-4'>
+							<img src={portfolio.thumbnailImage} alt={`${portfolio.name}`} className='img-fluid rounded border w-100' />
 						</div>
 
-						<div className='col-12 mt-5'>
+						<FullContainer>
 							<PortfolioDetailBasicInfoCard portfolio={portfolio} />
-						</div>
+						</FullContainer>
 
-						<div className='col-xs-12 col-lg-6 mt-5'>
+						<HalfContainer>
 							<PortfolioDetailFeaturesCard portfolio={portfolio} />
-						</div>
+						</HalfContainer>
 
-						<div className='col-xs-12 col-lg-6 mt-5'>
-								<PortfolioDetailTechnology portfolio={portfolio} />
-						</div>
+						<HalfContainer>
+							<PortfolioDetailTechnology portfolio={portfolio} />
+						</HalfContainer>
 
-						{/* 
-						<div className='col-xs-12 col-lg-6 mt-5'>
-							<ListCard title='어려웠던 점' list={portfolio.difficulties} />
-						</div>
+						<FullContainer>
+							<PortfolioDetailExplanationCard portfolio={portfolio} />
+						</FullContainer>
 
-						<div className='col-12 mt-5'>
-							<DatabaseCard portfolio={portfolio} />
-						</div> */}
+						<FullContainer>
+							<PortfolioDbCard portfolio={portfolio} />
+						</FullContainer>
+
+						<FullContainer>
+							<PortfolioDifficultyCard portfolio={portfolio}/>
+						</FullContainer>
 					</div>
 				</div>
 			)}
@@ -66,62 +72,12 @@ const PortfolioDetail = () => {
 	)
 }
 
-// const DatabaseCard = ({ portfolio }) => {
-// 	return (
-// 		<Card className='h-100'>
-// 			<Card.Body>
-// 				<h3>Database</h3>
+const FullContainer = styled.div.attrs({
+	className: `col-12 mt-4`
+})``;
 
-// 				<div className='row justify-content-center mt-4'>
-// 					{portfolio.db.used == null ? (
-// 						<Error mainErrorMessage='DB 관련 정보가 없어요' />
-// 					) : (
-// 						portfolio.db.used
-// 							.map((db) => technologies.db.find((tech) => tech.id === db))
-// 							.map((db) => {
-// 								return (
-// 									<div className='col-6 col-lg-3 mb-3'>
-// 										<TechIcon technology={db} />
-// 									</div>
-// 								)
-// 							})
-// 					)}
-// 				</div>
-
-// 				{portfolio.db.erDiagram != null && (
-// 					<>
-// 						<h4 className='text-muted mt-4 mb-3'>ER Diagram</h4>
-// 						<img src={portfolio.db.erDiagram} alt='springfeed-er-diagram' className='img-fluid border hover-effect' />
-// 					</>
-// 				)}
-// 			</Card.Body>
-// 		</Card>
-// 	)
-// }
-
-// const Challenge = ({ challenges }) => {
-// 	return (
-// 		<Card>
-// 			<Card.Body>
-// 				<h3 className='mb-4'>기술적 고민</h3>
-
-// 				{challenges.length === 0 ? (
-// 					<Error mainErrorMessage='아직 기술적 고민이 없어요' />
-// 				) : (
-// 					challenges.map((challenge) => {
-// 						return (
-// 							<Card className='col-xs-12 col-6 hover-effect'>
-// 								<Card.Body>
-// 									<h4>{challenge.name}</h4>
-// 									<p>{parser(challenge.description)}</p>
-// 								</Card.Body>
-// 							</Card>
-// 						)
-// 					})
-// 				)}
-// 			</Card.Body>
-// 		</Card>
-// 	)
-// }
+const HalfContainer = styled.div.attrs({
+	className: `col-xs-12 col-lg-6 mt-4`
+})``;
 
 export default PortfolioDetail

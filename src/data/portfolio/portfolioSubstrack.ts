@@ -60,7 +60,16 @@ const portfolioSubstrack: Portfolio = {
 	],
 
 	developmentStartDate: new Date('2023-06-29'),
-	thumbnailImage: demo
+	thumbnailImage: demo,
+
+	db: {
+		images: [],
+		explanations: []
+	},
+
+		explanations: [
+		
+	]
 }
 
 export default portfolioSubstrack

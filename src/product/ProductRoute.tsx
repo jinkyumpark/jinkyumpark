@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from './ProductCard'
 import styled from 'styled-components';
 import { RouteTitle, RouteSubTitle } from '../common/RouteStyle'
-import PortfolioData from '../data/portfolioData';
+import PortfolioData from '../data/PortfolioData';
 import PortfolioStatus from '../model/PortfolioStatus';
 
 const ProductRoute = () => {

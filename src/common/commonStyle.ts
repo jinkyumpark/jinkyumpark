@@ -20,6 +20,11 @@ const FlexSpacer = styled.div`
 
 const CardTitle = styled.h3`
 	margin-bottom: 20px;
+	justify-content: start;
+	text-align: left;
+	font-weight: bold;
+
+	/* color: rgb(26, 188, 156); */
 `;
 
 export { MarginRow, MarginCol, FlexSpacer, CardTitle }

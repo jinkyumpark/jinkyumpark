@@ -18,6 +18,10 @@ interface Portfolio {
     participants: PortfolioParticipant[]
 
     developmentStartDate?: Date
+
+    db: PortfolioDb
+
+    explanations: string[]
 }
 
 interface PortfolioName {
@@ -42,6 +46,11 @@ interface PortfolioParticipant {
     name: string
     url: string
     position: string
+}
+
+interface PortfolioDb {
+    images: string[]
+    explanations: string[]
 }
 
 export default Portfolio

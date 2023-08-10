@@ -19,6 +19,11 @@ const portfolioSimplyJournal: Portfolio = {
 			icon: WebsiteIcon.github,
 			border: false,
 		},
+		{
+			link: `http://simply-journal.jinkyumpark.com/`,
+			icon: WebsiteIcon.link,
+			border: false,
+		},
 	],
 	description: {
 		short: `매일 간단하게 한 줄씩이라도, 일기로 추억하게`,
@@ -45,6 +50,15 @@ const portfolioSimplyJournal: Portfolio = {
 			position: 'Developer'
 		}
 	],
+
+	db: {
+		images: [],
+		explanations: [],
+	},
+
+	explanations: [
+		
+	]
 }
 
 export default portfolioSimplyJournal
