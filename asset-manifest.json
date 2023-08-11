@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.2cc510fe.js",
+    "main.js": "/static/js/main.98e38238.js",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/boldPeople.png": "/static/media/boldPeople.f2100100a7337ceddfd9.png",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
@@ -48,14 +48,15 @@
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "static/media/link.png": "/static/media/link.976b59becb66eba12d62.png",
+    "static/media/beautyIndustry.png": "/static/media/beautyIndustry.d35f7222378fcbd20fc6.png",
     "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.2cc510fe.js.map": "/static/js/main.2cc510fe.js.map"
+    "main.98e38238.js.map": "/static/js/main.98e38238.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.2cc510fe.js"
+    "static/js/main.98e38238.js"
   ]
 }
