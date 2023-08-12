@@ -13,7 +13,7 @@ import PortfolioDifficultyCard from '../portfolio/detail/PortfolioDifficulties'
 import PortfolioDetailExplanationCard from '../portfolio/detail/PortfolioDetailExplanationCard';
 
 const PortfolioDetail = () => {
-	const { portfolioName } = useParams()
+	const { portfolioName } = useParams<{ portfolioName: string }>()
 	const [portfolio, setPortfolio] = React.useState<Portfolio | null>(null)
 	React.useEffect(() => {
 		const portfolioArray = PortfolioData.filter((portfolio) => {
@@ -22,6 +22,7 @@ const PortfolioDetail = () => {
 
 		if (portfolioArray.length !== 0) {
 			setPortfolio(portfolioArray[0])
+			document.title = '포트폴리오 | ' + portfolioArray[0]?.name.korean ?? '없는 포트폴리오'
 		}
 	}, [portfolioName])
 

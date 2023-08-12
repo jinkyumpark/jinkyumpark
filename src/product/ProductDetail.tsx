@@ -29,6 +29,7 @@ const ProductDetail = () => {
 
         if (productCandidate.length !== 0) {
             setProduct(productCandidate[0])
+            document.title = `${productCandidate[0].name.korean ?? '오류'} | ${productCandidate[0].description.short}`
         }
     }, [productName])
 

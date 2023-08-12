@@ -1,7 +1,9 @@
 import Portfolio from "../../model/Portfolio";
 import PortfolioStatus from "../../model/PortfolioStatus";
 import WebsiteIcon from "../websiteIcon";
+
 import demo from '../../images/demo/pianoman.jpeg'
+import icon from '../../images/icons/pianoman.png'
 
 const 
 portfolioPianoman: Portfolio = {
@@ -12,7 +14,7 @@ portfolioPianoman: Portfolio = {
 		english: 'Pianoman',
 		url: 'piano-man',
 	},
-	icon: 'https://github.com/jinkyumpark/piano-man/assets/61900235/3a002dd6-a185-4d74-8cf1-7a600d0d3f54',
+	icon: icon,
 	link: [
 		{
 			link: 'https://apps.apple.com/us/app/pianoman/id6456449788',

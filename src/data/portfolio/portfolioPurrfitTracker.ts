@@ -10,7 +10,7 @@ const portfolioPurrfitTracker: Portfolio = {
 	name: {
 		korean: '수입 관리냥',
 		english: 'Purrfit Tracker',
-		url: 'purrfit-trackerr',
+		url: 'purrfit-tracker',
 	},
 	icon: icon,
 	link: [],

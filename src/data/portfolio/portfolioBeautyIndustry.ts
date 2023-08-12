@@ -1,6 +1,8 @@
 import Portfolio from "../../model/Portfolio";
 import PortfolioStatus from "../../model/PortfolioStatus";
+
 import demo from '../../images/demo/beauty99.png'
+import icon from '../../images/icons/beautyIndustry.png'
 
 const portfolioBeautyIndustry: Portfolio = {
 	id: 6,
@@ -10,7 +12,7 @@ const portfolioBeautyIndustry: Portfolio = {
 		english: 'Beauty Industry',
 		url: 'beauty-industry',
 	},
-	icon: '',
+	icon: icon,
 	link: [],
 	thumbnailImage: demo,
 	description: {

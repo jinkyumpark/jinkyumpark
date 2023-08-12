@@ -8,6 +8,7 @@ import portfolioSpringfeed from "./portfolio/portfolioSpringfeed";
 import portfolioSubstrack from "./portfolio/portfolioSubstrack";
 import portfolioPurrfitTracker from './portfolio/portfolioPurrfitTracker'
 import portfolioBoldPeople from "./portfolio/portfolioBoldPeople";
+import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 
 const PortfolioData: Portfolio[] = [
 	portfolioBooksitout,
@@ -18,6 +19,7 @@ const PortfolioData: Portfolio[] = [
 	portfolioBoldPeople,
 	portfolioBeautyIndustry,
 	portfolioPianoman,
+	portfolioFeaturedDays,
 	portfolioSimplyJournal,
 	portfolioSpringfeed,
 ]
