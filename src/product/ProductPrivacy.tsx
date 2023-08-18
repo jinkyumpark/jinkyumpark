@@ -10,6 +10,7 @@ const ProductPrivacy = () => {
     const [privacyPolicy, setPrivacyPolicy] = React.useState<string | null>(null)
     React.useEffect(() => {
         setPrivacyPolicy(PrivacyPolicy.get(productName?.toUpperCase() ?? '') ?? '')
+        document.title = `개인정보처리방침`
     }, [productName])
 
     const errorMessage = {
@@ -21,7 +22,7 @@ const ProductPrivacy = () => {
         return <Error message={errorMessage} />
     }
 
-    return <div className='container mt-5'>{parse(privacyPolicy)}</div>
+    return <div className='container mt-5 mb-5'>{parse(privacyPolicy)}</div>
 }
 
 export default ProductPrivacy

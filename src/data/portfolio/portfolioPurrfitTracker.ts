@@ -3,6 +3,7 @@ import PortfolioStatus from "../../model/PortfolioStatus";
 
 import icon from '../../images/icons/purrfitTracker.png'
 import demo from '../../images/demo/purrfittracker.jpeg'
+import WebsiteIcon from "../websiteIcon";
 
 const portfolioPurrfitTracker: Portfolio = {
 	id: 12,
@@ -13,7 +14,13 @@ const portfolioPurrfitTracker: Portfolio = {
 		url: 'purrfit-tracker',
 	},
 	icon: icon,
-	link: [],
+	link: [
+		{
+			link: 'https://github.com/jinkyumpark/purrfit-tracker',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
+	],
 	thumbnailImage: demo,
 	description: {
 		short: '다양한 곳에서 들어오는 내 수입, 고양이가 관리',
@@ -34,12 +41,10 @@ const portfolioPurrfitTracker: Portfolio = {
 
 	db: {
 		images: [],
-		explanations: []
+		explanations: [],
 	},
 
-	explanations: [
-		
-	]
+	explanations: [],
 }
 
 export default portfolioPurrfitTracker

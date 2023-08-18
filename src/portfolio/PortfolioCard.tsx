@@ -44,6 +44,8 @@ const Link = styled.a.attrs<LinkProps>({
 
 const Image = styled.img.attrs({
 	className: 'rounded img-fluid hover-effect',
-})``
+})`
+	min-height: 200px;
+`
 
 export default PortfolioCard

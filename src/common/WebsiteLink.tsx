@@ -39,7 +39,7 @@ const Image = styled.img.attrs<ImageProps>({
     width: 40px;
     border-style: ${props => props.border && 'solid'};
     border-width: ${props => props.border && '0.1px'};
-    border-color: ${props => props.border && '#6c757d'};
+    border-color: ${props => props.border && 'rgb(200, 200, 200)'};
 `
 
 export default WebsiteLink

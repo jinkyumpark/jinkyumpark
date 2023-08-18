@@ -3,6 +3,7 @@ import PortfolioStatus from "../../model/PortfolioStatus"
 
 import icon from '../../images/icons/boldPeople.png'
 import demo from '../../images/demo/boldPoeple.jpeg'
+import WebsiteIcon from "../websiteIcon"
 
 const portfolioBoldPeople: Portfolio = {
 	id: 5,
@@ -13,7 +14,23 @@ const portfolioBoldPeople: Portfolio = {
 		url: 'bold-people',
 	},
 	icon: icon,
-	link: [],
+	link: [
+		{
+			link: 'https://boldpeople.jinkyumpark.com',
+			icon: WebsiteIcon.boldPeople,
+			border: false
+		},
+		{
+			link: 'https://github.com/jinkyumpark/bold-people-front',
+			icon: WebsiteIcon.github,
+			border: false
+		},
+		{
+			link: 'https://github.com/jinkyumpark/bold-people-back',
+			icon: WebsiteIcon.github,
+			border: false
+		},
+	],
 	thumbnailImage: demo,
 	description: {
 		short: '학교 인증 기반 커뮤니티',

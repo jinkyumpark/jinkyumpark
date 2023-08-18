@@ -50,7 +50,10 @@ const portfolioSubstrack: Portfolio = {
 	features: [`내 구독 서비스들을 등록해 언제 얼마나 결제되는지 관리하기`, `결제되기 전 알림`, `새로운 구독 서비스 둘러보기`],
 	demoImages: [demo],
 	technologyUsed: ['swift', 'swiftui', 'cloudkit', 'coredata', 'xcodecloud'],
-	challenges: [],
+	challenges: [
+		`처음 iOS 개발을 하다보니 기존의 익숙했던 IDE의 단축키나 기능들이 모두 다르거나 없는 XCode를 사용하면서 속도가 떨어져서 답답했습니다.`,
+		`여러 iOS 버전에 따라 쓸 수 있는 기능이 다르다 보니 Deprecated 된 기능을 사용하거나, 새로운 기능을 써 보고 싶은데 아직 Beta라 아쉬웠습니다.`,
+	],
 	participants: [
 		{
 			name: '박진겸',
@@ -64,11 +67,17 @@ const portfolioSubstrack: Portfolio = {
 
 	db: {
 		images: [],
-		explanations: []
+		explanations: [
+			`UserSubscription이 Subscription을 Reference하는 극히 단순한 구조로 되어 있습니다.`,
+			`Subscription은 Cloudkit의 Public Container에 저장해서 가져오고, UserSubscription은 Private Container에 저장했습니다.`,
+			`추후에 계좌 정보, 유저가 직접 구독 추가도 고민중에 있습니다.`,
+		]
 	},
 
-		explanations: [
-		
+	explanations: [
+		`SwiftUI의 기본 기능과 Human Interface Guideline을 가능한 한 따라 Apple이 만든 기본 iOS앱 같은 느낌을 주려고 했습니다.`,
+		`설정은 UserDefaults에서 관리하고, 나머지 데이터는 CoreData에서 관리한 다음 CloudKit에 sync 했습니다.`,
+		`XCode Cloud를 사용해서 CI를 구축해 Github main brach에 merge 하면 AppStore Connect에 자동으로 build가 저장되게 구성했습니다.`,
 	]
 }
 
