@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap'
 import PortfolioCard from '../portfolio/PortfolioCard'
 import { RouteSubTitle, RouteTitle } from '../common/RouteStyle'
 import { MarginRow } from '../common/commonStyle'
-import PortfolioData from '../data/PortfolioData'
+import PortfolioData from '../data/portfolioData'
 
 const PortfolioRoute = () => {
 	return (

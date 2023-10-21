@@ -16,14 +16,14 @@ const ProductCard: React.FC<Props> = ({ product }) => {
 	return (
 		<CardContainer>
 			<CardBody>
-				<Row href={`/product/${product.name.english}`}>
-					<div className='col-12 col-sm-3 col-md-2'>
+				<Row href={`/product/${product.name.url}`}>
+					<div className='col-12 col-xs-3 col-sm-4 col-md-3'>
 						<Image src={product.icon} alt='' />
 						<KoreanName>{product.name.korean}</KoreanName>
 						<EnglishName>{product.name.english}</EnglishName>
 					</div>
 
-					<div className='col-12 col-sm-9 col-md-10 mt-2 mt-sm-0'>
+					<div className='col-12 col-xs-9 col-sm-8 col-md-9 mt-2 mt-sm-0'>
 						<Description>{product.description.short}</Description>
 						<DescriptionDetail>{parse(product.description.medium)}</DescriptionDetail>
 
@@ -63,7 +63,7 @@ const CardBody = styled(Card.Body).attrs({
 `
 
 const Row = styled.a.attrs({
-	className: `row`,
+	className: `row pt-4`,
 })`
 	height: 100%;
 	align-items: center;

@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from './ProductCard'
 import styled from 'styled-components';
 import { RouteTitle, RouteSubTitle } from '../common/RouteStyle'
-import PortfolioData from '../data/PortfolioData';
+import PortfolioData from '../data/portfolioData';
 import PortfolioStatus from '../model/PortfolioStatus';
 
 const ProductRoute = () => {
@@ -14,11 +14,15 @@ const ProductRoute = () => {
 			<Divider />
 
 			<Row>
-				{PortfolioData
-					.filter((portfolio) => portfolio.status === PortfolioStatus.PRODUCTION)
-					.map((product) => {
-						return <ProductCard product={product} />
-					})}
+					{PortfolioData
+						.filter((portfolio) => portfolio.status === PortfolioStatus.PRODUCTION)
+						.map((product) => {
+							return (
+								<div className="mb-4">
+									<ProductCard product={product} />
+								</div>
+							)
+						})}
 			</Row>
 		</Container>
 	)

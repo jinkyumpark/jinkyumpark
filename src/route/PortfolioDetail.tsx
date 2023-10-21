@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import '../css/hover-effect.css'
 import Error from '../common/Error'
 import Portfolio from '../model/Portfolio'
-import PortfolioData from '../data/PortfolioData'
+import PortfolioData from '../data/portfolioData'
 import PortfolioDetailBasicInfoCard from '../portfolio/detail/PortfolioDetailBasicInfoCard'
 import PortfolioDetailFeaturesCard from '../portfolio/detail/PortfolioDetailFeaturesCard'
 import PortfolioDetailTechnology from '../portfolio/detail/PortfolioDetailTechnology'

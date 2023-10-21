@@ -24,6 +24,7 @@ function App() {
 
 				<Route path='/product' element={<ProductRoute />} />
 				<Route path='/product/:productName' element={<ProductDetail />} />
+				<Route path='/product/:productName/:language' element={<ProductDetail />} />
 				<Route path='/product/:productName/privacy' element={<ProductPrivacy />} />
 
 				<Route path='/technology/:technologyName' element={<TechnologyDetail />} />

@@ -14,11 +14,11 @@ const ProductDetailDemoCard: React.FC<Props> = ({ product }) => {
 			<Card.Body>
 				<CardTitle>시연 이미지</CardTitle>
 
-				<div className='row'>
+				<div className='row justify-content-center'>
 						{product.demoImages.map((image) => {
                             return (
-								<div className='col-12'>
-									<Image src={image} alt='' />
+								<div className='col-12 col-md-8'>
+									<Image src={image} alt='' className='rounded'/>
 								</div>
 							)
 						})}

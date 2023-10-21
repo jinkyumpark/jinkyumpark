@@ -16,11 +16,11 @@ const ProductDetailEtcCard: React.FC<Props> = ({ product }) => {
 
 				<ul>
 					<li>
-						<Link href={`/product/${product.name.english}/privacy`}>개인정보처리방침</Link>
+						<Link href={`/product/${product.name.url}/privacy`}>개인정보처리방침</Link>
 					</li>
 
 					<li>
-						<Link href={`/portfolio/${product.name.english}`}>개발 관련 정보</Link>
+						<Link href={`/portfolio/${product.name.url}`}>개발 관련 정보</Link>
 					</li>
 				</ul>
 			</Card.Body>

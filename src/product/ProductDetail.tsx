@@ -9,10 +9,11 @@ import ProductDetailFeaturesCard from './detail/ProductDetailFeaturesCard';
 import ProductDetailDemoCard from './detail/ProductDetailDemoCard';
 import ProductDetailEtcCard from './detail/ProductDetailEtcCard';
 import Portfolio from '../model/Portfolio';
-import PortfolioData from '../data/PortfolioData';
+import PortfolioData from '../data/portfolioData';
 
 const ProductDetail = () => {
     const { productName } = useParams()
+    const { language } = useParams()
 
     const errorMessage = {
 		main: '해당 제품을 찾을 수 없어요',
@@ -25,11 +26,19 @@ const ProductDetail = () => {
 
     const [product, setProduct] = React.useState<Portfolio | null>(null)
     React.useEffect(() => {
-        const productCandidate = PortfolioData.filter((p) => p.name.english.toUpperCase() === productName?.toUpperCase())
+        const productCandidate = PortfolioData.filter((p) => p.name.url.toUpperCase() === productName?.toUpperCase())
 
         if (productCandidate.length !== 0) {
             setProduct(productCandidate[0])
-            document.title = `${productCandidate[0].name.korean ?? '오류'} | ${productCandidate[0].description.short}`
+            if (language?.toUpperCase() == 'KOREAN') {
+                document.title = `${productCandidate[0].name.korean ?? '오류'} | ${productCandidate[0].description.short}`
+            } else if (language?.toUpperCase() == 'JAPANESE') {
+
+            } else {
+                document.title = `${productCandidate[0].name.english ?? 'ERROR'} | ${productCandidate[0].description.short}`
+            }
+
+
         }
     }, [productName])
 

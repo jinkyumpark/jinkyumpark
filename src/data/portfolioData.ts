@@ -12,10 +12,10 @@ import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 
 const PortfolioData: Portfolio[] = [
 	portfolioBooksitout,
+	portfolioPurrfitTracker,
 	portfolioSubstrack,
 	portfolioEveryonesGarden,
 
-	portfolioPurrfitTracker,
 	portfolioBoldPeople,
 	portfolioBeautyIndustry,
 	portfolioPianoman,
