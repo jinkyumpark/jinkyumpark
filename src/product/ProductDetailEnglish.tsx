@@ -11,6 +11,10 @@ interface Props {
 }
 
 const ProductDetailEnglish: React.FC<Props> = ({product}) => {
+	React.useEffect(() => {
+		document.title = product.name.korean
+	}, [product])
+
     return (
         <Container>
             <ProductDetailBasicInfo product={product} />
@@ -61,16 +65,33 @@ const ProductDetailEnglish: React.FC<Props> = ({product}) => {
 
 				<ul>
 					<li>
-						<Link href={`/product/${product.name.url}/privacy`}>Privacy Policy</Link>
+						<Link href={`/product/${product.name.url}/privacy.english`}>Privacy Policy</Link>
 					</li>
 
 					<li>
-						<Link href={`/portfolio/${product.name.url}`}>Information about Developing (Korean)</Link>
+						<Link href={`/portfolio/${product.name.url}`}>Informations about Development (Korean)</Link>
 					</li>
 				</ul>
 			</Card.Body>
 		</Card>
             <MarginRow m={30} />
+
+			<Card>
+			<Card.Body>
+                    <CardTitle>Other Languages</CardTitle>
+
+                <ul>
+					<li>
+						<Link href={`/product/${product.name.url}.korean`}>Korean</Link>
+					</li>
+
+					<li>
+						<Link href={`/portfolio/${product.name.url}.japanese`}>Japanese</Link>
+					</li>
+				</ul>
+			</Card.Body>
+		</Card>
+			<MarginRow m={30} />
         </Container>
     )
 }

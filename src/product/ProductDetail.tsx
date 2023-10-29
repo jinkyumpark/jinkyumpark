@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router';
 import Error from '../common/Error';
 import styled from 'styled-components';
-import { MarginRow } from '../common/commonStyle';
+import { CardTitle, MarginRow } from '../common/commonStyle';
 import ProductDetailBasicInfo from './detail/ProductDetailBasicInfo'
 import ProductDetailDescriptionCard from './detail/ProductDetailDescriptionCard';
 import ProductDetailFeaturesCard from './detail/ProductDetailFeaturesCard';
@@ -10,6 +10,7 @@ import ProductDetailDemoCard from './detail/ProductDetailDemoCard';
 import ProductDetailEtcCard from './detail/ProductDetailEtcCard';
 import Portfolio from '../model/Portfolio';
 import PortfolioData from '../data/portfolioData';
+import { Card } from 'react-bootstrap';
 
 const ProductDetail = () => {
     const { productName } = useParams()
@@ -62,6 +63,23 @@ const ProductDetail = () => {
 
 			<ProductDetailEtcCard product={product} />
 			<MarginRow m={30} />
+
+            <Card>
+			<Card.Body>
+                    <CardTitle>다른 언어로 보기</CardTitle>
+
+                <ul>
+					<li>
+						<Link href={`/product/${product.name.url}.english`}>영어</Link>
+					</li>
+
+					<li>
+						<Link href={`/portfolio/${product.name.url}.japanese`}>일본어</Link>
+					</li>
+				</ul>
+			</Card.Body>
+		</Card>
+			<MarginRow m={30} />
 		</Container>
 	)
 }
@@ -69,5 +87,14 @@ const ProductDetail = () => {
 const Container = styled.div.attrs({
 	className: `container mt-5`,
 })``
+
+const Link = styled.a`
+	text-decoration: none;
+	color: rgb(26, 188, 156);
+
+	&:hover {
+		color: rgb(26, 188, 156);
+	}
+`
 
 export default ProductDetail

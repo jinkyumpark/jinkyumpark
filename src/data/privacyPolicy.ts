@@ -1,3 +1,5 @@
+import purrfitTrackerPrivacyKorean from "./portfolio/purrfitCat/PurrfitTrackerPrivacyKorean"
+
 const PrivacyPolicy: Map<string, string> = new Map([
 	[
 		'SUBSTRACK',
@@ -99,6 +101,7 @@ const PrivacyPolicy: Map<string, string> = new Map([
     ① 이 개인정보처리방침은 2023년 8월 1부터 적용됩니다.
 `,
 	],
+	['PURRFIT-TRACKER', purrfitTrackerPrivacyKorean],
 ])
 
 export default PrivacyPolicy

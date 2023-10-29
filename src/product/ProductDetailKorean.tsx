@@ -2,12 +2,13 @@ import React from 'react'
 import styled from 'styled-components';
 import Portfolio from '../model/Portfolio';
 import Error from '../common/Error';
-import { MarginRow } from '../common/commonStyle';
+import { CardTitle, MarginRow } from '../common/commonStyle';
 import ProductDetailBasicInfo from './detail/ProductDetailBasicInfo';
 import ProductDetailDescriptionCard from './detail/ProductDetailDescriptionCard';
 import ProductDetailFeaturesCard from './detail/ProductDetailFeaturesCard';
 import ProductDetailDemoCard from './detail/ProductDetailDemoCard';
 import ProductDetailEtcCard from './detail/ProductDetailEtcCard';
+import { Card } from 'react-bootstrap';
 
 interface Props {
     product: Portfolio;
@@ -43,6 +44,23 @@ const ProductDetailKorean: React.FC<Props> = ({product}) => {
 
             <ProductDetailEtcCard product={product} />
             <MarginRow m={30} />
+
+            <Card>
+			<Card.Body>
+                    <CardTitle>다른 언어로 보기</CardTitle>
+
+                <ul>
+					<li>
+						<Link href={`/product/${product.name.url}.english`}>영어</Link>
+					</li>
+
+					<li>
+						<Link href={`/portfolio/${product.name.url}.japanese`}>일본어</Link>
+					</li>
+				</ul>
+			</Card.Body>
+		</Card>
+			<MarginRow m={30} />
         </Container>
     )
 }
@@ -50,5 +68,14 @@ const ProductDetailKorean: React.FC<Props> = ({product}) => {
 const Container = styled.div.attrs({
 	className: `container mt-5`,
 })``
+
+const Link = styled.a`
+	text-decoration: none;
+	color: rgb(26, 188, 156);
+
+	&:hover {
+		color: rgb(26, 188, 156);
+	}
+`
 
 export default ProductDetailKorean
