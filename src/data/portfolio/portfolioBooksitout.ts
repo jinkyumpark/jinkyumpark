@@ -11,7 +11,7 @@ const portfolioBooksitout: Portfolio = {
 		english: 'booksitout',
 		url: 'booksitout',
 	},
-	icon: 'https://github.com/jinkyumpark/booksitout/assets/61900235/081f7b4c-f107-4945-a5f1-f298aa0c0cc7',
+	icon: WebsiteIcon.booksitout,
 	link: [
 		{
 			link: 'https://booksitout.com',
