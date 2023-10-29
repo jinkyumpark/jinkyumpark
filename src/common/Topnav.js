@@ -14,11 +14,11 @@ const Topnav = () => {
 					<Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>서버 개발자 박진겸</Navbar.Brand>
 					<Nav className='me-auto'>
 						<Nav.Link href={`${process.env.PUBLIC_URL}/portfolio`} active={currentUrl.startsWith('/portfolio')}>
-							포트폴리오
+							Portfolios
 						</Nav.Link>
 
 						<Nav.Link href={`${process.env.PUBLIC_URL}/product`} active={currentUrl.startsWith('/product')}>
-							출시제품
+							Products
 						</Nav.Link>
 					</Nav>
 				</Container>
