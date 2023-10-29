@@ -11,7 +11,7 @@ const Topnav = () => {
 		<>
 			<Navbar bg='dark' variant='dark' fixed='top' className='p-1 m-0'>
 				<Container>
-					<Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>서버 개발자 박진겸</Navbar.Brand>
+					<Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>JINKYUM PARK</Navbar.Brand>
 					<Nav className='me-auto'>
 						<Nav.Link href={`${process.env.PUBLIC_URL}/portfolio`} active={currentUrl.startsWith('/portfolio')}>
 							Portfolios
