@@ -10,6 +10,16 @@ import ProductRoute from './product/ProductRoute';
 import ProductDetail from './product/ProductDetail';
 import ProductPrivacy from './product/ProductPrivacy';
 import PortfolioRoute from './route/PortfolioRoute';
+import ProductDetailKorean from './product/ProductDetailKorean';
+
+import purrfitTrackerKorean from './data/portfolio/purrfitCat/PurrfitTrackerKorean';
+import purrfitTrackerEnglish from './data/portfolio/purrfitCat/PurrfitTrackerEnglish';
+import ProductDetailEnglish from './product/ProductDetailEnglish';
+import PrivacyPolicy from './data/privacyPolicy'
+import purrfitTrackerPrivacyKorean from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyKorean';
+import purrfitTrackerPrivacyEnglish from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyEnglish';
+import ProductPrivacyEnglish from './product/privacy/ProductPrivacyEnglish';
+import ProductPrivacyKorean from './product/privacy/ProductPrivacyKorean';
 
 function App() {
 	return (
@@ -26,6 +36,15 @@ function App() {
 				<Route path='/product/:productName' element={<ProductDetail />} />
 				<Route path='/product/:productName/:language' element={<ProductDetail />} />
 				<Route path='/product/:productName/privacy' element={<ProductPrivacy />} />
+
+				<Route path='/product/purrfit-tracker.korean' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
+				<Route path='/product/purrfit-tracker/privacy.korean' element={<ProductPrivacyKorean privacyText={purrfitTrackerPrivacyKorean} />} />
+
+				<Route path='/product/purrfit-tracker.english' element={<ProductDetailEnglish product={purrfitTrackerEnglish} />} />
+				<Route path='/product/purrfit-tracker/privacy.english' element={<ProductPrivacyEnglish privacyText={purrfitTrackerPrivacyEnglish} />} />
+
+				<Route path='/product/purrfit-tracker.japanese' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
+				<Route path='/product/purrfit-tracker/privacy.japanese' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
 
 				<Route path='/technology/:technologyName' element={<TechnologyDetail />} />
 				
