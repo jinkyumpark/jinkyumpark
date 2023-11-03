@@ -16,6 +16,11 @@ const purrfitTrackerKorean: Portfolio = {
 	icon: icon,
 	link: [
 		{
+			link: 'https://apps.apple.com/app/purrfit-tracker/id6458539987',
+			icon: WebsiteIcon.appleAppstore,
+			border: false,
+		},
+		{
 			link: 'https://github.com/jinkyumpark/purrfit-tracker',
 			icon: WebsiteIcon.github,
 			border: false,
