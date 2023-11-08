@@ -18,7 +18,7 @@ const ProductRoute = () => {
 						.filter((portfolio) => portfolio.status === PortfolioStatus.PRODUCTION)
 						.map((product) => {
 							return (
-								<div className="mb-4">
+								<div className="p-0 mb-4">
 									<ProductCard product={product} />
 								</div>
 							)
@@ -38,7 +38,7 @@ const Divider = styled.div.attrs({
 })``
 
 const Row = styled.div.attrs({
-	className: 'row container',
+	className: 'row container ps-0',
 })`
 	justify-content: center;
 	margin: 0px;
