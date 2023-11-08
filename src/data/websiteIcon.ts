@@ -7,6 +7,8 @@ import generalLink from '../images/icons/link.png'
 
 import booksitoutIcon from '../images/icons/booksitout.png'
 import boldPeopleIcon from '../images/icons/boldPeople.png'
+import purrfitTrackerIcon from '../images/icons/purrfitTracker.png'
+import substrackIcon from '../images/icons/substrack.png'
 
 const WebsiteIcon = {
 	github: githubIcon,
@@ -18,6 +20,8 @@ const WebsiteIcon = {
 
 	booksitout: booksitoutIcon,
 	boldPeople: boldPeopleIcon,
+	purrfitTracker: purrfitTrackerIcon,
+	substrackIcon: substrackIcon,
 }
 
 export default WebsiteIcon

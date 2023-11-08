@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import './common.css'
 
 import Topnav from './common/Topnav'
+
 import Main from './route/Main'
 import PortfolioDetail from './route/PortfolioDetail'
 import TechnologyDetail from './route/TechnologyDetail'
@@ -15,7 +16,6 @@ import ProductDetailKorean from './product/ProductDetailKorean';
 import purrfitTrackerKorean from './data/portfolio/purrfitCat/PurrfitTrackerKorean';
 import purrfitTrackerEnglish from './data/portfolio/purrfitCat/PurrfitTrackerEnglish';
 import ProductDetailEnglish from './product/ProductDetailEnglish';
-import PrivacyPolicy from './data/privacyPolicy'
 import purrfitTrackerPrivacyKorean from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyKorean';
 import purrfitTrackerPrivacyEnglish from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyEnglish';
 import ProductPrivacyEnglish from './product/privacy/ProductPrivacyEnglish';
