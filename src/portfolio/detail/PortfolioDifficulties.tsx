@@ -19,7 +19,7 @@ const PortfolioDifficultyCard: React.FC<Props> = ({ portfolio }) => {
                 <ListContainer>
                     {
                         portfolio.challenges.map((challenge) => {
-                            return <li>{parse(challenge)}</li>
+                            return <li className='mb-2'>{parse(challenge)}</li>
                         })
                     }
                 </ListContainer>

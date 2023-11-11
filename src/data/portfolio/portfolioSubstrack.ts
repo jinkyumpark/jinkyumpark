@@ -64,6 +64,7 @@ const portfolioSubstrack: Portfolio = {
 
 	developmentStartDate: new Date('2023-06-29'),
 	thumbnailImage: demo,
+	detailImage: demo,
 
 	db: {
 		images: [],

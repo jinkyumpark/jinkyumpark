@@ -5,8 +5,7 @@ import WebsiteIcon from "../websiteIcon";
 import demo from '../../images/demo/pianoman.jpeg'
 import icon from '../../images/icons/pianoman.png'
 
-const 
-portfolioPianoman: Portfolio = {
+const portfolioPianoman: Portfolio = {
 	id: 5,
 	status: PortfolioStatus.GIVE_UP,
 	name: {
@@ -28,6 +27,7 @@ portfolioPianoman: Portfolio = {
 		},
 	],
 	thumbnailImage: demo,
+	detailImage: demo,
 	description: {
 		short: '내 악기 연습을 기록할 수 있는 iOS 앱',
 		medium: '',

@@ -28,6 +28,7 @@ const purrfitTrackerJapanese: Portfolio = {
 	],
 
 	thumbnailImage: demo,
+	detailImage: demo,
 	demoImages: [demo],
 
 	description: {

@@ -13,6 +13,7 @@ const portfolioSimplyJournal: Portfolio = {
 	},
 	icon: '',
 	thumbnailImage: demo,
+	detailImage: demo,
 	link: [
 		{
 			link: `https://github.com/jinkyumpark/simply-journal`,

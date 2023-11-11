@@ -6,7 +6,7 @@ import icon from '../../images/icons/beautyIndustry.png'
 
 const portfolioBeautyIndustry: Portfolio = {
 	id: 6,
-	status: PortfolioStatus.PLANNED,
+	status: PortfolioStatus.GIVE_UP,
 	name: {
 		korean: '미용업계',
 		english: 'Beauty Industry',
@@ -15,6 +15,7 @@ const portfolioBeautyIndustry: Portfolio = {
 	icon: icon,
 	link: [],
 	thumbnailImage: demo,
+	detailImage: demo,
 	description: {
 		short: '미용업계 종사자들을 위한 쉽고 편한 채용 플렛폼',
 		medium: '',

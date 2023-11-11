@@ -8,6 +8,7 @@ interface Portfolio {
     link: PortfolioLink[]
 
     thumbnailImage: string
+    detailImage: string
 
     description: PortfolioDescription
     features: string[]

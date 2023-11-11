@@ -12,17 +12,19 @@ import portfolioPurrfitTracker from './portfolio/portfolioPurrfitTracker'
 import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 
 const PortfolioData: Portfolio[] = [
+	// Visible in Main
 	portfolioBooksitout,
 	portfolioPurrfitTracker,
 	portfolioSubstrack,
 	portfolioEveryonesGarden,
-
-	// portfolioBoldPeople,
-	// portfolioBeautyIndustry,
 	portfolioPianoman,
-	// portfolioFeaturedDays,
-	// portfolioSimplyJournal,
 	portfolioSpringfeed,
+
+	// Hidden in Main
+	portfolioFeaturedDays,
+	portfolioSimplyJournal,
+	portfolioBoldPeople,
+	portfolioBeautyIndustry,
 ]
 
 export default PortfolioData

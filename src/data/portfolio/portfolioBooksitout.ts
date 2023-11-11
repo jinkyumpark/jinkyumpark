@@ -74,6 +74,7 @@ const portfolioBooksitout: Portfolio = {
 		},
 	],
 	thumbnailImage: booksitout,
+	detailImage: booksitout,
 
 	db: {
 		images: ['https://user-images.githubusercontent.com/61900235/238193432-0e162c56-8b14-44b2-a498-ffb9c254b451.png'],

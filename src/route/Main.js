@@ -11,7 +11,7 @@ const Main = () => {
 		<>
 			<IntroductionSection introduction={profile} websites={channels} />
 			<PortfolioSection portfolios={PortfolioData} />
-
+			
 			<Footer/>
 		</>
 	)

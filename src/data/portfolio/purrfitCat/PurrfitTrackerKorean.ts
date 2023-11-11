@@ -28,6 +28,7 @@ const purrfitTrackerKorean: Portfolio = {
 	],
 
 	thumbnailImage: demo,
+	detailImage: demo,
 	demoImages: [demo],
 
 	description: {

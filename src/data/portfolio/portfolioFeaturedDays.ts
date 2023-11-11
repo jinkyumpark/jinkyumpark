@@ -14,6 +14,7 @@ const portfolioFeaturedDays: Portfolio = {
     icon: "",
     link: [],
     thumbnailImage: demo,
+    detailImage: demo,
     description: {
         short: "기억하고 싶은 인상적인 인생의 날들을 기록하세요",
         medium: "",

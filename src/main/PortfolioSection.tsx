@@ -13,7 +13,7 @@ const PortfolioSection: React.FC<Props> = ({ portfolios }) => {
 			<div className='container'>
 				<h1>포트폴리오</h1>
 				<Row>
-					{portfolios.map((portfolio) => {
+					{portfolios.slice(0, 6).map((portfolio) => {
 						return (
 							<Col>
 								<PortfolioCard portfolio={portfolio} color={`white`}/>

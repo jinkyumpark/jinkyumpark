@@ -40,7 +40,7 @@ const PortfolioDetail = () => {
 				<div className='container mb-5'>
 					<div className='row row-eq-height row-eq-height'>
 						<div className='col-12 mt-4'>
-							<img src={portfolio.thumbnailImage} alt={`${portfolio.name}`} className='img-fluid rounded border w-100' />
+							<img src={portfolio.detailImage} alt={`${portfolio.name}`} className='img-fluid rounded border w-100' />
 						</div>
 
 						<FullContainer>

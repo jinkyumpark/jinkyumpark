@@ -18,6 +18,7 @@ const portfolioEveryonesGarden: Portfolio = {
 
 	icon: 'https://avatars.githubusercontent.com/u/130581559?s=200&v=4',
 	thumbnailImage: thumbnailImage,
+	detailImage: demo2,
 	link: [
 		{
 			link: `https://everyonesgarden.vercel.app/`,

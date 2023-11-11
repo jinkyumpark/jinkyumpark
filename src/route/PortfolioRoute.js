@@ -9,14 +9,14 @@ const PortfolioRoute = () => {
 	return (
 		<div className='container mt-5 mb-5 text-center'>
 			<RouteTitle>포트폴리오</RouteTitle>
-			<RouteSubTitle>개발 과정에 참여한 제품들입니다. 대다수는 정식출시되지 않았고, 도중에 끝난 것도 많습니다.</RouteSubTitle>
+			<RouteSubTitle>개발 과정에 (상당히 많이) 참여한 제품들</RouteSubTitle>
 
 			<MarginRow m={40}/>
 
 			<div className='row justify-content-start'>
 				{PortfolioData.map((portfolio) => {
 					return (
-						<div className='col-xs-12 col-lg-6 col-xl-4 mb-3'>
+						<div className='col-xs-12 col-lg-6 col-xl-4 mb-4'>
 							<Card>
 								<Card.Body>
 									<PortfolioCard portfolio={portfolio} />
