@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.752448db.js",
+    "main.js": "/static/js/main.30b543f2.js",
     "static/media/everyonesgarden-v2.png": "/static/media/everyonesgarden-v2.2d98c7253c83bfb5a6db.png",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/boldPeople.png": "/static/media/boldPeople.f2100100a7337ceddfd9.png",
@@ -19,7 +19,9 @@
     "static/media/vim.png": "/static/media/vim.dd3c71bebdeb6d6bddc6.png",
     "static/media/purrfitTracker.png": "/static/media/purrfitTracker.a6aa50e7ed83c90fdfbd.png",
     "static/media/xcodecloud.png": "/static/media/xcodecloud.538e64dd92ed852b99c7.png",
+    "static/media/swiftcharts.png": "/static/media/swiftcharts.7cf152bc593778539d44.png",
     "static/media/main-profile-2.jpg": "/static/media/main-profile-2.b3c496e87936988c44b1.jpg",
+    "static/media/swiftdata.png": "/static/media/swiftdata.0684aa1f471a59c1b399.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
     "static/media/swift.png": "/static/media/swift.40dd73618fde696644f2.png",
@@ -51,10 +53,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.752448db.js.map": "/static/js/main.752448db.js.map"
+    "main.30b543f2.js.map": "/static/js/main.30b543f2.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.752448db.js"
+    "static/js/main.30b543f2.js"
   ]
 }
