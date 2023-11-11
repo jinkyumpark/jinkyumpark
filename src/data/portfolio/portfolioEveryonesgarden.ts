@@ -35,8 +35,11 @@ const portfolioEveryonesGarden: Portfolio = {
 		short: `농업 농진대회 수상, 전국 각지의 텃밭을 1곳에 모아보기`,
 		medium: ``,
 		long: `
-			Back 개발자 2명, Front 개발자 2명, Design 1명과 진행한 농업 경진대회 출품작입니다.
-			기술적인 도전을 크게 없었지만 협업을 하는 풍부함 경험을 하게 해 주었습니다.
+			Back 개발자 2명, Front 개발자 2명, Design 1명과 진행한 농립축산부 농업 경진대회 우수상 수상작입니다.
+			<br/>
+			<br/>
+			기술적인 도전을 없었지만 협업을 하는 과정에서 좋은 문화의 전파와 갈등을 대처하고, 효율적으로 일하는 방법을 배웠습니다.
+			또, 좋은 개발자가 무엇인지 효율적으로 일하기 위해서는 어떻게 하는게 좋은지 고민했습니다.
 		`,
 	},
 
@@ -44,7 +47,8 @@ const portfolioEveryonesGarden: Portfolio = {
 	demoImages: [demo2],
 	technologyUsed: ['java', 'spring', 'springsecurity', 'jpa', 'mysql'],
 	challenges: [
-		'보통 혼자서 프로젝트를 진행하는 경우가 많아 5명이나 되는 분들과 협력하면서 많은걸 느꼈습니다.'
+		'보통 혼자서 프로젝트를 진행하는 경우가 많아 5명이나 되는 분들과 협력하면서 많은 비효율이나 갈등이 있었는데, 메이커뿐만 아니라 매니저나 문화의 중요성을 느꼈습니다.',
+		'공공기관에 내는 프로젝트다 보니 여러 비합리적인 절차를 따라야 했습니다. (불필요한 Open API 사용, 쓸데없는 발표를 위한 이동 등)',
 	],
 
 	participants: [

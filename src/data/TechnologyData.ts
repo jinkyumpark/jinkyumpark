@@ -43,218 +43,232 @@ import swift from '../images/technology/language/swift.png'
 import cloudkit from '../images/technology/app/cloudkit.png'
 import xcodeCloud from '../images/technology/app/xcodecloud.png'
 import coreData from '../images/technology/app/coredata.png'
+import swiftData from '../images/technology/app/swiftdata.png'
+import swiftCharts from '../images/technology/app/swiftcharts.png'
 
 const technologyList: Technology[] = [
-    {
-        id: 'coredata',
-        name: 'Core Data',
-        icon: coreData,
-        category: TechnologyCategory.MOBILE
-    },
-    {
-        id: 'xcodecloud',
-        name: 'Xcode Cloud',
-        icon: xcodeCloud,
-        category: TechnologyCategory.MOBILE
-    },
-    {
-        id: 'swift',
-        name: 'Swift',
-        icon: swift,
-        category: TechnologyCategory.MOBILE
-    },
-    {
-        id: 'cloudkit',
-        name: 'CloudKit',
-        icon: cloudkit,
-        category: TechnologyCategory.MOBILE
-    },
-    {
-        id: 'swiftui',
-        name: 'Swift UI',
-        icon: swiftui,
-        category: TechnologyCategory.MOBILE
-    },
-    {
-        id: 'jpa',
-        name: 'JPA',
-        icon: jpa,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'spring',
-        name: 'Spring',
-        icon: spring,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'springcloud',
-        name: 'Spring Cloud',
-        icon: springCloud,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'springsecurity',
-        name: 'Spring Security',
-        icon: springSecurity,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'mysql',
-        name: 'MySQL',
-        icon: mysql,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'postgres',
-        name: 'Postgres',
-        icon: postgres,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'oracledb',
-        name: 'Oracle DB',
-        icon: oracle,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'redis',
-        name: 'Redis',
-        icon: redis,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'docker',
-        name: 'Docker',
-        icon: docker,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'git',
-        name: 'Git',
-        icon: git,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'github',
-        name: 'Github',
-        icon: github,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'junit',
-        name: 'JUnit',
-        icon: junit,
-        category: TechnologyCategory.BACKEND
-    },
-    {
-        id: 'k8s',
-        name: 'K8S',
-        icon: k8s,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'linux',
-        name: 'Linux',
-        icon: linux,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'maven',
-        name: 'Maven',
-        icon: maven,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'gradle',
-        name: 'Gradle',
-        icon: gradle,
-        category: TechnologyCategory.DEVOPS
-    },
-    {
-        id: 'bootstrap',
-        name: 'Bootstrap',
-        icon: bootstrap,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'css',
-        name: 'Css',
-        icon: css,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'html',
-        name: 'Html',
-        icon: html,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'jquery',
-        name: 'jQuery',
-        icon: jquery,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'js',
-        name: 'JS',
-        icon: js,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'react',
-        name: 'React',
-        icon: reactjs,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'redux',
-        name: 'Redux',
-        icon: redux,
-        category: TechnologyCategory.FRONTEND
-    },
-    {
-        id: 'java',
-        name: 'Java',
-        icon: java,
-        category: TechnologyCategory.LANGUAGE
-    },
-    {
-        id: 'kotlin',
-        name: 'Kotlin',
-        icon: kotlin,
-        category: TechnologyCategory.LANGUAGE
-    },
-    {
-        id: 'node',
-        name: 'Node',
-        icon: node,
-        category: TechnologyCategory.LANGUAGE
-    },
-    {
-        id: 'python',
-        name: 'Python',
-        icon: python,
-        category: TechnologyCategory.LANGUAGE
-    },
-    {
-        id: 'intellij',
-        name: 'IntelliJ',
-        icon: intellij,
-        category: TechnologyCategory.TOOLS
-    },
-    {
-        id: 'vim',
-        name: 'Vim',
-        icon: vim,
-        category: TechnologyCategory.LANGUAGE
-    },
-    {
-        id: 'vscode',
-        name: 'VS Code',
-        icon: vscode,
-        category: TechnologyCategory.LANGUAGE
-    },
+	{
+		id: 'coredata',
+		name: 'Core Data',
+		icon: coreData,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'xcodecloud',
+		name: 'Xcode Cloud',
+		icon: xcodeCloud,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'swiftdata',
+		name: 'Swift Data',
+		icon: swiftData,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'swiftcharts',
+		name: 'Swift Charts',
+		icon: swiftCharts,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'swift',
+		name: 'Swift',
+		icon: swift,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'cloudkit',
+		name: 'CloudKit',
+		icon: cloudkit,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'swiftui',
+		name: 'Swift UI',
+		icon: swiftui,
+		category: TechnologyCategory.MOBILE,
+	},
+	{
+		id: 'jpa',
+		name: 'JPA',
+		icon: jpa,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'spring',
+		name: 'Spring',
+		icon: spring,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'springcloud',
+		name: 'Spring Cloud',
+		icon: springCloud,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'springsecurity',
+		name: 'Spring Security',
+		icon: springSecurity,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'mysql',
+		name: 'MySQL',
+		icon: mysql,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'postgres',
+		name: 'Postgres',
+		icon: postgres,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'oracledb',
+		name: 'Oracle DB',
+		icon: oracle,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'redis',
+		name: 'Redis',
+		icon: redis,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'docker',
+		name: 'Docker',
+		icon: docker,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'git',
+		name: 'Git',
+		icon: git,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'github',
+		name: 'Github',
+		icon: github,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'junit',
+		name: 'JUnit',
+		icon: junit,
+		category: TechnologyCategory.BACKEND,
+	},
+	{
+		id: 'k8s',
+		name: 'K8S',
+		icon: k8s,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'linux',
+		name: 'Linux',
+		icon: linux,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'maven',
+		name: 'Maven',
+		icon: maven,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'gradle',
+		name: 'Gradle',
+		icon: gradle,
+		category: TechnologyCategory.DEVOPS,
+	},
+	{
+		id: 'bootstrap',
+		name: 'Bootstrap',
+		icon: bootstrap,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'css',
+		name: 'Css',
+		icon: css,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'html',
+		name: 'Html',
+		icon: html,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'jquery',
+		name: 'jQuery',
+		icon: jquery,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'js',
+		name: 'JS',
+		icon: js,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'react',
+		name: 'React',
+		icon: reactjs,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'redux',
+		name: 'Redux',
+		icon: redux,
+		category: TechnologyCategory.FRONTEND,
+	},
+	{
+		id: 'java',
+		name: 'Java',
+		icon: java,
+		category: TechnologyCategory.LANGUAGE,
+	},
+	{
+		id: 'kotlin',
+		name: 'Kotlin',
+		icon: kotlin,
+		category: TechnologyCategory.LANGUAGE,
+	},
+	{
+		id: 'node',
+		name: 'Node',
+		icon: node,
+		category: TechnologyCategory.LANGUAGE,
+	},
+	{
+		id: 'python',
+		name: 'Python',
+		icon: python,
+		category: TechnologyCategory.LANGUAGE,
+	},
+	{
+		id: 'intellij',
+		name: 'IntelliJ',
+		icon: intellij,
+		category: TechnologyCategory.TOOLS,
+	},
+	{
+		id: 'vim',
+		name: 'Vim',
+		icon: vim,
+		category: TechnologyCategory.LANGUAGE,
+	},
+	{
+		id: 'vscode',
+		name: 'VS Code',
+		icon: vscode,
+		category: TechnologyCategory.LANGUAGE,
+	},
 ]
 
 const TechnologyData = {

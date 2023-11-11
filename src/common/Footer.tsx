@@ -6,7 +6,7 @@ import WebsiteIcon from '../data/websiteIcon';
 const Footer = () => {
     return (
         <Container className='w-100'>
-            <footer className="d-flex justify-content-between align-items-center py-3 my-4">
+            <footer className="d-flex justify-content-between py-3 my-4">
                 <div className="col-6 col-md-4 d-flex align-items-start flex-column">
                     <span className="text-muted">박진겸, Jinkyum Park</span>
                     <a className="text-muted text-decoration-none" href="mailto:me@jinkyumpark.com">me@jinkyumpark.com</a>
@@ -38,4 +38,9 @@ const Image = styled.img.attrs({
 })`
 	width: 50px;
 	height: 50px;
+
+    @media (max-width: 768px) {
+        width: 35px;
+        height: 35px;
+    }
 `

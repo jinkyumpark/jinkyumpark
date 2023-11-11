@@ -53,9 +53,21 @@ const portfolioPurrfitTracker: Portfolio = {
 	features: [
 		'내 수입처와 그 수입처에 해당하는 수입을 등록',
 		'등록된 수입을 바탕으로 통계 제공',
+		'(예정) 내 수입 데이터 iCloud에 안전하게 저장',
+		'(예정) 여러 수입 관련 얘기들 다양한 사람들과 나누기',
 	],
-	technologyUsed: [],
-	challenges: [],
+	technologyUsed: [
+		'swift',
+		'swiftui',
+		'swiftdata',
+		'swiftcharts',
+		'xcodecloud',
+
+	],
+	challenges: [
+		'SwiftUI의 간헐적인 버그들을 우회하는 것이 어려웠습니다. SwiftUI가 아무래도 Apple의 철학대로 있는걸 잘 가져다 쓰라고 하다 보니 Customize가 어려웠습니다.',
+		'Swift Data를 처음 써 봤고, 또 최신 iOS인 16에서만 동작하다 보니 자료가 많지 않아서 공부하는데 어려움이 있었습니다.',
+	],
 	participants: [
 		{
 			name: '박진겸',
@@ -66,10 +78,16 @@ const portfolioPurrfitTracker: Portfolio = {
 
 	db: {
 		images: [],
-		explanations: [],
+		explanations: [
+			'수입처와 수입이 Many to One인 단순한 구조입니다.',
+			'통계 처리를 위해 caching을 어디까지 해야 하나 고민이 많았습니다. (결국 일단은 하지 않기로 했습니다)'
+		],
 	},
 
-	explanations: [],
+	explanations: [
+		'SwiftUI와 Swift Data를 사용해 단순 CRUD 기능 + CRUD 된 데이터를 바탕으로 통계 처리를 했습니다. (처리된 통계 보여주는건 Swift Charts 사용)',
+		'데이터를 보지는 않았지만, 개인적으로 느끼기에 PMF가 있지 않을까 해서 고도화를 위해 확장성을 고려해서 개발했습니다.'
+	],
 }
 
 export default portfolioPurrfitTracker
