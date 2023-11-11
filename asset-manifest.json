@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.30b543f2.js",
+    "main.js": "/static/js/main.1f7f29ad.js",
     "static/media/everyonesgarden-v2.png": "/static/media/everyonesgarden-v2.2d98c7253c83bfb5a6db.png",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/boldPeople.png": "/static/media/boldPeople.f2100100a7337ceddfd9.png",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
     "static/media/purrfittracker.jpeg": "/static/media/purrfittracker.a117528601dc2aa2e05a.jpeg",
     "static/media/substrack.jpeg": "/static/media/substrack.f8dc33aae5899c2379e7.jpeg",
+    "static/media/featureddays.jpeg": "/static/media/featureddays.77a69d1e5ac05f0bee2a.jpeg",
     "static/media/booksitout.jpeg": "/static/media/booksitout.16dc4b6da9672dfaf3a7.jpeg",
     "static/media/everyonesgarden-erd.png": "/static/media/everyonesgarden-erd.f8caa6911baa24fb01b9.png",
+    "static/media/beauty99.png": "/static/media/beauty99.bc9b6a8b9514d93bcf17.png",
+    "static/media/simplyjournal.jpeg": "/static/media/simplyjournal.ff789912316d01423d47.jpeg",
     "static/media/jquery.ico": "/static/media/jquery.54e3df3589e6a3556760.ico",
     "static/media/springfeed.jpeg": "/static/media/springfeed.458de62c5f28cd6ce997.jpeg",
     "static/media/vscode.png": "/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/boldPoeple.jpeg": "/static/media/boldPoeple.cd24610d5cedf7ed3c9a.jpeg",
     "static/media/coredata.png": "/static/media/coredata.832c268ce7876eebd976.png",
     "static/media/intellij.png": "/static/media/intellij.bdf99f351373ca02d029.png",
     "static/media/kotlin.png": "/static/media/kotlin.68b45af7051fefc4a312.png",
@@ -22,6 +26,7 @@
     "static/media/swiftcharts.png": "/static/media/swiftcharts.7cf152bc593778539d44.png",
     "static/media/main-profile-2.jpg": "/static/media/main-profile-2.b3c496e87936988c44b1.jpg",
     "static/media/swiftdata.png": "/static/media/swiftdata.0684aa1f471a59c1b399.png",
+    "static/media/springfeed-er.png": "/static/media/springfeed-er.7e37f94a5bf882aada27.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.283bf42c605cfc49cf49.png",
     "static/media/swift.png": "/static/media/swift.40dd73618fde696644f2.png",
@@ -43,20 +48,22 @@
     "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/apple-appstore.png": "/static/media/apple-appstore.ac27f5d85dc15535d736.png",
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
+    "static/media/springfeed-logo.png": "/static/media/springfeed-logo.9e89310abc906933d49e.png",
     "static/media/gradle.png": "/static/media/gradle.942882edbde4fd48f99c.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
     "static/media/substrack.png": "/static/media/substrack.ef0ab845f0f4886f68d6.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/tstory-icon.png": "/static/media/tstory-icon.989708b0379d9d9cc2bf.png",
     "static/media/link.png": "/static/media/link.976b59becb66eba12d62.png",
+    "static/media/beautyIndustry.png": "/static/media/beautyIndustry.d35f7222378fcbd20fc6.png",
     "static/media/notion-icon.png": "/static/media/notion-icon.7aa264a898951e791ee3.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.30b543f2.js.map": "/static/js/main.30b543f2.js.map"
+    "main.1f7f29ad.js.map": "/static/js/main.1f7f29ad.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.30b543f2.js"
+    "static/js/main.1f7f29ad.js"
   ]
 }
