@@ -8,7 +8,7 @@ import PortfolioStatus from '../model/PortfolioStatus';
 const ProductRoute = () => {
     return (
 		<Container>
-			<RouteTitle>출시 제품</RouteTitle>
+			<RouteTitle>제품</RouteTitle>
 			<RouteSubTitle>실제로 서비스되고 있는 제품들</RouteSubTitle>
 
 			<Divider />
