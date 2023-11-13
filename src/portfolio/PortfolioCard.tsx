@@ -7,9 +7,10 @@ import PortfolioStatusBadge from './PortfolioStatusBadge';
 interface Props {
 	portfolio: Portfolio
 	color?: string
+	secondary?: boolean
 }
 
-const PortfolioCard: React.FC<Props> = ({ portfolio, color }) => {
+const PortfolioCard: React.FC<Props> = ({ portfolio, color, secondary = false }) => {
 	const portfolioDetailUrl = `portfolio/${portfolio.name.url}`
 
 	return (
@@ -21,7 +22,7 @@ const PortfolioCard: React.FC<Props> = ({ portfolio, color }) => {
 			<h3 className='mt-3'>
 				{portfolio.name.korean} ({portfolio.participants.length}명)
 			</h3>
-			<h6>{portfolio.description.short}</h6>
+			<h6 className={secondary ? 'text-secondary' : ''}>{portfolio.description.short}</h6>
 		</Link>
 		</>
 	)

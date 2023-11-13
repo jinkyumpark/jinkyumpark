@@ -19,7 +19,7 @@ const PortfolioRoute = () => {
 						<div className='col-xs-12 col-lg-6 col-xl-4 mb-4'>
 							<Card>
 								<Card.Body>
-									<PortfolioCard portfolio={portfolio} />
+									<PortfolioCard portfolio={portfolio} secondary={true}/>
 								</Card.Body>
 							</Card>
 						</div>
