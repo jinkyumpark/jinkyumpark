@@ -10,7 +10,7 @@ export const channels = [
 		border: false,
 	},
 	{
-		url: 'https://jinkpark.tstory.com',
+		url: 'https://blog.jinkyumpark.com',
 		icon: tstoryIcon,
 		border: true,
 	},
