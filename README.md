@@ -16,16 +16,16 @@
 </p>
 <br/>
 
-# 요즘 관심 있는 것들
-- Kotlin
-- 프로그래밍 언어론
-- Loom (https://openjdk.org/projects/loom/)
-<br/>
-
 # 포트폴리오 ([jinkyumpark.com/portfolio](https://jinkyumpark.com/portfolio))
 - 책잇아웃 - [booksitout.com](https://booksitout.com)
 - 구독 돌보미 - [앱스토어](https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943)
 - 수입 관리냥 - [앱스토어](https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943)
+<br/>
+
+# 요즘 관심 있는 것들
+- Kotlin
+- 프로그래밍 언어론
+- Loom (https://openjdk.org/projects/loom/)
 <br/>
 
 # 기타
