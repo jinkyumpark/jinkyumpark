@@ -24,7 +24,6 @@
 
 # 포트폴리오 ([jinkyumpark.com/portfolio](https://jinkyumpark.com/portfolio))
 - 책잇아웃 - [booksitout.com](https://booksitout.com)
-- 모두의 텃밭 - [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app)
 - 구독 돌보미 - [앱스토어](https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943)
 - 수입 관리냥 - [앱스토어](https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943)
 <br/>
