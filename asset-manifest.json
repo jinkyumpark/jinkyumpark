@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.ca7854e2.js",
+    "main.js": "/static/js/main.7e2db7f9.js",
     "static/media/everyonesgarden-v2.png": "/static/media/everyonesgarden-v2.2d98c7253c83bfb5a6db.png",
+    "static/media/main-profile-3.jpg": "/static/media/main-profile-3.04c3d6b06ddbe3ca1d51.jpg",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/boldPeople.png": "/static/media/boldPeople.f2100100a7337ceddfd9.png",
     "static/media/everyonesgarden.jpeg": "/static/media/everyonesgarden.86e64577a48740a36fc5.jpeg",
@@ -24,7 +25,6 @@
     "static/media/purrfitTracker.png": "/static/media/purrfitTracker.a6aa50e7ed83c90fdfbd.png",
     "static/media/xcodecloud.png": "/static/media/xcodecloud.538e64dd92ed852b99c7.png",
     "static/media/swiftcharts.png": "/static/media/swiftcharts.7cf152bc593778539d44.png",
-    "static/media/main-profile-2.jpg": "/static/media/main-profile-2.b3c496e87936988c44b1.jpg",
     "static/media/swiftdata.png": "/static/media/swiftdata.0684aa1f471a59c1b399.png",
     "static/media/springfeed-er.png": "/static/media/springfeed-er.7e37f94a5bf882aada27.png",
     "static/media/main-profile.jpg": "/static/media/main-profile.2529416d34a5f78686c3.jpg",
@@ -60,10 +60,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.ca7854e2.js.map": "/static/js/main.ca7854e2.js.map"
+    "main.7e2db7f9.js.map": "/static/js/main.7e2db7f9.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.ca7854e2.js"
+    "static/js/main.7e2db7f9.js"
   ]
 }
