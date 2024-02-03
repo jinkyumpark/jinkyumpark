@@ -1,6 +1,6 @@
 import React from 'react'
 import WebLink from '../common/WebLink'
-import profile from '../images/main-profile-2.jpg'
+import profile from '../images/main-profile-3.jpg'
 import parse from 'html-react-parser'
 import styled from 'styled-components';
 
