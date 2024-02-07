@@ -41,5 +41,3 @@
 | 名前 | 技術 | 参加者 | リンク |
 | - | - | - | - |
 | Booksitout | Java, Kotlin, Spring Boot, Spring Actuator, Spring Webflux, Spring Security, Spring Batch, Spring Cloud (Gateway, Eureka, Config, Hystrix, Open Feign), JPA, QueryDsl, MySQL, Redis, React, Redux, TS, Bootstrap, Styled-Components, SaSS, Docker, K8S, AWS (EC2, RDS, S3, SQS, SNS, EKS), Naver Cloud (OCR, Map) Github Actions, Logging(Sleuth, Zipkin), Figma, Abode Illustrator | 1 | [booksitout.com](https://booksitout.com) |
-| Everyone's Garden | Spring Boot, JPA, MySQL | 5 | [everyonesgarden.vercel.app](https://everyonesgarden.vercel.app) |
-| SubsTrack | SwiftUI | 1 | [jinkyumpark.com/substrack](jinkyumpark.com/product/substrack) |
