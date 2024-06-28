@@ -16,8 +16,8 @@ const PortfolioData: Portfolio[] = [
 	portfolioBooksitout,
 	portfolioPurrfitTracker,
 	portfolioSubstrack,
-	portfolioEveryonesGarden,
 	portfolioPianoman,
+	portfolioEveryonesGarden,
 	portfolioSpringfeed,
 
 	// Hidden in Main

@@ -7,7 +7,7 @@ import icon from '../../images/icons/pianoman.png'
 
 const portfolioPianoman: Portfolio = {
 	id: 5,
-	status: PortfolioStatus.GIVE_UP,
+	status: PortfolioStatus.STARTED,
 	name: {
 		korean: '피아노맨',
 		english: 'Pianoman',
