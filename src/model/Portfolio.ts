@@ -1,4 +1,5 @@
 import PortfolioStatus from "./PortfolioStatus"
+import Technology from "./Technology";
 
 interface Portfolio {
     id: number
@@ -14,7 +15,7 @@ interface Portfolio {
     features: string[]
     demoImages: string[]
 
-    technologyUsed: string[]
+    technologyUsed: Technology[]
     challenges: string[]
     participants: PortfolioParticipant[]
 

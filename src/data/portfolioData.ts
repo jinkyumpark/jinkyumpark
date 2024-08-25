@@ -16,15 +16,15 @@ const PortfolioData: Portfolio[] = [
 	portfolioBooksitout,
 	portfolioPurrfitTracker,
 	portfolioSubstrack,
+	portfolioFeaturedDays,
 	portfolioPianoman,
 	portfolioEveryonesGarden,
-	portfolioSpringfeed,
 
 	// Hidden in Main
-	portfolioFeaturedDays,
 	portfolioSimplyJournal,
 	portfolioBoldPeople,
 	portfolioBeautyIndustry,
+	portfolioSpringfeed,
 ]
 
 export default PortfolioData

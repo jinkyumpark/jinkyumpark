@@ -10,20 +10,22 @@ import boldPeopleIcon from '../images/icons/boldPeople.png'
 import purrfitTrackerIcon from '../images/icons/purrfitTracker.png'
 import substrackIcon from '../images/icons/substrack.png'
 import springfeedIcon from '../images/icons/springfeed-logo.png'
+import featuredDaysIcon from '../images/icons/featureddaysicon.png'
 
 const WebsiteIcon = {
-	github: githubIcon,
-	tstory: tstoryIcon,
-	linkedin: linkedinIcon,
-	notion: notionIcon,
-	appleAppstore: appleAppstoreIcon,
-	link: generalLink,
+    github: githubIcon,
+    tstory: tstoryIcon,
+    linkedin: linkedinIcon,
+    notion: notionIcon,
+    appleAppstore: appleAppstoreIcon,
+    link: generalLink,
 
-	booksitout: booksitoutIcon,
-	boldPeople: boldPeopleIcon,
-	purrfitTracker: purrfitTrackerIcon,
-	substrackIcon: substrackIcon,
-	springfeed: springfeedIcon,
+    booksitout: booksitoutIcon,
+    boldPeople: boldPeopleIcon,
+    purrfitTracker: purrfitTrackerIcon,
+    substrackIcon: substrackIcon,
+    springfeed: springfeedIcon,
+    featuredDays: featuredDaysIcon,
 }
 
 export default WebsiteIcon

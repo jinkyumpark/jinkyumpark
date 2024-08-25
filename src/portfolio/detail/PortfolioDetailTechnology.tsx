@@ -1,10 +1,9 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
 import Portfolio from '../../model/Portfolio'
 import Technology from '../../model/Technology'
-import TechnologyData from '../../data/TechnologyData'
 import styled from 'styled-components';
-import { CardTitle } from '../../common/commonStyle'
+import {CardTitle} from '../../common/commonStyle'
 
 interface Props {
     portfolio: Portfolio
@@ -20,7 +19,7 @@ const PortfolioDetailTechnology: React.FC<Props> = ({ portfolio }) => {
                     {
                         portfolio.technologyUsed.map((technology) => {
                             return (
-                                <SimpleTechnologyIcon technology={TechnologyData.get(technology) ?? TechnologyData.default} />
+                                <SimpleTechnologyIcon technology={technology} />
                             )
                         })
                     }

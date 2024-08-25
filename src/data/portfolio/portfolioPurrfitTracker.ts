@@ -4,6 +4,7 @@ import PortfolioStatus from "../../model/PortfolioStatus";
 import icon from '../../images/icons/purrfitTracker.png'
 import demo from '../../images/demo/purrfittracker.jpeg'
 import WebsiteIcon from "../websiteIcon";
+import TechnologyData from "../TechnologyData";
 
 const portfolioPurrfitTracker: Portfolio = {
 	id: 12,
@@ -58,12 +59,11 @@ const portfolioPurrfitTracker: Portfolio = {
 		'(예정) 여러 수입 관련 얘기들 다양한 사람들과 나누기',
 	],
 	technologyUsed: [
-		'swift',
-		'swiftui',
-		'swiftdata',
-		'swiftcharts',
-		'xcodecloud',
-
+		TechnologyData.swift,
+		TechnologyData.swiftUI,
+		TechnologyData.swiftData,
+		TechnologyData.swiftChart,
+		TechnologyData.xCodeCloud,
 	],
 	challenges: [
 		'SwiftUI의 간헐적인 버그들을 우회하는 것이 어려웠습니다. SwiftUI가 아무래도 Apple의 철학대로 있는걸 잘 가져다 쓰라고 하다 보니 Customize가 어려웠습니다.',

@@ -2,6 +2,7 @@ import Portfolio from "../../model/Portfolio";
 import PortfolioStatus from "../../model/PortfolioStatus";
 import WebsiteIcon from "../websiteIcon";
 import booksitout from '../../images/demo/booksitout.jpeg'
+import TechnologyData from "../TechnologyData";
 
 const portfolioBooksitout: Portfolio = {
 	id: 1,
@@ -49,7 +50,7 @@ const portfolioBooksitout: Portfolio = {
 		'내 독서 기록을 공유하고 얘기를 나눌 수 있는 커뮤니티',
 	],
 	demoImages: [],
-	technologyUsed: ['java', 'kotlin', 'spring', 'springsecurity', 'springcloud', 'gradle', 'react', 'bootstrap', 'redux', 'python'],
+	technologyUsed: [TechnologyData.java, TechnologyData.kotlin, TechnologyData.spring, TechnologyData.springSecurity, TechnologyData.springCloud, TechnologyData.gradle, TechnologyData.react, TechnologyData.redux, TechnologyData.bootstrap, TechnologyData.redux, TechnologyData.python],
 	challenges: [
 		`
 			거의 반년동안 계속적으로 프로젝트를 진행하면서 초반에 짠 코드들이 후반에 가서는 기술적 부채처럼 느껴졌고, 

@@ -5,6 +5,7 @@ import WebsiteIcon from "../websiteIcon";
 import thumbnailImage from '../../images/demo/everyonesgarden.jpeg'
 import demo2 from '../../images/demo/everyonesgarden-v2.png'
 import erd from '../../images/erd/everyonesgarden-erd.png'
+import TechnologyData from "../TechnologyData";
 
 const portfolioEveryonesGarden: Portfolio = {
 	id: 0,
@@ -46,7 +47,13 @@ const portfolioEveryonesGarden: Portfolio = {
 
 	features: ['지도상에서 분양중인 공공/민간 텃밭 모아 보기', '내 텃밭 등록하고 관리하기', '월별 키우면 좋을 작물 추천받기'],
 	demoImages: [demo2],
-	technologyUsed: ['java', 'spring', 'springsecurity', 'jpa', 'mysql'],
+	technologyUsed: [
+		TechnologyData.java,
+		TechnologyData.spring,
+		TechnologyData.springSecurity,
+		TechnologyData.jpa,
+		TechnologyData.mysql,
+	],
 	challenges: [
 		'보통 혼자서 프로젝트를 진행하는 경우가 많아 5명이나 되는 분들과 협력하면서 많은 비효율이나 갈등이 있었는데, 메이커뿐만 아니라 매니저나 문화의 중요성을 느꼈습니다.',
 		'공공기관에 내는 프로젝트다 보니 여러 비합리적인 절차를 따라야 했습니다. (불필요한 Open API 사용, 쓸데없는 발표를 위한 이동 등)',

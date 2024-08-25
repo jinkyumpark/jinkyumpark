@@ -9,7 +9,7 @@ const PortfolioRoute = () => {
 	return (
 		<div className='container mt-5 mb-5 text-center'>
 			<RouteTitle>포트폴리오</RouteTitle>
-			<RouteSubTitle>개발 과정에 (상당히 많이) 참여한 제품들</RouteSubTitle>
+			<RouteSubTitle>개발 전반에 참여한 제품들</RouteSubTitle>
 
 			<MarginRow m={40}/>
 
