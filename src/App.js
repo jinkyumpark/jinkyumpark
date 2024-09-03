@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 import './common.css'
 
 import Topnav from './common/Topnav'
@@ -20,6 +20,7 @@ import purrfitTrackerPrivacyKorean from './data/portfolio/purrfitCat/PurrfitTrac
 import purrfitTrackerPrivacyEnglish from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyEnglish';
 import ProductPrivacyEnglish from './product/privacy/ProductPrivacyEnglish';
 import ProductPrivacyKorean from './product/privacy/ProductPrivacyKorean';
+import InterestRoute from "./interests/InterestRoute";
 
 function App() {
 	return (
@@ -39,15 +40,15 @@ function App() {
 
 				<Route path='/product/purrfit-tracker.korean' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
 				<Route path='/product/purrfit-tracker/privacy.korean' element={<ProductPrivacyKorean privacyText={purrfitTrackerPrivacyKorean} />} />
-
 				<Route path='/product/purrfit-tracker.english' element={<ProductDetailEnglish product={purrfitTrackerEnglish} />} />
 				<Route path='/product/purrfit-tracker/privacy.english' element={<ProductPrivacyEnglish privacyText={purrfitTrackerPrivacyEnglish} />} />
-
 				<Route path='/product/purrfit-tracker.japanese' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
 				<Route path='/product/purrfit-tracker/privacy.japanese' element={<ProductDetailKorean product={purrfitTrackerKorean} />} />
 
 				<Route path='/technology/:technologyName' element={<TechnologyDetail />} />
-				
+
+				<Route path='/interests' element={<InterestRoute/>} />
+
 				{/* redirects */}
 				<Route path='notion/it-company' element={<Redirect url={`https://jinkyumpark.notion.site/IT-7b54807230e74b588ccdc03c7d04065d?pvs=4`} />} />
 				<Route path='notion/everyone-garden' element={<Redirect url={`https://jinkyumpark.notion.site/0e220ea9afce447ea4382e9ef46032a6?pvs=4`} />} />
