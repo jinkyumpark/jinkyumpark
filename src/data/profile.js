@@ -15,7 +15,7 @@ export const profile = {
 	summaries: [
 		`<a href="https://toss.im/" target="_blank" class="text-decoration-none">비바리퍼블리카 (토스)</a> 서버 개발자`,
 		`기술의 원리를 이해하는걸 즐깁니다`,
-		`Clean Code를 쓰기 위해 refactoring을 습관화합니다`,
+		`실용적인 공부와 코딩에 관심이 많습니다`,
 		`유저들이 필요하고 쓰기 편한 서비스를 만들고 싶습니다`,
 	],
 	experience: [

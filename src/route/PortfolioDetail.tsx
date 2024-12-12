@@ -60,10 +60,6 @@ const PortfolioDetail = () => {
 						</FullContainer>
 
 						<FullContainer>
-							<PortfolioDbCard portfolio={portfolio} />
-						</FullContainer>
-
-						<FullContainer>
 							<PortfolioDifficultyCard portfolio={portfolio}/>
 						</FullContainer>
 					</div>
