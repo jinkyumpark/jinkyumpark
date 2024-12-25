@@ -22,6 +22,7 @@
 - 고정지출 돌보미 - [애플 앱스토어](https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943)
 - 수입 관리냥 - [애플 앱스토어](https://apps.apple.com/app/purrfit-tracker/id6458539987)
 - 인생의 날 - [애플 앱스토어](https://apps.apple.com/us/app/featured-days/id6523433258)
+- Simplified Google Task - [크롬 스토어](https://chromewebstore.google.com/detail/simplified-google-task/afbfiknnjongdnpklecckkgfehdojmgi)
 <br/>
 
 
