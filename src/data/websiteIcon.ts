@@ -3,6 +3,7 @@ import linkedinIcon from '../images/url-icon/linkedin-icon.png'
 import tstoryIcon from '../images/url-icon/tstory-icon.png'
 import notionIcon from '../images/url-icon/notion-icon.png'
 import appleAppstoreIcon from '../images/url-icon/apple-appstore.png'
+import googleChrome from '../images/url-icon/google-chrome.png'
 import generalLink from '../images/icons/link.png'
 
 import booksitoutIcon from '../images/icons/booksitout.png'
@@ -19,6 +20,7 @@ const WebsiteIcon = {
     notion: notionIcon,
     appleAppstore: appleAppstoreIcon,
     link: generalLink,
+    googleChrome: googleChrome,
 
     booksitout: booksitoutIcon,
     boldPeople: boldPeopleIcon,

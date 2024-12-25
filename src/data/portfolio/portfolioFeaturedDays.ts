@@ -6,7 +6,6 @@ import icon from '../../images/icons/featureddaysicon.png'
 import WebsiteIcon from "../websiteIcon";
 import TechnologyData from "../TechnologyData";
 
-
 const portfolioFeaturedDays: Portfolio = {
     id: 0,
     status: PortfolioStatus.PRODUCTION,

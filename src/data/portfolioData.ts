@@ -10,6 +10,7 @@ import portfolioSpringfeed from "./portfolio/portfolioSpringfeed";
 import portfolioSubstrack from "./portfolio/portfolioSubstrack";
 import portfolioPurrfitTracker from './portfolio/portfolioPurrfitTracker'
 import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
+import portfolioSimplifyGoogleTask from "./portfolio/portfolioSimplifyGoogleTask";
 
 const PortfolioData: Portfolio[] = [
 	// Visible in Main
@@ -18,6 +19,7 @@ const PortfolioData: Portfolio[] = [
 	portfolioSubstrack,
 	portfolioFeaturedDays,
 	portfolioPianoman,
+	portfolioSimplifyGoogleTask,
 	portfolioEveryonesGarden,
 
 	// Hidden in Main
