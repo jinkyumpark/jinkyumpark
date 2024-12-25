@@ -13,11 +13,11 @@ import ProductPrivacy from './product/ProductPrivacy';
 import PortfolioRoute from './route/PortfolioRoute';
 import ProductDetailKorean from './product/ProductDetailKorean';
 
-import purrfitTrackerKorean from './data/portfolio/purrfitCat/PurrfitTrackerKorean';
-import purrfitTrackerEnglish from './data/portfolio/purrfitCat/PurrfitTrackerEnglish';
+import purrfitTrackerKorean from './data/portfolio/purrfitTracker/PurrfitTrackerKorean';
+import purrfitTrackerEnglish from './data/portfolio/purrfitTracker/PurrfitTrackerEnglish';
 import ProductDetailEnglish from './product/ProductDetailEnglish';
-import purrfitTrackerPrivacyKorean from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyKorean';
-import purrfitTrackerPrivacyEnglish from './data/portfolio/purrfitCat/PurrfitTrackerPrivacyEnglish';
+import purrfitTrackerPrivacyKorean from './data/portfolio/purrfitTracker/PurrfitTrackerPrivacyKorean';
+import purrfitTrackerPrivacyEnglish from './data/portfolio/purrfitTracker/PurrfitTrackerPrivacyEnglish';
 import ProductPrivacyEnglish from './product/privacy/ProductPrivacyEnglish';
 import ProductPrivacyKorean from './product/privacy/ProductPrivacyKorean';
 import InterestRoute from "./interests/InterestRoute";

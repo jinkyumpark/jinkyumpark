@@ -1,4 +1,4 @@
-import purrfitTrackerPrivacyKorean from "./portfolio/purrfitCat/PurrfitTrackerPrivacyKorean"
+import purrfitTrackerPrivacyKorean from "./portfolio/purrfitTracker/PurrfitTrackerPrivacyKorean"
 
 const PrivacyPolicy: Map<string, string> = new Map([
 	[
