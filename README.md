@@ -12,7 +12,7 @@
      - Home Loan Team - `주담대`/`전세대`/`청약` 관련 팀 (23년 9월 ~ 24년 5월)
      - Business Foundation Team - `정산`/`영업 관리`/`사업자 정보` 등의 B2B 플렛폼 관련 팀 (24년 5월 ~ )
      - [2024년 장애인의 날 별자리 기부](https://blog.toss.im/article/international-day-of-people-with-disability) 서버 개발 (24년 11월 ~ 12월)
-  - 읽기 쉬운 코드에 진심입니다. 관심사 분리, 좋은 이름, 언어의 여러 기능 (특히 `Kotlin`의 `extension fun`), Coding Convention을 틈틈히 공부하고 실천합니다.
+  - 읽기 쉬운 코드에 진심입니다. 좋은 이름, 언어의 여러 기능 (특히 `Kotlin`의 `extension fun`), Coding Convention을 틈틈히 공부하고 실천합니다.
   - 기술을 깊게 파고 메몰되기 보다는 비즈니스 가치를 만들어 내는 실용적인 걸 선호합니다. (그래서 `DDD`, `객체지향`, `헥사고날`, `테스트 커버리지 무작정 높이기` 등을 좋아하지 않습니다.)
   - 어떤 것을 하더라도 완전히 몰입해 의미있는 것을 이루는 것에서 동기부여를 얻습니다.
 </p>
@@ -28,7 +28,7 @@
 
 
 # 요즘 관심 있는 것들
-- SwiftUI
 - 실용적으로 프로그래밍 하기
 - 블로그에 정리하기
+- Crafting Interpreters
 <br/>
