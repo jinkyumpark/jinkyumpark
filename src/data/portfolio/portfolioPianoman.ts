@@ -7,7 +7,7 @@ import icon from '../../images/icons/pianoman.png'
 
 const portfolioPianoman: Portfolio = {
 	id: 5,
-	status: PortfolioStatus.STARTED,
+	status: PortfolioStatus.PRODUCTION,
 	name: {
 		korean: '피아노맨',
 		english: 'Pianoman',
@@ -29,9 +29,9 @@ const portfolioPianoman: Portfolio = {
 	thumbnailImage: demo,
 	detailImage: demo,
 	description: {
-		short: '내 악기 연습을 기록할 수 있는 iOS 앱',
-		medium: '',
-		long: '',
+		short: '음악하는 모든 분을 위한, 단 1개의 앱.',
+		medium: `내 연습 기록부터, 메트로놈, 녹음까지.<br/>\음악하면서 필요한 여러 기능을 1개의 앱에서 누려 보세요.`,
+		long: '내 연습 기록부터, 메트로놈, 녹음까지.<br/>\음악하면서 필요한 여러 기능을 1개의 앱에서 누려 보세요.',
 	},
 	features: [],
 	demoImages: [],

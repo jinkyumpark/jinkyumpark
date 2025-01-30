@@ -20,9 +20,9 @@ const PortfolioData: Portfolio[] = [
 	portfolioFeaturedDays,
 	portfolioPianoman,
 	portfolioSimplifyGoogleTask,
-	portfolioEveryonesGarden,
 
 	// Hidden in Main
+	portfolioEveryonesGarden,
 	portfolioSimplyJournal,
 	portfolioBoldPeople,
 	portfolioBeautyIndustry,
