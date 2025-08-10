@@ -9,7 +9,7 @@ import TechnologyData from "../TechnologyData";
 
 const portfolioEveryonesGarden: Portfolio = {
 	id: 0,
-	status: PortfolioStatus.RELEASED,
+	status: PortfolioStatus.GIVE_UP,
 
 	name: {
 		korean: '모두의 텃밭',
@@ -22,7 +22,7 @@ const portfolioEveryonesGarden: Portfolio = {
 	detailImage: demo2,
 	link: [
 		{
-			link: `https://everyonesgarden.vercel.app/`,
+			link: `https://everyones-garden.com`,
 			icon: `https://avatars.githubusercontent.com/u/130581559?s=200&v=4`,
 			border: true,
 		},

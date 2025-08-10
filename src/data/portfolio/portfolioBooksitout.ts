@@ -6,7 +6,7 @@ import TechnologyData from "../TechnologyData";
 
 const portfolioBooksitout: Portfolio = {
 	id: 1,
-	status: PortfolioStatus.RELEASED,
+	status: PortfolioStatus.PRODUCTION,
 	name: {
 		korean: '책잇아웃',
 		english: 'booksitout',

@@ -11,6 +11,7 @@ import portfolioSubstrack from "./portfolio/portfolioSubstrack";
 import portfolioPurrfitTracker from './portfolio/portfolioPurrfitTracker'
 import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 import portfolioSimplifyGoogleTask from "./portfolio/portfolioSimplifyGoogleTask";
+import portfolioRaycastNaverExtension from './portfolio/portfolioRaycastExtensionNaverSearch'
 
 const PortfolioData: Portfolio[] = [
 	// Visible in Main
@@ -19,9 +20,10 @@ const PortfolioData: Portfolio[] = [
 	portfolioSubstrack,
 	portfolioFeaturedDays,
 	portfolioPianoman,
-	portfolioSimplifyGoogleTask,
+    portfolioRaycastNaverExtension,
 
 	// Hidden in Main
+	portfolioSimplifyGoogleTask,
 	portfolioEveryonesGarden,
 	portfolioSimplyJournal,
 	portfolioBoldPeople,

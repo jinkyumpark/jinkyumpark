@@ -34,6 +34,7 @@ import java from '../images/technology/language/java.png'
 import kotlin from '../images/technology/language/kotlin.png'
 import node from '../images/technology/language/node.png'
 import python from '../images/technology/language/python.png'
+import typescript from '../images/technology/language/typescript.png'
 
 import intellij from '../images/technology/tools/intellij.png'
 import vim from '../images/technology/tools/vim.png'
@@ -305,6 +306,13 @@ const TechnologyData = {
         icon: vscode,
         category: TechnologyCategory.LANGUAGE,
     },
+
+    typescript: {
+        id: 'typescript',
+        name: 'TS',
+        icon: typescript,
+        category: TechnologyCategory.LANGUAGE,
+    }
 }
 
 export default TechnologyData
