@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.27efda46.css",
-    "main.js": "/static/js/main.69222419.js",
+    "main.js": "/static/js/main.4d98be5c.js",
     "static/media/everyonesgarden-v2.png": "/static/media/everyonesgarden-v2.2d98c7253c83bfb5a6db.png",
+    "static/media/raycast-extensions-naver.png": "/static/media/raycast-extensions-naver.b008021f29a57b41ced3.png",
     "static/media/main-profile-3.jpg": "/static/media/main-profile-3.04c3d6b06ddbe3ca1d51.jpg",
     "static/media/pianoman.jpeg": "/static/media/pianoman.cc3df0f227cff59f36e7.jpeg",
     "static/media/featureddays.png": "/static/media/featureddays.ffd3aab76f245f04a369.png",
@@ -26,6 +27,7 @@
     "static/media/purrfitTracker.png": "/static/media/purrfitTracker.a6aa50e7ed83c90fdfbd.png",
     "static/media/xcodecloud.png": "/static/media/xcodecloud.538e64dd92ed852b99c7.png",
     "static/media/swiftcharts.png": "/static/media/swiftcharts.7cf152bc593778539d44.png",
+    "static/media/pianoman.png": "/static/media/pianoman.0f8a06dcf2e9c303fa54.png",
     "static/media/google-chrome.png": "/static/media/google-chrome.50c5ed9a4add9969f579.png",
     "static/media/swiftdata.png": "/static/media/swiftdata.0684aa1f471a59c1b399.png",
     "static/media/springfeed-er.png": "/static/media/springfeed-er.7e37f94a5bf882aada27.png",
@@ -45,11 +47,13 @@
     "static/media/aws.jpeg": "/static/media/aws.1702b9adf156784d9efb.jpeg",
     "static/media/linux.png": "/static/media/linux.8f43b47d4911fa04d8f3.png",
     "static/media/css.png": "/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/raycast.png": "/static/media/raycast.bc10463e787b7a8511bc.png",
     "static/media/featureddaysicon.png": "/static/media/featureddaysicon.92f6442c1f28c256cf8c.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/apple-appstore.png": "/static/media/apple-appstore.ac27f5d85dc15535d736.png",
+    "static/media/typescript.png": "/static/media/typescript.04d23b014aee30c20903.png",
     "static/media/swiftui.png": "/static/media/swiftui.a86cb7265c857256ea72.png",
     "static/media/springfeed-logo.png": "/static/media/springfeed-logo.9e89310abc906933d49e.png",
     "static/media/gradle.png": "/static/media/gradle.942882edbde4fd48f99c.png",
@@ -63,10 +67,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27efda46.css.map": "/static/css/main.27efda46.css.map",
-    "main.69222419.js.map": "/static/js/main.69222419.js.map"
+    "main.4d98be5c.js.map": "/static/js/main.4d98be5c.js.map"
   },
   "entrypoints": [
     "static/css/main.27efda46.css",
-    "static/js/main.69222419.js"
+    "static/js/main.4d98be5c.js"
   ]
 }
