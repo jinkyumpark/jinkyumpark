@@ -6,7 +6,7 @@ import TechnologyData from "../TechnologyData";
 
 const portfolioRaycastExtensionNaverSearch: Portfolio = {
     id: 20,
-    status: PortfolioStatus.STARTED,
+    status: PortfolioStatus.PRODUCTION,
     name: {
         korean: `Raycast 네이버 Extension`,
         english: `Raycast Naver Search Extension`,
