@@ -12,7 +12,7 @@
 </p>
 <br/>
 
-# 사이드 프로젝트 ([jinkyumpark.com/portfolio](https://jinkyumpark.com/portfolio))
+# 사이드 프로젝트 ([jinkyumpark.com/products](https://jinkyumpark.com/products))
 - 책잇아웃 - [booksitout.com](https://booksitout.com)
 
 - iOS 앱

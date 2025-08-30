@@ -1,0 +1,32 @@
+import React from 'react'
+import {Card} from 'react-bootstrap'
+import styled from 'styled-components';
+import Product from "../../../model/Product";
+import {CardTitle} from "../../../common/commonStyle";
+
+const ProductDetailEtcCard: React.FC<{ product: Product }> = ({product}) => {
+    return (
+        <Card>
+            <Card.Body>
+                <CardTitle>기타</CardTitle>
+
+                <ul>
+                    <li>
+                        <Link href={`/products/${product.name.url}/privacy`}>개인정보처리방침</Link>
+                    </li>
+                </ul>
+            </Card.Body>
+        </Card>
+    )
+}
+
+const Link = styled.a`
+    text-decoration: none;
+    color: rgb(26, 188, 156);
+
+    &:hover {
+        color: rgb(26, 188, 156);
+    }
+`
+
+export default ProductDetailEtcCard

@@ -3,5 +3,38 @@
 }
 
 .clamp-1-line {
+    font-size: clamp(16px, 3vw, 24px);
+    line-height: 1.4;
+    max-width: 100%;
+
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.hover-effect {
+    transition: .3s transform;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+}
+
+.link-hover-effect {
+    transition: .3s transform;
+}
+
+.link-hover-effect:hover {
+    transform: scale(1.2);
+}
+
+@supports(padding:max(0px)) {
+    body, header, footer {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right));
+    }
+}
+
+.content {
+    padding: 16px env(safe-area-inset-right) 16px env(safe-area-inset-left);
 }

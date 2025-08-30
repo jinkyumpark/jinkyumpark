@@ -1,13 +1,13 @@
-import Portfolio from "../../model/Portfolio"
-import PortfolioStatus from "../../model/PortfolioStatus"
+import Product from "../../model/Product"
+import ProductStatus from "../../model/ProductStatus"
 
 import icon from '../../images/icons/boldPeople.png'
 import demo from '../../images/demo/boldPoeple.jpeg'
 import WebsiteIcon from "../websiteIcon"
 
-const portfolioBoldPeople: Portfolio = {
+const portfolioBoldPeople: Product = {
 	id: 5,
-	status: PortfolioStatus.GIVE_UP,
+	status: ProductStatus.GIVE_UP,
 	name: {
 		korean: '대담인',
 		english: 'Bold People',

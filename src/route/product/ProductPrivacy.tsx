@@ -1,0 +1,28 @@
+import React, {useEffect} from 'react'
+import {useParams} from 'react-router'
+import parse from 'html-react-parser'
+import PrivacyPolicy from "../../data/privacyPolicy";
+import Error from '../../common/Error'
+
+const ProductPrivacy = () => {
+    const {productName} = useParams()
+
+    const [privacyPolicy, setPrivacyPolicy] = React.useState<string | null>(null)
+    useEffect(() => {
+        setPrivacyPolicy(PrivacyPolicy.get(productName?.toUpperCase() ?? '') ?? '')
+        document.title = `개인정보처리방침`
+    }, [productName])
+
+    const errorMessage = {
+        main: `없는 페이지에요`,
+        sub: `URL을 다시 확인해 주세요`,
+    }
+
+    if (privacyPolicy == null || privacyPolicy === '') {
+        return <Error message={errorMessage}/>
+    }
+
+    return <div className='container mt-5 mb-5'>{parse(privacyPolicy)}</div>
+}
+
+export default ProductPrivacy

@@ -1,11 +1,11 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 import demo from '../../images/demo/simplyjournal.jpeg'
 
-const portfolioSimplyJournal: Portfolio = {
+const portfolioSimplyJournal: Product = {
 	id: 9,
-	status: PortfolioStatus.GIVE_UP,
+	status: ProductStatus.GIVE_UP,
 	name: {
 		korean: `간편일기`,
 		english: `Simply Journal`,
@@ -18,11 +18,6 @@ const portfolioSimplyJournal: Portfolio = {
 		{
 			link: `https://github.com/jinkyumpark/simply-journal`,
 			icon: WebsiteIcon.github,
-			border: false,
-		},
-		{
-			link: `http://simply-journal.jinkyumpark.com/`,
-			icon: WebsiteIcon.link,
 			border: false,
 		},
 	],

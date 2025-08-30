@@ -1,12 +1,12 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 import thumbnail from '../../images/demo/raycast-extensions-naver.png'
 import TechnologyData from "../TechnologyData";
 
-const portfolioRaycastExtensionNaverSearch: Portfolio = {
+const portfolioRaycastExtensionNaverSearch: Product = {
     id: 20,
-    status: PortfolioStatus.PRODUCTION,
+    status: ProductStatus.PRODUCTION,
     name: {
         korean: `Raycast 네이버 Extension`,
         english: `Raycast Naver Search Extension`,

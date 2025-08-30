@@ -1,14 +1,14 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 
 import icon from '../../images/icons/purrfitTracker.png'
 import demo from '../../images/demo/purrfittracker.jpeg'
 import WebsiteIcon from "../websiteIcon";
 import TechnologyData from "../TechnologyData";
 
-const portfolioPurrfitTracker: Portfolio = {
+const portfolioPurrfitTracker: Product = {
 	id: 12,
-	status: PortfolioStatus.PRODUCTION,
+	status: ProductStatus.PRODUCTION,
 	name: {
 		korean: '수입 관리냥',
 		english: 'Purrfit Tracker',
@@ -19,11 +19,6 @@ const portfolioPurrfitTracker: Portfolio = {
 		{
 			link: 'https://apps.apple.com/app/purrfit-tracker/id6458539987',
 			icon: WebsiteIcon.appleAppstore,
-			border: false,
-		},
-		{
-			link: 'https://github.com/jinkyumpark/purrfit-tracker',
-			icon: WebsiteIcon.github,
 			border: false,
 		},
 	],

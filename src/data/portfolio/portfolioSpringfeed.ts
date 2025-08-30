@@ -1,13 +1,13 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 import demo from '../../images/demo/springfeed.jpeg'
 import erd from '../../images/erd/springfeed-er.png'
 import TechnologyData from "../TechnologyData";
 
-const portfolioSpringfeed: Portfolio = {
+const portfolioSpringfeed: Product = {
     id: 10,
-    status: PortfolioStatus.GIVE_UP,
+    status: ProductStatus.GIVE_UP,
     name: {
         korean: '스프링 피드',
         english: 'Springfeed',

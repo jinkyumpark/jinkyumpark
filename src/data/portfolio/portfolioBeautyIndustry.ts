@@ -1,19 +1,26 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 
 import demo from '../../images/demo/beauty99.png'
 import icon from '../../images/icons/beautyIndustry.png'
+import WebsiteIcon from "../websiteIcon";
 
-const portfolioBeautyIndustry: Portfolio = {
+const portfolioBeautyIndustry: Product = {
 	id: 6,
-	status: PortfolioStatus.GIVE_UP,
+	status: ProductStatus.GIVE_UP,
 	name: {
 		korean: '미용업계',
 		english: 'Beauty Industry',
 		url: 'beauty-industry',
 	},
 	icon: icon,
-	link: [],
+	link: [
+        {
+            link: 'https://github.com/jinkyumpark/beauty-industry',
+            icon: WebsiteIcon.github,
+            border: false
+        },
+    ],
 	thumbnailImage: demo,
 	detailImage: demo,
 	description: {

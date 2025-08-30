@@ -1,12 +1,12 @@
-import Portfolio from "../../model/Portfolio";
+import Product from "../../model/Product";
 import WebsiteIcon from "../websiteIcon";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import ProductStatus from "../../model/ProductStatus";
 import icon from '../../images/icons/simplifiedGoogleTask.png'
 import demo from '../../images/demo/simplifiedGoogleTask.png'
 
-const portfolioSimplifyGoogleTask: Portfolio = {
+const portfolioSimplifyGoogleTask: Product = {
     id: 10,
-    status: PortfolioStatus.PRODUCTION,
+    status: ProductStatus.PRODUCTION,
     name: {
         korean: '구글 테스크 청소기',
         english: 'Simplified Google Task',

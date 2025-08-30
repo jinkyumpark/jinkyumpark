@@ -1,4 +1,4 @@
-import Portfolio from "../model/Portfolio";
+import Product from "../model/Product";
 import portfolioBeautyIndustry from "./portfolio/portfolioBeautyIndustry";
 import portfolioBoldPeople from "./portfolio/portfolioBoldPeople";
 
@@ -13,8 +13,8 @@ import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 import portfolioSimplifyGoogleTask from "./portfolio/portfolioSimplifyGoogleTask";
 import portfolioRaycastNaverExtension from './portfolio/portfolioRaycastExtensionNaverSearch'
 
-const PortfolioData: Portfolio[] = [
-	// Visible in Main
+const PortfolioData: Product[] = [
+	// Visible in IndexRoute
 	portfolioBooksitout,
 	portfolioPurrfitTracker,
 	portfolioSubstrack,
@@ -22,7 +22,7 @@ const PortfolioData: Portfolio[] = [
 	portfolioPianoman,
     portfolioRaycastNaverExtension,
 
-	// Hidden in Main
+	// Hidden in IndexRoute
 	portfolioSimplifyGoogleTask,
 	portfolioEveryonesGarden,
 	portfolioSimplyJournal,

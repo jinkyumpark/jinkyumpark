@@ -1,5 +1,5 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 
 import thumbnailImage from '../../images/demo/everyonesgarden.jpeg'
@@ -7,9 +7,9 @@ import demo2 from '../../images/demo/everyonesgarden-v2.png'
 import erd from '../../images/erd/everyonesgarden-erd.png'
 import TechnologyData from "../TechnologyData";
 
-const portfolioEveryonesGarden: Portfolio = {
+const portfolioEveryonesGarden: Product = {
 	id: 0,
-	status: PortfolioStatus.GIVE_UP,
+	status: ProductStatus.GIVE_UP,
 
 	name: {
 		korean: '모두의 텃밭',

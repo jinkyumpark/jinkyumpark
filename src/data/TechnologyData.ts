@@ -1,4 +1,3 @@
-import Technology from "../model/Technology";
 import TechnologyCategory from "../model/TechnologyCategory";
 
 import swiftui from '../images/technology/app/swiftui.png'

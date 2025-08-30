@@ -1,13 +1,13 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 
 import demo from '../../images/demo/pianoman.jpeg'
 import icon from '../../images/icons/pianoman.png'
 
-const portfolioPianoman: Portfolio = {
+const portfolioPianoman: Product = {
 	id: 5,
-	status: PortfolioStatus.PRODUCTION,
+	status: ProductStatus.PRODUCTION,
 	name: {
 		korean: '피아노맨',
 		english: 'Pianoman',
@@ -18,11 +18,6 @@ const portfolioPianoman: Portfolio = {
 		{
 			link: 'https://apps.apple.com/us/app/pianoman/id6456449788',
 			icon: WebsiteIcon.appleAppstore,
-			border: false,
-		},
-		{
-			link: 'https://github.com/jinkyumpark/piano-man',
-			icon: WebsiteIcon.github,
 			border: false,
 		},
 	],

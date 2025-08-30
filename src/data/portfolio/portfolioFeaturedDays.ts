@@ -1,14 +1,14 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 
 import demo from '../../images/demo/featureddays.png'
 import icon from '../../images/icons/featureddaysicon.png'
 import WebsiteIcon from "../websiteIcon";
 import TechnologyData from "../TechnologyData";
 
-const portfolioFeaturedDays: Portfolio = {
+const portfolioFeaturedDays: Product = {
     id: 0,
-    status: PortfolioStatus.PRODUCTION,
+    status: ProductStatus.PRODUCTION,
     name: {
         korean: "인생의 날",
         english: "Featured Days",

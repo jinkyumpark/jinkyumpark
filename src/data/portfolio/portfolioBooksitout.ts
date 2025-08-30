@@ -1,12 +1,12 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 import booksitout from '../../images/demo/booksitout.jpeg'
 import TechnologyData from "../TechnologyData";
 
-const portfolioBooksitout: Portfolio = {
+const portfolioBooksitout: Product = {
 	id: 1,
-	status: PortfolioStatus.PRODUCTION,
+	status: ProductStatus.PRODUCTION,
 	name: {
 		korean: '책잇아웃',
 		english: 'booksitout',
@@ -17,11 +17,6 @@ const portfolioBooksitout: Portfolio = {
 		{
 			link: 'https://booksitout.com',
 			icon: WebsiteIcon.booksitout,
-			border: false,
-		},
-		{
-			link: 'https://github.com/jinkyumpark/booksitout',
-			icon: WebsiteIcon.github,
 			border: false,
 		},
 	],

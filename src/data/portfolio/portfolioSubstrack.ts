@@ -1,14 +1,14 @@
-import Portfolio from "../../model/Portfolio";
-import PortfolioStatus from "../../model/PortfolioStatus";
+import Product from "../../model/Product";
+import ProductStatus from "../../model/ProductStatus";
 import WebsiteIcon from "../websiteIcon";
 
 import demo from '../../images/demo/substrack.jpeg'
 import icon from '../../images/icons/substrack.png'
 import TechnologyData from "../TechnologyData";
 
-const portfolioSubstrack: Portfolio = {
+const portfolioSubstrack: Product = {
     id: 2,
-    status: PortfolioStatus.PRODUCTION,
+    status: ProductStatus.PRODUCTION,
     name: {
         korean: '구독 돌보미',
         english: 'substrack',
@@ -19,11 +19,6 @@ const portfolioSubstrack: Portfolio = {
         {
             link: 'https://apps.apple.com/app/%EA%B5%AC%EB%8F%85-%EB%8F%8C%EB%B3%B4%EB%AF%B8/id6451234943',
             icon: WebsiteIcon.appleAppstore,
-            border: false,
-        },
-        {
-            link: 'https://github.com/jinkyumpark/substrack',
-            icon: WebsiteIcon.github,
             border: false,
         },
     ],

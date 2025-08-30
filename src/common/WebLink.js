@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/hover-effect.css'
 
 const WebLink = ({ website, border = false }) => {
 	return (
