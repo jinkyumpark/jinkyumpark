@@ -39,25 +39,32 @@ const SimpleTechnologyIcon: React.FC<{ technology: Technology }> = ({technology}
 }
 
 const TechnologyIconContainer = styled.div`
-    margin: 5px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    width: 50px;
 `;
 
 const TechnologyContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 `;
 
 const Image = styled.img.attrs({
     className: 'img-fluid'
 })`
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 `;
 
 const Name = styled.div.attrs({
     className: 'text-secondary clamp-1-line'
 })`
-    font: 10px;
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
 `;
 
 export default ProductDetailTechnology
