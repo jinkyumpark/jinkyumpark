@@ -19,7 +19,7 @@ const IntroductionSection = ({introduction, websites}) => {
                 <p className='lead col-xs-12 col-lg-10 mt-3 text-start text-md-center'>
                     <div className='d-none d-md-block'>
                         {
-                            introduction.summaries.map((summary) => <li>{parse(summary)}</li>)
+                            introduction.summaries.map((summary) => <div>{parse(summary)}</div>)
                         }
                     </div>
 
