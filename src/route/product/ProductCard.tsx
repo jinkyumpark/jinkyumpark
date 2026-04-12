@@ -27,8 +27,7 @@ const ProductCard: React.FC<Props> = ({product, color, secondary = false}) => {
                          className={'rounded me-2'}
                     />
 
-                    {product.name.korean}
-                    ({product.participants.length}명)
+                    {product.name.korean} ({product.participants.length}명)
                 </h3>
 
                 <h6 className={secondary ? 'text-secondary' : ''}>{product.description.short}</h6>
