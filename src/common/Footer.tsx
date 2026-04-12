@@ -14,15 +14,20 @@ const Footer = () => {
             </div>
 
             <div className="col-12 col-sm-6 col-md-4 p-0 pt-4 pt-md-0 text-end">
-                <a className="text-muted ms-1 me-1 hover-effect" href="https://booksitout.com" target='_blank'
+                <a className="text-muted ms-1 me-1 hover-effect" href="https://minion.toss.im/BjYRPHFt" target='_blank'
                    rel="noreferrer">
-                    <Image src={WebsiteIcon.booksitout} alt=''/>
+                    <Image src={WebsiteIcon.lostThings} alt=''/>
                 </a>
 
                 <a className="text-muted ms-1 me-1 hover-effect"
                    href="https://apps.apple.com/us/app/substrack-bills-tracker/id6451234943"
                    target='_blank' rel="noreferrer">
                     <Image src={WebsiteIcon.substrackIcon} alt=''/>
+                </a>
+
+                <a className="text-muted ms-1 me-1 hover-effect" href="https://booksitout.com" target='_blank'
+                   rel="noreferrer">
+                    <Image src={WebsiteIcon.booksitout} alt=''/>
                 </a>
 
                 <a className="text-muted ms-1 me-1 hover-effect"
