@@ -15,7 +15,7 @@ const ProductDetailExplanationCard: React.FC<{ product: Product }> = ({product})
                     {
                         product.explanations.map((explanation) => {
                             return (
-                                <li>{explanation}</li>
+                                <ListItem>{explanation}</ListItem>
                             )
                         })
                     }
@@ -26,11 +26,17 @@ const ProductDetailExplanationCard: React.FC<{ product: Product }> = ({product})
 }
 
 const CardContainer = styled(Card)`
-    min-height: 300px;
+    padding: 10px;
 `;
 
 const ListContainer = styled.ul`
     text-align: left;
+    padding-left: 20px;
+`;
+
+const ListItem = styled.li`
+    margin-bottom: 10px;
+    line-height: 1.6;
 `;
 
 export default ProductDetailExplanationCard

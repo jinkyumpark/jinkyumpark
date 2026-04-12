@@ -14,7 +14,7 @@ const PortfolioDifficultyCard: React.FC<{ product: Product }> = ({product}) => {
                 <ListContainer>
                     {
                         product.challenges.map((challenge) => {
-                            return <li className='mb-2'>{parse(challenge)}</li>
+                            return <ListItem>{parse(challenge)}</ListItem>
                         })
                     }
                 </ListContainer>
@@ -24,11 +24,17 @@ const PortfolioDifficultyCard: React.FC<{ product: Product }> = ({product}) => {
 }
 
 const CardContainer = styled(Card)`
-    min-height: 300px;
+    padding: 10px;
 `;
 
 const ListContainer = styled.ul`
     text-align: left;
+    padding-left: 20px;
+`;
+
+const ListItem = styled.li`
+    margin-bottom: 10px;
+    line-height: 1.6;
 `;
 
 export default PortfolioDifficultyCard

@@ -26,7 +26,8 @@ const ProductDetailTechnology: React.FC<{ product: Product }> = ({product}) => {
 }
 
 const CardContainer = styled(Card)`
-    min-height: 300px;
+    height: 100%;
+    padding: 10px;
 `;
 
 const SimpleTechnologyIcon: React.FC<{ technology: Technology }> = ({technology}) => {

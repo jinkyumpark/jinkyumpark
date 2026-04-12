@@ -39,7 +39,6 @@ const ProductDetailBasicInfoCard: React.FC<{ product: Product }> = ({product}) =
 }
 
 const CardContainer = styled(Card)`
-    min-height: 300px;
     display: flex;
     padding-bottom: 50px;
 `;
