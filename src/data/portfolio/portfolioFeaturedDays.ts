@@ -19,7 +19,12 @@ const portfolioFeaturedDays: Product = {
         {
             link: "https://apps.apple.com/app/featured-days/id6523433258",
             icon: WebsiteIcon.appleAppstore,
-            border: false
+            border: false,
+        },
+        {
+            link: 'https://github.com/booksitout/featured-days',
+            icon: WebsiteIcon.github,
+            border: false,
         },
     ],
     thumbnailImage: demo,

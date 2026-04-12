@@ -19,6 +19,11 @@ const portfolioLostThings: Product = {
 			icon: WebsiteIcon.toss,
 			border: false,
 		},
+		{
+			link: 'https://github.com/booksitout/lost-things-appsintoss',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
 	],
 	description: {
 		short: `앱인토스, 여러 곳의 분실물을 1곳에서`,

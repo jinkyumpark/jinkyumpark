@@ -20,6 +20,11 @@ const portfolioPianoman: Product = {
 			icon: WebsiteIcon.appleAppstore,
 			border: false,
 		},
+		{
+			link: 'https://github.com/booksitout/pianoman',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
 	],
 	thumbnailImage: demo,
 	detailImage: demo,

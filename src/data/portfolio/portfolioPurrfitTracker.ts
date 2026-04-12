@@ -21,6 +21,11 @@ const portfolioPurrfitTracker: Product = {
 			icon: WebsiteIcon.appleAppstore,
 			border: false,
 		},
+		{
+			link: 'https://github.com/booksitout/purrfit-tracker',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
 	],
 	
 	thumbnailImage: demo,

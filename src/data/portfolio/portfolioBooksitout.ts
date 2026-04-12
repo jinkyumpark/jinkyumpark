@@ -15,8 +15,28 @@ const portfolioBooksitout: Product = {
 	icon: WebsiteIcon.booksitout,
 	link: [
 		{
+			link: 'https://minion.toss.im/bjWRM1Bv',
+			icon: WebsiteIcon.toss,
+			border: false,
+		},
+		{
 			link: 'https://booksitout.com',
 			icon: WebsiteIcon.booksitout,
+			border: false,
+		},
+		{
+			link: 'https://github.com/booksitout/booksitout-client',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
+		{
+			link: 'https://github.com/booksitout/booksitout-server',
+			icon: WebsiteIcon.github,
+			border: false,
+		},
+		{
+			link: 'https://github.com/booksitout/booksitout-appsintoss',
+			icon: WebsiteIcon.github,
 			border: false,
 		},
 	],

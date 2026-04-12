@@ -21,6 +21,11 @@ const portfolioSubstrack: Product = {
             icon: WebsiteIcon.appleAppstore,
             border: false,
         },
+        {
+            link: 'https://github.com/booksitout/substrack',
+            icon: WebsiteIcon.github,
+            border: false,
+        },
     ],
     description: {
         short: `넘쳐나는 구독 서비스, 쉽게 관리하기`,
