@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Product from "../../../model/Product";
 import PortfolioData from "../../../data/portfolioData";
 import Error from '../../../common/Error'
+import PrivacyPolicy from "../../../data/privacyPolicy";
 import {MarginRow} from "../../../common/commonStyle";
 import ProductDetailBasicInfoCard from "./ProductDetailBasicInfoCard";
 import ProductDetailFeaturesCard from "./ProductDetailFeaturesCard";
@@ -54,35 +55,44 @@ const ProductDetail = () => {
                 </FullContainer>
                 <MarginRow m={5}/>
 
-                <>
-                    <HalfContainer>
-                        <ProductDetailFeaturesCard product={product}/>
-                    </HalfContainer>
+                {(product.features.length > 0 || product.technologyUsed.length > 0) && <>
+                    <>
+                        {product.features.length > 0 &&
+                            <HalfContainer>
+                                <ProductDetailFeaturesCard product={product}/>
+                            </HalfContainer>
+                        }
 
-                    <HalfContainer>
-                        <ProductDetailTechnology product={product}/>
-                    </HalfContainer>
-                </>
-                <MarginRow m={5}/>
+                        {product.technologyUsed.length > 0 &&
+                            <HalfContainer>
+                                <ProductDetailTechnology product={product}/>
+                            </HalfContainer>
+                        }
+                    </>
+                    <MarginRow m={5}/>
+                </>}
 
-                <FullContainer>
-                    <ProductDetailExplanationCard product={product}/>
-                </FullContainer>
-                <MarginRow m={5}/>
+                {product.explanations.length > 0 && <>
+                    <FullContainer>
+                        <ProductDetailExplanationCard product={product}/>
+                    </FullContainer>
+                    <MarginRow m={5}/>
+                </>}
 
-                <FullContainer>
-                    <PortfolioDifficultyCard product={product}/>
-                </FullContainer>
-                <MarginRow m={5}/>
+                {product.challenges.length > 0 && <>
+                    <FullContainer>
+                        <PortfolioDifficultyCard product={product}/>
+                    </FullContainer>
+                    <MarginRow m={5}/>
+                </>}
 
-                <FullContainer>
-                    <ProductDetailEtcCard product={product}/>
-                </FullContainer>
-                <MarginRow m={5}/>
+                {PrivacyPolicy.has(product.name.url.toUpperCase()) && <>
+                    <FullContainer>
+                        <ProductDetailEtcCard product={product}/>
+                    </FullContainer>
+                    <MarginRow m={5}/>
+                </>}
 
-                <FullContainer>
-                    <ProductDetailLanguageCard product={product}/>
-                </FullContainer>
                 <MarginRow m={20}/>
             </Row>
         </Container>
