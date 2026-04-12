@@ -11,7 +11,9 @@ const IndexRoute = () => {
         <>
             <IntroductionSection introduction={profile} websites={channels}/>
             <PortfolioSection products={PortfolioData}/>
-            <Footer/>
+            <div className="container">
+                <Footer compact/>
+            </div>
         </>
     )
 }
