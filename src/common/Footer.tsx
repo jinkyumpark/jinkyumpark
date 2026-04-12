@@ -62,6 +62,14 @@ const Container = styled.footer.attrs({
     @media (max-width: ${breakpoints.md}) {
         padding: 50px ${props => props.$compact ? '0' : '20px'};
     }
+
+    @media (prefers-color-scheme: dark) {
+        color: #ffffff;
+
+        .text-muted {
+            color: #ffffff !important;
+        }
+    }
 `
 
 const Image = styled.img.attrs({

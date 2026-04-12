@@ -55,10 +55,10 @@ const ProductCard: React.FC<Props> = ({product, color, secondary = false}) => {
 
 const Link = styled.a.attrs<{ color?: string }>({})`
     text-decoration: none;
-    color: ${props => props.color == null ? 'black' : props.color};
+    color: ${props => props.color == null ? 'var(--text-primary)' : props.color};
 
     &:hover {
-        color: ${props => props.color == null ? 'black' : props.color};
+        color: ${props => props.color == null ? 'var(--text-primary)' : props.color};
     }
 `;
 
@@ -92,8 +92,8 @@ const LinkIcon = styled.a.attrs({
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background: var(--link-overlay-bg);
+    box-shadow: 0 2px 8px var(--link-overlay-shadow);
 
     @media (max-width: 768px) {
         width: 56px;

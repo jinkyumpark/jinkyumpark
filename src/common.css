@@ -1,3 +1,85 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-card: #ffffff;
+    --bg-portfolio: #373737;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --text-muted: #6c757d;
+    --text-heading: #333333;
+    --border-color: #dee2e6;
+    --link-overlay-bg: rgba(255, 255, 255, 0.95);
+    --link-overlay-shadow: rgba(0, 0, 0, 0.25);
+    --card-bg: #ffffff;
+    --card-border: rgba(0, 0, 0, 0.125);
+    --navbar-bg: #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #1A1A1A;
+        --bg-secondary: #1e1e1e;
+        --bg-card: #1e1e1e;
+        --bg-portfolio: #252525;
+        --text-primary: rgba(255, 255, 255, 0.87);
+        --text-secondary: #cccccc;
+        --text-muted: #c0c0c0;
+        --text-heading: rgba(255, 255, 255, 0.87);
+        --border-color: #333333;
+        --link-overlay-bg: rgba(30, 30, 30, 0.95);
+        --link-overlay-shadow: rgba(0, 0, 0, 0.5);
+        --card-bg: #1e1e1e;
+        --card-border: rgba(255, 255, 255, 0.1);
+        --navbar-bg: #0a0a0a;
+    }
+
+    body {
+        background-color: var(--bg-primary) !important;
+        color: var(--text-primary) !important;
+    }
+
+    .card {
+        background-color: var(--card-bg) !important;
+        border-color: var(--card-border) !important;
+        color: var(--text-primary) !important;
+    }
+
+    .text-secondary,
+    .text-secondary.text-secondary {
+        --bs-secondary-rgb: 255, 255, 255;
+        color: var(--text-secondary) !important;
+    }
+
+    .text-muted,
+    .text-muted.text-muted {
+        color: var(--text-muted) !important;
+    }
+
+    .navbar {
+        background-color: var(--navbar-bg) !important;
+    }
+
+    .border {
+        border-color: var(--border-color) !important;
+    }
+
+    a {
+        color: var(--text-primary);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--text-primary);
+    }
+
+    p {
+        color: var(--text-primary);
+    }
+
+    li {
+        color: var(--text-primary);
+    }
+}
+
 .force-1-line {
     white-space: nowrap;
 }

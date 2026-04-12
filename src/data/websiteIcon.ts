@@ -1,4 +1,5 @@
 import githubIcon from '../images/url-icon/github-icon.png'
+import githubIconLight from '../images/url-icon/github-icon-light.png'
 import linkedinIcon from '../images/url-icon/linkedin-icon.png'
 import tstoryIcon from '../images/url-icon/tstory-icon.png'
 import notionIcon from '../images/url-icon/notion-icon.png'
@@ -19,6 +20,7 @@ import lostThingsIcon from '../images/icons/lostThings.png'
 
 const WebsiteIcon = {
     github: githubIcon,
+    githubLight: githubIconLight,
     tstory: tstoryIcon,
     linkedin: linkedinIcon,
     notion: notionIcon,

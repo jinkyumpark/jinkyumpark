@@ -25,7 +25,7 @@ const PortfolioSection: React.FC<{ products: Product[] }> = ({products}) => {
 const Container = styled.section.attrs({
     className: `text-center text-white pt-5 pb-5`,
 })`
-    background-color: #373737;
+    background-color: var(--bg-portfolio);
 `
 
 const Row = styled.div.attrs({

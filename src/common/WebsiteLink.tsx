@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import useDarkMode from './useDarkMode';
+import WebsiteIcon from '../data/websiteIcon';
 
 interface Props {
     link: string
@@ -9,9 +11,12 @@ interface Props {
 }
 
 const WebsiteLink: React.FC<Props> = ({ link, icon, border = false, margin = 5 }) => {
+	const isDark = useDarkMode()
+	const resolvedIcon = (isDark && icon === WebsiteIcon.github) ? WebsiteIcon.githubLight : icon
+
 	return (
 		<Link target='_blank' rel='noreferrer' href={link} margin={margin}>
-			<Image src={icon} alt={`${link}-icon`} border={border} />
+			<Image src={resolvedIcon} alt={`${link}-icon`} border={border} />
 		</Link>
 	)
 }

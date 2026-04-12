@@ -23,7 +23,7 @@ const CardTitle = styled.h5`
 	justify-content: start;
 	text-align: left;
 	font-weight: bold;
-	color: #333;
+	color: var(--text-heading);
 `;
 
 export { MarginRow, MarginCol, FlexSpacer, CardTitle }
