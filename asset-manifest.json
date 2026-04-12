@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1af76b33.css",
-    "main.js": "/static/js/main.06603f35.js",
+    "main.css": "/static/css/main.259a77ba.css",
+    "main.js": "/static/js/main.66481909.js",
     "static/media/everyonesgarden-v2.png": "/static/media/everyonesgarden-v2.2d98c7253c83bfb5a6db.png",
     "static/media/raycast-extensions-naver.png": "/static/media/raycast-extensions-naver.b008021f29a57b41ced3.png",
     "static/media/main-profile-3.jpg": "/static/media/main-profile-3.04c3d6b06ddbe3ca1d51.jpg",
@@ -66,11 +66,11 @@
     "static/media/lostThings.png": "/static/media/lostThings.fd895b502c50f2074190.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.1af76b33.css.map": "/static/css/main.1af76b33.css.map",
-    "main.06603f35.js.map": "/static/js/main.06603f35.js.map"
+    "main.259a77ba.css.map": "/static/css/main.259a77ba.css.map",
+    "main.66481909.js.map": "/static/js/main.66481909.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af76b33.css",
-    "static/js/main.06603f35.js"
+    "static/css/main.259a77ba.css",
+    "static/js/main.66481909.js"
   ]
 }
