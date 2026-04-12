@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 import ProductStatusBadge from './ProductStatusBadge';
 import Product from "../../model/Product";
-import WebsiteLink from "../../common/WebsiteLink";
 
 interface Props {
     product: Product
@@ -12,13 +11,31 @@ interface Props {
 
 const ProductCard: React.FC<Props> = ({product, color, secondary = false}) => {
     const portfolioDetailUrl = `products/${product.name.url}`
+    const externalLinks = product.link.filter((l) => !l.link.includes('github.com'))
 
     return (
         <>
             <ProductStatusBadge status={product.status}/>
 
             <Link href={portfolioDetailUrl} color={color}>
-                <Image src={product.thumbnailImage} alt={`${product.name.english} thumbnail`}/>
+                <ThumbnailWrapper>
+                    <Image src={product.thumbnailImage} alt={`${product.name.english} thumbnail`}/>
+                    {externalLinks.length > 0 && (
+                        <LinkOverlay onClick={(e) => e.stopPropagation()}>
+                            {externalLinks.map((link) => (
+                                <LinkIcon
+                                    key={link.link}
+                                    href={link.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    onClick={(e) => e.stopPropagation()}
+                                >
+                                    <LinkIconImage src={link.icon} alt="" />
+                                </LinkIcon>
+                            ))}
+                        </LinkOverlay>
+                    )}
+                </ThumbnailWrapper>
 
                 <h3 className='mt-3 d-flex justify-content-center force-1-line'>
                     <img src={product.icon}
@@ -31,16 +48,6 @@ const ProductCard: React.FC<Props> = ({product, color, secondary = false}) => {
                 </h3>
 
                 <h6 className={secondary ? 'text-secondary' : ''}>{product.description.short}</h6>
-
-                {
-                    secondary &&
-                    <>
-                        <div className={'mt-4'}/>
-                        <WebsiteLinkContainer>
-                            {product.link.map((link) => <WebsiteLink link={link.link} icon={link.icon} border={link.border}/>)}
-                        </WebsiteLinkContainer>
-                    </>
-                }
             </Link>
         </>
     )
@@ -55,18 +62,54 @@ const Link = styled.a.attrs<{ color?: string }>({})`
     }
 `;
 
+const ThumbnailWrapper = styled.div`
+    position: relative;
+    display: inline-block;
+    width: 100%;
+`;
+
 const Image = styled.img.attrs({
     className: 'rounded img-fluid hover-effect',
 })`
     min-height: 200px;
+    width: 100%;
 `
 
-const WebsiteLinkContainer = styled.div`
+const LinkOverlay = styled.div`
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
     display: flex;
-    justify-content: end;
+    gap: 6px;
+`;
 
-    margin-right: 10px;
-    margin-left: 10px;
-`
+const LinkIcon = styled.a.attrs({
+    className: 'link-hover-effect',
+})`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 768px) {
+        width: 56px;
+        height: 56px;
+    }
+`;
+
+const LinkIconImage = styled.img`
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    @media (max-width: 768px) {
+        width: 36px;
+        height: 36px;
+    }
+`;
 
 export default ProductCard
