@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import WebsiteIcon from '../data/websiteIcon';
 import breakpoints from "./breakpoints";
 
-const Footer = () => {
+const Footer: React.FC<{ compact?: boolean }> = ({compact = false}) => {
     return (
-        <Container>
+        <Container $compact={compact}>
             <div className="col-12 col-sm-6 col-md-8 p-0">
                 <div className="text-muted">박진겸, Jinkyum Park</div>
 
@@ -55,12 +55,12 @@ export default Footer
 
 const Container = styled.footer.attrs({
     className: 'row'
-})`
-    padding: 50px 100px;
+})<{ $compact?: boolean }>`
+    padding: 50px ${props => props.$compact ? '0' : '100px'};
     margin: 0;
-    
+
     @media (max-width: ${breakpoints.md}) {
-        padding: 50px 20px;
+        padding: 50px ${props => props.$compact ? '0' : '20px'};
     }
 `
 

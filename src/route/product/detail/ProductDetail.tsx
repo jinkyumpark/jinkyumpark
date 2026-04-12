@@ -13,6 +13,7 @@ import ProductDetailExplanationCard from "./ProductDetailExplanationCard";
 import ProductDetailEtcCard from "./ProductDetailEtcCard";
 import ProductDetailLanguageCard from "./ProductDetailLanguageCard";
 import PortfolioDifficultyCard from "./ProductDifficulties";
+import Footer from "../../../common/Footer";
 
 const ProductDetail = () => {
     const {productName} = useParams()
@@ -95,6 +96,8 @@ const ProductDetail = () => {
 
                 <MarginRow m={20}/>
             </Row>
+
+            <Footer compact/>
         </Container>
     )
 }
