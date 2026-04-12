@@ -11,7 +11,6 @@ import ProductDetailFeaturesCard from "./ProductDetailFeaturesCard";
 import ProductDetailTechnology from "./ProductDetailTechnology";
 import ProductDetailExplanationCard from "./ProductDetailExplanationCard";
 import ProductDetailEtcCard from "./ProductDetailEtcCard";
-import ProductDetailLanguageCard from "./ProductDetailLanguageCard";
 import PortfolioDifficultyCard from "./ProductDifficulties";
 import Footer from "../../../common/Footer";
 
