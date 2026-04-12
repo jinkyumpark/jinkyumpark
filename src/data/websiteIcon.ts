@@ -6,6 +6,7 @@ import appleAppstoreIcon from '../images/url-icon/apple-appstore.png'
 import googleChrome from '../images/url-icon/google-chrome.png'
 import raycast from '../images/icons/raycast.png'
 import generalLink from '../images/icons/link.png'
+import tossIcon from '../images/url-icon/toss.png'
 
 import booksitoutIcon from '../images/icons/booksitout.png'
 import boldPeopleIcon from '../images/icons/boldPeople.png'
@@ -14,6 +15,7 @@ import substrackIcon from '../images/icons/substrack.png'
 import springfeedIcon from '../images/icons/springfeed-logo.png'
 import featuredDaysIcon from '../images/icons/featureddaysicon.png'
 import pianomanIcon from '../images/icons/pianoman.png'
+import lostThingsIcon from '../images/icons/lostThings.png'
 
 const WebsiteIcon = {
     github: githubIcon,
@@ -32,6 +34,8 @@ const WebsiteIcon = {
     springfeed: springfeedIcon,
     featuredDays: featuredDaysIcon,
     pianoman: pianomanIcon,
+    lostThings: lostThingsIcon,
+    toss: tossIcon,
 }
 
 export default WebsiteIcon

@@ -12,17 +12,19 @@ import portfolioPurrfitTracker from './portfolio/portfolioPurrfitTracker'
 import portfolioFeaturedDays from "./portfolio/portfolioFeaturedDays";
 import portfolioSimplifyGoogleTask from "./portfolio/portfolioSimplifyGoogleTask";
 import portfolioRaycastNaverExtension from './portfolio/portfolioRaycastExtensionNaverSearch'
+import portfolioLostThings from './portfolio/portfolioLostThings'
 
 const PortfolioData: Product[] = [
 	// Visible in IndexRoute
 	portfolioBooksitout,
+    portfolioLostThings,
 	portfolioPurrfitTracker,
 	portfolioSubstrack,
 	portfolioFeaturedDays,
 	portfolioPianoman,
-    portfolioRaycastNaverExtension,
 
 	// Hidden in IndexRoute
+    portfolioRaycastNaverExtension,
 	portfolioSimplifyGoogleTask,
 	portfolioEveryonesGarden,
 	portfolioSimplyJournal,

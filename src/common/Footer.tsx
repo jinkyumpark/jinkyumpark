@@ -13,7 +13,7 @@ const Footer = () => {
                    href="mailto:jinkyumpark@naver.com">jinkyumpark@naver.com</a>
             </div>
 
-            <div className="col-12 col-sm-6 col-md-4 p-0 pt-4 pt-md-0 text-end">
+            <div className="col-12 col-sm-6 col-md-4 p-0 pt-4 pt-md-0 text-end" style={{display: 'flex', flexWrap: 'nowrap', justifyContent: 'flex-end', alignItems: 'center'}}>
                 <a className="text-muted ms-1 me-1 hover-effect" href="https://minion.toss.im/BjYRPHFt" target='_blank'
                    rel="noreferrer">
                     <Image src={WebsiteIcon.lostThings} alt=''/>
@@ -65,10 +65,11 @@ const Container = styled.footer.attrs({
 `
 
 const Image = styled.img.attrs({
-    className: `img-fluid rounded`,
+    className: `rounded`,
 })`
     width: 50px;
     height: 50px;
+    flex-shrink: 0;
 
     @media (max-width: 768px) {
         width: 35px;
