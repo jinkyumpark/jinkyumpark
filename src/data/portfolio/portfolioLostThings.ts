@@ -15,6 +15,11 @@ const portfolioLostThings: Product = {
 	icon: WebsiteIcon.lostThings,
 	link: [
 		{
+			link: 'https://lost.booksitout.com',
+			icon: WebsiteIcon.googleChrome,
+			border: false,
+		},
+		{
 			link: 'https://minion.toss.im/BjYRPHFt',
 			icon: WebsiteIcon.toss,
 			border: false,
