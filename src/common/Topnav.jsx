@@ -14,9 +14,9 @@ const Topnav = () => {
         <>
             <Navbar bg='dark' variant='dark' fixed='top' className='p-1 m-0'>
                 <Container>
-                    <Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>{title}</Navbar.Brand>
+                    <Navbar.Brand href={`${import.meta.env.BASE_URL}`}>{title}</Navbar.Brand>
                     <Nav className='me-auto'>
-                        <Nav.Link href={`${process.env.PUBLIC_URL}/products`} active={currentUrl.startsWith('/products')}>
+                        <Nav.Link href={`${import.meta.env.BASE_URL}products`} active={currentUrl.startsWith('/products')}>
                             {product}
                         </Nav.Link>
                     </Nav>

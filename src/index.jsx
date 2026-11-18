@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './common.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-	<Router basename={process.env.PUBLIC_URL}>
+	<Router basename={import.meta.env.BASE_URL}>
 		<App />
 	</Router>
 )
